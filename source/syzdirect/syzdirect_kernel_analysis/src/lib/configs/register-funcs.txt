@@ -1,0 +1,3 @@
+rtnl_register 1 2
+rtnl_register 1 3
+rtnl_register_module 2 3

@@ -1,0 +1,5781 @@
+HAS_UNMAPPED_ID: 4 4
+I_BDEV: 0
+PDE_DATA: 2
+PageHuge: 2
+ZSTD_DStreamWorkspaceBound: 0
+__ClearPageMovable: 2
+____i915_gem_object_get_pages: 1
+____sys_sendmsg: 1 2 4 8 16
+___ratelimit: 0 0
+___slab_alloc: 0 0 1 0 0
+__alloc_disk_node: 0 0 0
+__alloc_pages: 0 0 0 0
+__alloc_pages_bulk: 0 0 0 0 0 0
+__alloc_percpu_gfp: 0 0 0
+__alloc_skb: 0 0 0 0
+__audit_inode: 0 1 0
+__balance_push_cpu_stop: 0
+__blk_mq_complete_request_remote: 1
+__blk_trace_remove: 1
+__blk_trace_startstop: 1 0
+__bpf_prog_free: 0
+__bpf_prog_ret1: 0 1
+__bpf_prog_run128: 0 1
+__bpf_prog_run160: 0 1
+__bpf_prog_run192: 0 1
+__bpf_prog_run224: 0 1
+__bpf_prog_run256: 0 1
+__bpf_prog_run288: 0 1
+__bpf_prog_run32: 0 1
+__bpf_prog_run320: 0 1
+__bpf_prog_run352: 0 1
+__bpf_prog_run384: 0 1
+__bpf_prog_run416: 0 1
+__bpf_prog_run448: 0 1
+__bpf_prog_run480: 0 1
+__bpf_prog_run512: 0 1
+__bpf_prog_run64: 0 1
+__bpf_prog_run96: 0 1
+__bread_gfp: 1 0 1 0
+__breadahead: 1 0 1
+__break_lease: 1 1 0
+__brelse: 1
+__build_skb: 2 2
+__cancel_dirty_page: 2
+__check_heap_object: 0 16 0 0
+__check_object_size: 0 0 0
+__clockevents_unbind: 1
+__cmpxchg_double_slab: 0 0 0 0 0 0
+__cpa_flush_all: 1
+__cpa_flush_tlb: 1
+__d_lookup_done: 0
+__delayacct_blkio_end: 0
+__delete_and_unsubscribe_port: 0 0 0 0 1
+__dev_get_by_index: 1 1
+__dev_get_by_name: 1 0
+__dev_notify_flags: 1 1 1
+__dev_printk: 0 1 0
+__dev_queue_xmit: 3 0
+__dev_remove_pack: 1
+__dev_set_allmulti: 1 0 0
+__dev_set_promiscuity: 1 0 0
+__dev_set_rx_mode: 1
+__dev_status: 0 0
+__device_attach: 1 0
+__dm_destroy: 0 0
+__dm_resume: 0 0
+__dm_stat_clear: 0 0 0 0
+__dm_suspend: 0 0 0 0 0
+__dma_i915_sw_fence_wake: 1 0
+__dma_rx_complete: 1
+__dma_tx_complete: 1
+__down_common: 1 0 0
+__down_interruptible: 1
+__down_read_common: 0 0
+__dquot_initialize: 2 0
+__engine_park: 1
+__engine_unpark: 1
+__ethtool_get_link_ksettings: 1 0
+__ethtool_set_flags: 1 0
+__ext4_handle_dirty_metadata: 0 0 2 0 2
+__ext4_journal_get_write_access: 0 0 2 2 2 0
+__ext4_journal_start_sb: 2 0 0 0 0 2
+__ext4_journal_stop: 0 0 2
+__ext4_msg: 1 0 0
+__ext4_warning: 1 0 0 0 0
+__f_setown: 1 0 0 0
+__fanout_link: 1 1
+__fanout_set_data_bpf: 1 0
+__fat_readdir: 1 1 0 0 0
+__fdget: 1
+__fget_files: 0 2 0 0
+__filemap_fdatawait_range: 0 0 0
+__find_device_hash_cell: 0
+__find_get_block: 1 0 1
+__find_next_entry: 1 1 1 1
+__finish_swait: 0 0
+__fix_erratum_688: 1
+__fl6_sock_lookup: 1 0
+__free_one_page: 0 0 0 0 0 0
+__free_pages_ok: 0 0 0
+__fsnotify_parent: 1 0 1 0
+__fsnotify_update_child_dentry_flags: 1
+__ftrace_event_enable_disable: 1 0 0
+__ftrace_trace_stack: 0 0 0 0
+__generic_file_write_iter: 0 0
+__get_filter: 0 1
+__get_vm_area_node: 2 0 0 0 0 0 0 0
+__group_send_sig_info: 0 0 1
+__gt_park: 1
+__gt_unpark: 1
+__handle_sysrq: 0 0
+__hid_request: 1 1 0
+__hrtick_start: 1
+__hw_addr_add_ex: 1 0 1 0 0 0 0 0
+__hw_addr_del_ex: 1 1 1 0 0 0
+__i915_gem_object_flush_map: 1 0 1
+__i915_gem_object_get_pages: 1
+__i915_gem_object_release_map: 1
+__i915_pmu_event_read: 1
+__i915_request_commit: 1
+__i915_request_create: 1 0
+__i915_request_ctor: 1
+__i915_sw_fence_init: 0 0 0 0
+__i915_vma_move_to_active: 1 1
+__i915_vma_set_map_and_fenceable: 1
+__icmp_send: 3 0 0 0 3
+__in6_dev_get: 3
+__inet6_lookup_established: 3 0 3 3 3 3 3 0
+__inet_dev_addr_type: 1 0 0 0
+__input_release_device: 1
+__inquire_remote_apic: 0
+__intel_fb_invalidate: 1 0 1
+__intel_wait_for_register: 1 0 0 0 0 0 0
+__intel_wakeref_get_first: 1
+__intel_wakeref_put_last: 2 0
+__ip6_append_data: 1 0 0 0 0 0 1 2 2 0 2 0
+__ip6_flush_pending_frames: 1 0 0 0
+__ip6_make_skb: 1 1 1 1
+__ip_make_skb: 1 1 1 1
+__ip_options_echo: 3 0 3 3
+__iptunnel_pull_header: 3 0 0 0 0
+__ipv6_addr_type: 2
+__irq_get_desc_lock: 0 0 0 0
+__irq_put_desc_unlock: 0 0 0
+__jbd2_journal_remove_checkpoint: 1
+__jbd2_update_log_tail: 1 0 0
+__kfifo_free: 1
+__kfifo_to_user: 1 2 4 0
+__kfree_skb: 1
+__kmalloc: 0 0
+__kmalloc_node: 2 0 0
+__kmalloc_node_track_caller: 0 1 0 0
+__kmalloc_track_caller: 0 0 0
+__ksize: 1
+__lapic_timer_propagate_broadcast: 1
+__lapic_update_tsc_freq: 1
+__list_versions: 0 0 0
+__lock_acquire: 0 0 0 0 0 0 0 0 0 0
+__lock_buffer: 1
+__lock_page: 2
+__lock_sock: 1
+__lock_task_sighand: 0 0
+__locks_insert_block: 1 0 0
+__mark_inode_dirty: 3 3
+__mce_disable_bank: 1
+__mem_cgroup_uncharge: 2
+__memcg_kmem_uncharge_page: 0 0
+__mmap_lock_do_trace_acquire_returned: 1 0 1
+__mmap_lock_do_trace_released: 1 0
+__mmap_lock_do_trace_start_locking: 1 0
+__mmdrop: 1
+__mmput: 1
+__mnt_drop_write: 3
+__mnt_want_write: 3
+__mnt_want_write_file: 4
+__mod_lruvec_page_state: 0 0 0
+__mod_lruvec_state: 2 2 0
+__mod_memcg_state: 0 0 0
+__mod_timer: 5 5 0
+__mod_zone_page_state: 2 2 0
+__module_address: 0
+__module_get: 0
+__msecs_to_jiffies: 0
+__mutex_lock_common: 1 0 0 0 0 0 0
+__mutex_unlock_slowpath: 1 0
+__napi_alloc_skb: 1 0 0
+__napi_schedule: 1
+__netdev_alloc_frag_align: 2 0
+__netif_napi_del: 1
+__netif_receive_skb: 3
+__netlink_lookup: 1 0 1
+__netlink_sendskb: 1 1
+__nf_conntrack_confirm: 3
+__nf_nat_decode_session: 3 0
+__nfs_commit_inode: 0 0 0
+__nlmsg_put: 0 0 0 0 0 0
+__ns_get_path: 0 1
+__p4_pmu_enable_event: 1
+__packet_rcv_has_room: 1 0
+__page_cache_release: 2
+__page_frag_cache_drain: 0 0
+__percpu_counter_sum: 1
+__percpu_down_read: 0 0
+__perf_event_disable: 1 0 1 0
+__perf_event_enable: 1 0 1 0
+__perf_event_exit_context: 1
+__perf_event_header__init_id: 0 0 1
+__perf_event_period: 1 0 1 0
+__perf_event_read: 1
+__perf_event_read_value: 1 0 0
+__perf_event_stop: 0
+__perf_install_in_context: 0
+__perf_pmu_output_stop: 0
+__perf_read_group_add: 1 1 1
+__perf_remove_from_context: 1 0 1 0
+__pm_runtime_disable: 4 0
+__pm_runtime_idle: 4 0
+__pm_runtime_resume: 1 0
+__pm_runtime_set_status: 4 0
+__pm_runtime_suspend: 4 0
+__prepare_to_swait: 0 0
+__proc_set_tty: 1
+__profile_flip_buffers: 1
+__pskb_pull_tail: 3 0
+__put_compound_page: 2
+__put_cred: 1
+__put_net: 2
+__put_nfs_open_context: 1 0
+__put_page: 1
+__put_super: 1
+__put_task_struct: 1
+__queue_delayed_work: 0 0 0 0
+__queue_work: 0 0 0
+__radix_tree_preload: 0 0
+__raw_spin_lock_init: 0 0 0 0
+__rdmsr_on_cpu: 1
+__rdmsr_safe_on_cpu: 1
+__rdmsr_safe_regs_on_cpu: 1
+__relay_set_buf_dentry: 1
+__release_sock: 1
+__reload_late: 0
+__request_module: 0 0 0 0 0 0
+__reserve_bp_slot: 1 1
+__rtc_set_alarm: 1 0
+__rwlock_init: 5 0 0
+__scm_send: 1 2 0
+__se_sys_ioctl: 1 2 4
+__send_signal: 0 0 0 0 0
+__send_to_port: 1 0 0 4 4 0
+__seq_open_private: 1 0 0
+__set_oom_adj: 1 0 0
+__set_page_dirty: 1 1 0
+__set_task_comm: 1 0 0
+__setup_irq: 1 1 0
+__siphash_aligned: 0 0 0
+__sk_attach_prog: 1 1
+__sk_backlog_rcv: 1 2
+__sk_dst_reset: 1
+__sk_flush_backlog: 1
+__sk_mem_raise_allocated: 1 2 2 0
+__sk_mem_reclaim: 1 8
+__sk_mem_reduce_allocated: 1 8
+__sk_mem_schedule: 1 3 0
+__sk_queue_drop_skb: 1 1 3 2 0
+__skb_checksum_complete: 3
+__skb_checksum_complete_head: 3 3
+__skb_clone: 2 2
+__skb_ext_del: 2 0
+__skb_ext_put: 1
+__skb_flow_dissect: 1 0 0 0 3 3 0 3 0
+__skb_get_hash: 1
+__skb_get_hash_symmetric: 3
+__skb_get_poff: 0 3 0 3
+__skb_gso_segment: 2 0 0
+__skb_recv_udp: 1 2 2 0 0
+__skb_try_recv_datagram: 1 1 2 0 0 0
+__skb_vlan_pop: 3 0
+__skb_wait_for_more_packets: 1 1 0 0 0
+__skb_warn_lro_forwarding: 1
+__slab_free: 0 0 0 0 0 0
+__snd_ctl_add_replace: 1 0 0
+__snd_pcm_lib_xfer: 0 0 0 0 0
+__snd_pcm_xrun: 1
+__snd_timer_user_ioctl: 1 0 4 0
+__sock_cmsg_send: 1 2 2 0
+__sock_gen_cookie: 1
+__sock_queue_rcv_skb: 1 2
+__sock_recv_timestamp: 2 1 3
+__sock_recv_ts_and_drops: 2 1 2
+__sock_recv_wifi_status: 2 1 1
+__sock_set_mark: 1 0
+__sock_tx_timestamp: 1 3
+__start_tty: 1
+__static_key_slow_dec: 1
+__stop_tty: 1
+__symbol_put: 1
+__sync_blockdev: 1 0
+__sync_dirty_buffer: 1 1
+__sys_getsockopt: 1 2 4 8 16
+__sys_setsockopt: 1 2 4 8 16
+__task_rq_lock: 0 0
+__tcp_ack_snd_check: 1 0
+__tcp_push_pending_frames: 1 1 0
+__tcp_retransmit_skb: 1 1 0
+__tcp_select_window: 1
+__tcp_send_ack: 1 1
+__tcp_set_rto: 1
+__trace_note_message: 1 0 0 6
+__traceiter_initcall_level: 0 0
+__traceiter_netlink_extack: 0 0
+__traceiter_percpu_create_chunk: 0 0
+__traceiter_percpu_destroy_chunk: 0 0
+__traceiter_rcu_utilization: 0 0
+__traceiter_rpcgss_oid_to_mech: 0 0
+__traceiter_rpcgss_upcall_msg: 0 0
+__tty_check_change: 1 0
+__tty_hangup: 1 0
+__tun_chr_ioctl: 1 0 4 0
+__tun_detach: 1 0
+__tun_set_ebpf: 1 1 0
+__udp6_lib_rcv: 3 0 0
+__udp_disconnect: 1 0
+__udp_enqueue_schedule_skb: 1 2
+__unix_dgram_recvmsg: 1 2 2 2
+__unregister_prot_hook: 1 0
+__up: 1
+__up_read: 0
+__usecs_to_jiffies: 1
+__vfree_deferred: 2
+__vfs_getxattr: 1 1 0 0 0
+__vga_set_legacy_decoding: 1 0 0
+__virt_addr_valid: 0
+__vmalloc_node: 0 0 0 0 0
+__vmalloc_node_range: 0 0 0 0 0 0 0 0 0
+__vunmap: 2 0
+__wait_on_buffer: 1
+__wake_up: 1 0 0 0
+__wake_up_common: 1 0 1 0 0 0
+__wake_up_locked_key: 1 0 0
+__wake_up_sync_key: 0 0 0
+__wbinvd: 1
+__wrmsr_on_cpu: 1
+__wrmsr_safe_on_cpu: 1
+__wrmsr_safe_regs_on_cpu: 1
+__ww_mutex_check_waiters: 1 0
+__x86_pmu_enable_event: 1
+__xfrm_decode_session: 3 0 0 0
+__xfrm_policy_check: 0 0 3 0
+__zerocopy_sg_from_iter: 0 3 2 0
+_copy_from_iter: 0 0 0
+_copy_from_user: 0 2 4
+_copy_to_iter: 0 0 2
+_copy_to_user: 2 0 0
+_dev_err: 1 0 1
+_dev_info: 1 0
+_dev_notice: 1 0 0 1
+_dev_printk: 0 1 0 0 0 0 0 1
+_dev_warn: 1 0
+_fat_bmap: 1 0
+_find_first_bit: 0 0
+_find_next_bit: 0 0 0 0 0 0
+_free_event: 1
+_isofs_bmap: 1 0
+_mix_pool_bytes: 0 0 4
+_perf_event_disable: 1
+_perf_event_enable: 1
+_perf_event_reset: 1
+_raw_read_lock: 1
+_raw_read_lock_bh: 1
+_raw_read_lock_irq: 1
+_raw_read_unlock: 1
+_raw_read_unlock_bh: 1
+_raw_read_unlock_irq: 1
+_raw_spin_lock_bh: 5
+_raw_spin_lock_irq: 0
+_raw_spin_lock_irqsave: 1
+_raw_spin_lock_nested: 1 1
+_raw_spin_trylock: 3
+_raw_spin_unlock_bh: 5
+_raw_spin_unlock_irq: 0
+_raw_spin_unlock_irqrestore: 1 1
+_raw_write_lock_irqsave: 1
+_raw_write_unlock_irqrestore: 1 1
+_setup_possible_cpus: 0
+_snd_hdac_read_parm: 1 1 1 0
+_x86_pmu_read: 1
+access_remote_vm: 1 1 0 0 0
+account_page_redirty: 2
+ack_bad: 1
+ack_lapic_irq: 1
+acpi_ac_notify: 0 0
+acpi_backlight: 0
+acpi_battery_notify: 0 0
+acpi_bus_attach_private_data: 0 0
+acpi_bus_detach_private_data: 1
+acpi_bus_notify: 0 0 0
+acpi_bus_scan: 0
+acpi_button_notify: 0 0
+acpi_cst_latency_cmp: 0 0
+acpi_device_fixed_event: 0
+acpi_disable_return_repair: 0
+acpi_ec_irq_handler: 0 0
+acpi_enforce_resources_setup: 0
+acpi_ev_asynch_enable_gpe: 1
+acpi_ev_asynch_execute_gpe_method: 1
+acpi_ev_global_lock_handler: 0
+acpi_ev_notify_dispatch: 1
+acpi_ev_queue_notify_request: 0 0
+acpi_ev_sci_xrupt_handler: 0
+acpi_exception: 0 0 0 0 0
+acpi_fan_speed_cmp: 0 0
+acpi_force_32bit_fadt_addr: 0
+acpi_force_table_verification_setup: 0
+acpi_ged_irq_handler: 0 0
+acpi_get_node: 0
+acpi_gpe_set_masked_gpes: 0
+acpi_install_interface: 0
+acpi_install_method: 0
+acpi_irq: 0 0
+acpi_irq_balance_set: 0
+acpi_irq_isa: 0
+acpi_irq_nobalance_set: 0
+acpi_irq_pci: 0
+acpi_is_root_bridge: 0
+acpi_no_auto_serialize_setup: 0
+acpi_no_static_ssdt_setup: 0
+acpi_notify_device: 0 0 0
+acpi_notify_device_fixed: 1
+acpi_os_execute: 0 0 0
+acpi_os_name_setup: 0
+acpi_parse_apic_instance: 0
+acpi_pci_detect_ejectable: 0
+acpi_pm_good_setup: 0
+acpi_pm_notify_handler: 0 0 0
+acpi_pm_read: 0
+acpi_pm_read_slow: 0
+acpi_processor_notify: 0 0 0
+acpi_processor_unregister_performance: 0
+acpi_release_mutex: 0 0
+acpi_remove_gpe_block: 0
+acpi_remove_interface: 0
+acpi_rev_override_setup: 0
+acpi_sb_notify: 0 0 0
+acpi_sleep_setup: 0
+acpi_suspend_begin: 0
+acpi_suspend_begin_old: 0
+acpi_suspend_enter: 0
+acpi_system_wakeup_device_open_fs: 2 1
+acpi_system_write_wakeup_device: 1 2 4 8
+acpi_thermal_notify: 0 0
+acpi_unload_parent_table: 0
+acpi_unregister_gsi: 0
+acpi_unregister_gsi_ioapic: 0
+acpi_ut_delete_generic_state: 0
+acpi_ut_get_node_name: 0
+acpi_video_bus_notify: 0 0
+acpi_video_cmp_level: 0 0
+acpi_video_device_notify: 0 0 0
+acpi_video_set_dmi_backlight_type: 0
+active_load_balance_cpu_stop: 0
+add_bootloader_randomness: 0 0
+add_device_randomness: 0 0
+add_partial: 0 0 0
+add_timer: 0
+add_timer_on: 0 0
+add_wait_queue: 1 0
+addrconf_add_ifaddr: 1 4
+addrconf_del_ifaddr: 1 4
+addrconf_set_dstaddr: 1 4
+adl_hw_config: 1
+adl_set_topdown_event_period: 1
+adl_update_topdown_event: 1
+agp_free_key: 0
+agp_setup: 0
+ahci_multi_irqs_intr_hard: 0 0
+ahci_single_level_irq_intr: 0 0
+alarm_cancel: 1
+alarm_forward_now: 1 1
+alarm_restart: 1
+alloc_async: 0
+alloc_buf: 4 0
+alloc_debug_processing: 0 0 0 0
+alloc_empty_file: 0 0
+alloc_fd: 0 0 0
+alloc_file: 0 0 0
+alloc_file_pseudo: 0 0 0 0 0
+alloc_huge_page: 0 1 0
+alloc_netdev_mqs: 0 0 0 0 0 0
+alloc_nfs_open_context: 1 1 1
+alloc_skb_with_frags: 3 0 0 0 1
+alloc_swapdev_block: 1
+allocate_slab: 0 0 1
+always_on: 1
+amd_iommu_pc_get_reg: 1 1 1 0 0
+amd_pmu_addr_offset: 1 0
+amd_pmu_cpu_dead: 0
+amd_pmu_cpu_starting: 0
+amd_pmu_disable_event: 1
+amd_pmu_hw_config: 1
+amd_uncore_event_init: 1
+amd_uncore_read: 1
+anon_pipe_buf_release: 0 0
+anon_vma_ctor: 1
+aperfmperf_snapshot_khz: 1
+apic_ack_edge: 1
+apic_ipi_shorthand: 0
+apic_set_disabled_cpu_apicid: 0
+apic_set_extnmi: 0
+apic_set_verbosity: 0
+apply_event_filter: 1 6
+apply_microcode_local: 1
+apply_subsystem_event_filter: 1 6
+arch_haltpoll_disable: 0
+arch_haltpoll_enable: 0
+arch_perf_update_userpage: 1 1 0
+arch_phys_wc_del: 0
+arch_release_bp_slot: 1
+arch_reserve_bp_slot: 1
+arch_unregister_cpu: 0
+arch_unregister_hw_breakpoint: 1
+arp_ioctl: 1 0 4
+arp_is_multicast: 0
+arp_rcv: 0 0 0 3
+arp_xmit: 1
+assoc_array_delete_collapse_iterator: 0 0
+async_newpending: 0
+async_removepending: 0
+ata_acpi_ap_uevent: 0 0
+ata_acpi_dev_uevent: 0 0
+ata_bmdma_interrupt: 0 0
+ata_sff_interrupt: 0 0
+ata_std_bios_param: 1 1 1 0
+atime_needs_update: 3 3
+atomic_dec_and_mutex_lock: 1 0
+atomic_notifier_chain_register: 0 0
+atomic_notifier_chain_unregister: 0 0
+audit_backlog_limit_set: 0
+audit_enable: 0
+audit_filter: 0 0
+audit_log: 0 0 0 0 1 1 0 0
+audit_log_format: 0 0 0 0 0
+audit_log_multicast: 0 0 0
+audit_log_n_hex: 0 0 0
+audit_log_n_string: 0 0 0
+audit_log_vformat: 0 0 0
+audit_mark_handle_event: 0 0 1 0 0 0
+audit_multicast_bind: 1 0
+audit_multicast_unbind: 1 0
+audit_receive: 1
+audit_send_reply_thread: 0
+audit_set_loginuid: 1
+audit_tree_handle_event: 0 0 1 0 0 0
+audit_watch_handle_event: 0 0 1 0 0 0
+auditsc_get_stamp: 0 0 0
+autofs_catatonic_mode: 0
+autofs_dev_ioctl: 1 2 4
+autofs_dev_ioctl_askumount: 0 0 4
+autofs_dev_ioctl_catatonic: 0 0 4
+autofs_dev_ioctl_closemount: 0 0 4
+autofs_dev_ioctl_expire: 0 0 4
+autofs_dev_ioctl_fail: 0 0 4
+autofs_dev_ioctl_ismountpoint: 0 0 4
+autofs_dev_ioctl_openmount: 0 0 4
+autofs_dev_ioctl_protosubver: 0 0 4
+autofs_dev_ioctl_protover: 0 0 4
+autofs_dev_ioctl_ready: 0 0 4
+autofs_dev_ioctl_requester: 0 0 4
+autofs_dev_ioctl_setpipefd: 0 0 4
+autofs_dev_ioctl_timeout: 0 0 4
+autofs_dev_ioctl_version: 0 0 4
+autofs_dir_open: 0 1
+autofs_do_expire_multi: 0 0 0 4
+autofs_expire_indirect: 0 0 0 4
+autofs_root_ioctl: 1 2 4
+autofs_wait: 0 0 0
+autofs_wait_release: 0 4 4
+auxv_open: 0 1
+auxv_read: 1 2 4 0
+avc_alloc_node: 0
+avc_compute_av: 0 0 1 1 0 0
+avc_denied: 0 0 1 1 0 2 2 0 0
+avc_get_cache_threshold: 1
+avc_get_hash_stats: 1 0
+avc_has_extended_perms: 0 0 1 1 0 2 2 0
+avc_node_kill: 0 0
+avc_set_cache_threshold: 1 0
+avc_ss_reset: 1 0
+avc_update_node: 0 0 0 2 2 0 1 1 0 0 0
+avc_xperms_populate: 0 0
+avtab_search_node: 0 0
+avtab_search_node_next: 0 0
+await_active: 0 0 0 1 1
+azx_interrupt: 0 0
+azx_pcm_close: 1
+azx_pcm_hw_free: 1
+azx_pcm_open: 1
+azx_pcm_prepare: 1
+azx_pcm_trigger: 1 0
+bad_chained_irq: 0 0
+bad_file_open: 2 1
+bad_inode_fiemap: 1 0 0 0
+bad_inode_permission: 4 4 0
+bad_inode_update_time: 3 0 0
+bdev_add_partition: 1 0 0 0
+bdev_del_partition: 1 0
+bdev_read_only: 0
+bdev_resize_partition: 1 0 0 0
+bdi_debug_stats_open: 2 1
+bdi_init: 0
+bdi_put: 0
+bdi_register_va: 0 0 0
+bdi_split_work_to_wbs: 1 0 0
+bdi_unregister: 0
+bdw_limit_period: 1 0
+bin2hex: 1 1 1
+bio_free_pages: 1
+bio_put: 1
+bio_release_pages: 1 1
+bioset_exit: 0
+bioset_init_from_src: 0 0
+bitmap_alloc: 0 0
+bitmap_free: 0
+bitmap_parse_user: 2 4 0 0
+bits_to_user: 1 0 0 4 0
+blk_account_io_start: 1
+blk_alloc_queue: 0
+blk_cleanup_disk: 4
+blk_cleanup_queue: 0
+blk_dropped_read: 1 2 4 8
+blk_execute_rq: 0 1 0
+blk_execute_rq_nowait: 0 1 0 0
+blk_fill_rwbs: 0 0
+blk_freeze_queue: 4
+blk_freeze_queue_start: 4
+blk_get_request: 1 1 0
+blk_ioctl_discard: 1 1 4 0
+blk_mq_alloc_map_and_requests: 0
+blk_mq_alloc_request: 1 0 0
+blk_mq_debugfs_open: 2 1
+blk_mq_debugfs_release: 2 1
+blk_mq_debugfs_write: 1 2 4 8
+blk_mq_exit_queue: 4
+blk_mq_exit_shared_sbitmap: 4
+blk_mq_free_map_and_requests: 0 0
+blk_mq_free_request: 1
+blk_mq_free_rqs: 4 4 0
+blk_mq_free_tags: 4 4
+blk_mq_init_allocated_queue: 0 0
+blk_mq_init_shared_sbitmap: 0
+blk_mq_sched_free_requests: 4
+blk_mq_sched_insert_request: 1 0 0 0
+blk_mq_update_queue_map: 0
+blk_mq_wake_waiters: 4
+blk_msg_write: 1 2 4 8
+blk_poll: 1 1 0
+blk_put_request: 1
+blk_rq_map_user: 1 1 0 1 1 0
+blk_rq_map_user_iov: 1 1 0 0 0
+blk_rq_unmap_user: 0
+blk_trace_ioctl: 1 0 4
+blk_trace_remove: 1
+blk_trace_setup: 1 1 1 0 4
+blk_trace_startstop: 1 0
+blk_tracer_init: 1
+blk_tracer_set_flag: 1 1 1 0
+blk_tracer_start: 1
+blk_tracer_stop: 1
+blkdev_bszset: 1 1 4
+blkdev_close: 2 1
+blkdev_common_ioctl: 1 1 2 4 4
+blkdev_direct_IO: 0 0
+blkdev_fallocate: 1 0 1 0
+blkdev_get_by_dev: 1 1 0
+blkdev_ioctl: 1 0 2 4
+blkdev_issue_discard: 1 1 1 0 0
+blkdev_issue_flush: 1
+blkdev_issue_zeroout: 1 1 1 0 0
+blkdev_open: 2 1
+blkdev_put: 1 1
+blkdev_read_iter: 0 0
+blkdev_write_iter: 0 0
+blkpg_do_ioctl: 1 4 4
+block_invalidatepage: 1 0 1
+block_ioctl: 1 2 4
+blocking_notifier_call_chain: 0 0 0
+bm_entry_read: 1 2 4 0
+bm_entry_write: 1 2 4 0
+bm_register_write: 1 2 4 0
+bm_status_read: 1 2 4 0
+bm_status_write: 1 2 4 0
+bmap: 1 0
+boost_set_msr_each: 1
+boot_alloc_snapshot: 0
+boot_override_clock: 0
+boot_override_clocksource: 0
+bp_perf_event_destroy: 1
+bpf_convert_filter: 0 0 0 0 0
+bpf_flow_dissect: 0 0 1 1 1 0
+bpf_jit_compile: 0
+bpf_prepare_filter: 0 0
+bpf_prog_alloc: 0 0
+bpf_prog_alloc_no_stats: 0 0
+bpf_prog_destroy: 1
+bpf_prog_free: 1
+bpf_prog_realloc: 0 0 0
+bpf_prog_run_generic_xdp: 2 0 1
+bpf_prog_select_runtime: 0 0
+bpf_warn_invalid_xdp_action: 2
+br_ioctl_call: 1 1 0 0 0
+bsearch: 0 0 0 0 0
+bsg_ioctl: 1 2 4
+bsg_open: 0 1
+bsg_release: 2 1
+bts_buffer_free_aux: 1
+bts_event_destroy: 1
+bts_event_init: 1
+bts_event_read: 1
+buffer_percent_read: 1 2 4 8
+buffer_percent_write: 1 2 4 8
+buffer_pipe_buf_release: 0 0
+build_skb: 0 3
+bvec_npages: 0 0
+bxt_vtd_ggtt_insert_entries__cb: 0
+bxt_vtd_ggtt_insert_page__cb: 0
+ca_keys_setup: 0
+cache_from_obj: 0 0
+cache_ioctl_pipefs: 1 2 4
+cache_ioctl_procfs: 1 0 4
+cache_open: 2 1 2
+cache_open_pipefs: 0 1
+cache_open_procfs: 2 1
+cache_read: 1 2 4 1
+cache_read_pipefs: 1 2 4 0
+cache_read_procfs: 1 2 4 8
+cache_release: 1 2
+cache_release_pipefs: 2 1
+cache_release_procfs: 2 1
+cache_write: 1 2 4 1
+cache_write_pipefs: 1 2 4 0
+cache_write_procfs: 1 2 4 8
+calipso_opt_del: 1 0
+calipso_req_delattr: 1
+calipso_skbuff_delattr: 3
+calipso_sock_delattr: 1
+calipso_sock_getattr: 1 0
+call_netdevice_notifiers: 0 1
+call_rcu: 1 0
+call_usermodehelper_exec: 0 0
+call_usermodehelper_exec_async: 0
+cancel_work_sync: 1
+cap_capable: 0 0 0 0
+cdev_device_del: 0 0
+cdrom_ioctl: 1 1 1 0 4
+cfg80211_cqm_beacon_loss_notify: 1 0
+cfg80211_register_netdevice: 1
+cfg80211_vendor_cmd_reply: 3
+cgroup_disable: 0
+cgroup_file_open: 0
+cgroup_file_write: 0 0 0 0
+cgroup_kill_sb: 1
+cgroup_memory: 0
+cgroup_no_v1: 0
+cgroup_rstat_updated: 1 0
+cgroupns_owner: 1
+cgroupns_put: 1
+ch_raw_event: 1 1 1 1
+change_clocksource: 0
+change_page_attr_set_clr: 0 0 0 0 0 0 0
+char2uni: 1 1 1
+check_and_subscribe_port: 0 0 0 0 0 1
+check_ctrlrecip: 1 0 0 0
+check_flush_dependency: 1 0
+check_free_page: 0
+check_free_page_bad: 0
+check_matching_master_slave: 0 1
+check_stack_object: 0 16
+check_tty_count: 1 0
+check_zeroed_user: 4 4
+checkreqprot_setup: 0
+cherryview_irq_handler: 0 0
+choose_lsm_order: 0
+choose_major_lsm: 0
+chrdev_open: 2 1
+cipso_v4_sock_getattr: 1 0
+claimintf: 1 0
+clear_huge_page: 1 1 1
+clear_refs_write: 1 2 4 0
+clear_subscriber_list: 1 1 1 0
+clear_user: 2 4
+clear_warn_once_fops_open: 2 1
+clflush_cache_range: 0 0
+clk_disable: 0
+clk_dump_open: 2 1
+clk_duty_cycle_open: 2 1
+clk_flags_open: 2 1
+clk_ignore_unused_setup: 0
+clk_max_rate_open: 2 1
+clk_min_rate_open: 2 1
+clk_rate_fops_open: 2 1
+clk_summary_open: 2 1
+clk_unprepare: 0
+clock_t_to_jiffies: 4
+clocksource_verify_one_cpu: 1
+clocksource_watchdog_kthread: 0
+close_fd: 4
+cmci_disable_bank: 0
+cmci_rediscover_work_func: 1
+cmdline_parse_kernelcore: 0
+cmdline_parse_movablecore: 0
+cmdline_parse_stack_guard_gap: 0
+cmos_alarm_irq_enable: 1 0
+cmos_interrupt: 0 0
+cmos_read_time: 1 0
+cmos_set_time: 1 0
+cmp_acl_entry: 0 0
+cmp_ex_search: 0 0
+cmp_ex_sort: 0 0
+cmp_extents_forward: 0 0
+cmp_extents_reverse: 0 0
+cmp_map_id: 0 0
+cmp_name: 0 0
+cmp_range: 0 0
+cmppid: 0 0
+cmpxchg_double_slab: 0 0 0 0 0 0
+cmsghdr_from_user_compat_to_kern: 2 1 0 0
+cn_rx_skb: 1
+codec_exec_verb: 1 4 0 0
+collect_cpu_info: 0 0
+collect_cpu_info_amd: 0 0
+collect_cpu_info_local: 1
+comm_open: 0 1
+comm_write: 1 2 4 0
+common_lsm_audit: 0 0 0
+compare_input_type: 0 0
+compare_seq: 0 0
+compare_thresholds: 0 0
+compat_drm_getclient: 1 2 4
+compat_drm_getstats: 1 2 4
+compat_drm_getunique: 1 2 4
+compat_drm_mode_addfb2: 1 2 4
+compat_drm_setunique: 1 2 4
+compat_drm_update_draw: 1 2 4
+compat_drm_version: 1 2 4
+compat_drm_wait_vblank: 1 2 4
+compat_filldir: 0 0 0 0 1 0
+compat_fillonedir: 0 0 0 0 1 0
+compat_raw_ioctl: 1 0 4
+compat_rawv6_ioctl: 1 0 4
+compat_standard_to_user: 0 0
+complete: 1
+complete_all: 4
+component_devices_open: 0 1
+con_close: 1 1
+con_open: 0 1
+con_write: 1 2 4
+cond_compute_xperms: 0 0 0
+cond_synchronize_rcu: 1
+configfs_bin_read_iter: 0 0
+configfs_bin_write_iter: 0 0
+configfs_dir_close: 2 1
+configfs_dir_open: 0 1
+configfs_open_bin_file: 0 1
+configfs_open_file: 0 1
+configfs_read_iter: 0 0
+configfs_release: 2 1
+configfs_release_bin_file: 2 1
+configfs_write_iter: 0 0
+connector_open: 2 1
+connector_write: 1 2 4 8
+console_msg_format_setup: 0
+console_setup: 0
+console_suspend_disable: 0
+consume_skb: 1
+content_open_pipefs: 0 1
+content_open_procfs: 2 1
+content_release_pipefs: 2 1
+content_release_procfs: 2 1
+control_devkmsg: 0
+control_va_addr_alignment: 0
+copy_bpf_fprog_from_user: 0 8 0 16
+copy_from_kernel_nofault: 0 8 4
+copy_from_sockptr: 0 8 0 16
+copy_page_from_iter: 0 0 0 0
+copy_page_to_iter: 0 0 0 0
+copy_urb_data_to_user: 1 1
+copyin: 3 2 3
+core_kernel_text: 0
+core_pmu_enable_all: 0
+core_pmu_enable_event: 1
+core_pmu_hw_config: 1
+coredump_filter_setup: 0
+count_swap_pages: 1 0
+cpcompare: 0 0
+cpu_clock_event_init: 1
+cpu_clock_event_read: 1
+cpu_freq_read_amd: 0
+cpu_freq_read_intel: 0
+cpu_freq_read_io: 0
+cpu_freq_write_amd: 0 0
+cpu_freq_write_intel: 0 0
+cpu_freq_write_io: 0 0
+cpu_init_udelay: 0
+cpu_latency_qos_open: 0 1
+cpu_latency_qos_read: 1 2 4 0
+cpu_latency_qos_release: 2 1
+cpu_latency_qos_remove_request: 1
+cpu_latency_qos_write: 1 2 4 0
+cpu_stop_create: 0
+cpu_stop_park: 0
+cpu_stopper_thread: 0
+cpufreq_cpu_acquire: 0
+cpufreq_remove_update_util_hook: 0
+cpufreq_set_policy: 0 0 0
+cpufreq_update_limits: 0
+cpufreq_update_policy: 0
+cpufreq_verify_current_freq: 0 0
+cpuhp_complete_idle_dead: 1
+cpuhp_create: 0
+cpuhp_invoke_callback: 0 0 0 0 0
+cpuhp_thread_fun: 0
+cpuid_open: 0 1
+cpuid_read: 1 2 4 0
+cpuid_smp_cpuid: 1
+cpuidle_setup_broadcast_timer: 1
+cpuinfo_open: 2 1
+crc32_le: 0 4 0
+crc32_threadfn: 0
+crc_control_open: 2 1
+crc_control_write: 1 2 4 8
+create_dyn_event: 0
+create_filter_start: 4 0 0 0
+create_image: 1
+create_or_delete_trace_kprobe: 0
+create_or_delete_trace_uprobe: 0
+cred_has_capability: 0 0 0 0
+cred_to_ucred: 1 1 0
+credit_entropy_bits: 4
+crtc_crc_open: 2 1
+crtc_crc_read: 1 2 4 8
+crtc_crc_release: 2 1
+crypto_alg_tested: 0 0
+crypto_inc: 0 0
+cryptomgr_probe: 0
+cryptomgr_test: 0
+cstate_pmu_event_init: 1
+cstate_pmu_event_start: 1 0
+cstate_pmu_event_stop: 1 0
+cstate_pmu_event_update: 1
+csum_ipv6_magic: 0 0 1 0 1
+csum_partial: 0 0 0
+ctnetlink_ct_stat_cpu_dump: 1 1
+ctnetlink_done: 1
+ctnetlink_done_list: 1
+ctnetlink_dump_dying: 1 1
+ctnetlink_dump_table: 1 1
+ctnetlink_dump_unconfirmed: 1 1
+ctnetlink_exp_ct_dump_table: 1 1
+ctnetlink_exp_done: 1
+ctnetlink_exp_dump_table: 1 1
+ctnetlink_exp_stat_cpu_dump: 1 1
+ctnetlink_start: 1
+ctrl_dumpfamily: 1 1
+ctrl_dumppolicy: 1 1
+ctrl_dumppolicy_done: 1
+ctrl_dumppolicy_start: 1
+ctx_completed_write: 1 2 4 8
+ctx_dispatched_write: 1 2 4 8
+ctx_merged_write: 1 2 4 8
+ctx_resched: 0 0 1
+ctx_sched_in: 1 0 0
+ctx_sched_out: 1 0 0
+cubictcp_cwnd_event: 1 0
+cubictcp_init: 1
+cubictcp_recalc_ssthresh: 1
+cubictcp_state: 1 0
+cur_wm_latency_open: 2 1
+cur_wm_latency_write: 1 2 4 8
+current_parent_open: 2 1
+current_time: 1
+d_alloc_pseudo: 0 0
+d_exact_alias: 1 1
+d_find_alias: 1
+d_find_any_alias: 1
+d_instantiate: 5 1
+d_instantiate_anon: 1 1
+d_path: 0 0 0
+d_set_d_op: 0 0
+d_walk: 0 0 0
+dcache_dir_close: 2 1
+dcache_dir_open: 0 1
+deactivate_locked_super: 1
+deactivate_slab: 0 0 0
+debug_alt: 0
+debug_async_open: 2 1
+debug_boot_weak_hash_enable: 0
+debug_check_no_locks_freed: 5 0
+debug_close: 2 1
+debug_kernel: 0
+debug_mutex_add_waiter: 1 0 0
+debug_mutex_lock_common: 1 0
+debug_mutex_remove_waiter: 1 0 0
+debug_mutex_unlock: 1
+debug_mutex_wake_waiter: 1 1
+debug_output: 1 2 4 8
+debug_periodic_open: 2 1
+debug_registers_open: 2 1
+debugfs_attr_read: 1 2 4 8
+debugfs_attr_write: 1 2 4 8
+debugfs_create_dir: 0 0
+debugfs_create_file: 0 0 0 0 0
+debugfs_devm_entry_open: 2 1
+debugfs_file_get: 1
+debugfs_file_put: 1
+debugfs_kernel: 0
+debugfs_open_regset32: 2 1
+debugfs_read_file_bool: 1 2 4 0
+debugfs_read_file_str: 1 2 4 8
+debugfs_write_file_bool: 1 2 4 8
+debugfs_write_file_str: 1 2 4 8
+dec_usb_memory_use_count: 1 1
+default_affinity_open: 2 1
+default_affinity_write: 1 2 4 8
+default_hugepagesz_setup: 0
+default_inquire_remote_apic: 0
+default_read_file: 1 2 4 0
+default_set_debug_port: 0
+default_write_file: 1 2 4 0
+deferred_devs_open: 0 1
+deferred_probe_timeout_setup: 0
+del_gendisk: 4
+del_timer: 0
+del_timer_sync: 1
+delayacct_setup_enable: 0
+delete_from_page_cache: 2
+delete_from_page_cache_batch: 1 0
+dentry_path_raw: 1 0 0
+descriptors_changed: 1 0 1
+destroy_async: 1 1
+dev_add_pack: 1
+dev_addr_init: 1
+dev_arm_poll: 1 0 0
+dev_change_flags: 1 0 0
+dev_change_name: 1 0
+dev_change_tx_queue_len: 1 0
+dev_create: 1 0 0
+dev_driver_string: 1
+dev_ethtool: 1 0 0
+dev_get_by_index: 1 1
+dev_get_by_index_rcu: 1 0
+dev_get_by_name_rcu: 1 0
+dev_get_flags: 1
+dev_get_iflink: 1
+dev_get_mac_address: 0 1 1
+dev_gro_receive: 1 1
+dev_ifconf: 1 4
+dev_ifsioc: 1 0 0 0
+dev_ioctl: 1 0 0 0 0
+dev_load: 1 0
+dev_mc_add: 1 0
+dev_mc_add_global: 1 0
+dev_mc_del: 1 1
+dev_mc_del_global: 1 0
+dev_queue_xmit: 3
+dev_remove: 1 0 0
+dev_rename: 1 0 0
+dev_set_allmulti: 1 0
+dev_set_geometry: 1 0 0
+dev_set_group: 1 0
+dev_set_mac_address_user: 1 0 0
+dev_set_mtu: 1 0
+dev_set_name: 1 0 1 1 4 1
+dev_set_promiscuity: 1 0
+dev_set_rx_mode: 1
+dev_status: 1 0 0
+dev_suspend: 1 0 0
+dev_uc_add: 1 0
+dev_uc_del: 1 1
+dev_wait: 1 0 0
+device_add: 1
+device_attach: 1
+device_bind_driver: 1
+device_create: 0 0 0 0 0
+device_del: 1
+device_initialize: 1
+device_pm_sleep_init: 1
+device_release_driver: 1
+device_release_driver_internal: 4 0 0
+device_remove_software_node: 0
+device_set_wakeup_capable: 1 1
+device_set_wakeup_enable: 1 0
+device_unregister: 0
+devinet_ioctl: 1 0 0
+devkmsg_emit: 0 0 0 0
+devkmsg_open: 0 1
+devkmsg_read: 1 2 4 0
+devkmsg_release: 2 1
+devkmsg_write: 0 0
+devm_aperture_acquire_release: 1
+devm_bitmap_free: 1
+devm_drm_dev_init_release: 1
+devm_i2c_del_adapter: 1
+devm_i2c_release_dummy: 1
+devm_pci_alloc_host_bridge_release: 1
+devm_rtc_release_device: 1
+devm_rtc_unregister_device: 1
+devmem_is_allowed: 8
+devpts_acquire: 1
+devpts_kill_index: 1 1
+devpts_kill_sb: 1
+devpts_mntget: 1 1
+devpts_new_index: 1
+devpts_pty_kill: 1
+devpts_pty_new: 1 1 1
+devpts_release: 1
+devres_free: 1
+devtmpfsd: 0
+dg1_irq_handler: 0 0
+dget_parent: 1
+disable_8259A_irq: 1
+disable_hpet: 0
+disable_irq: 0
+disable_irq_nosync: 0
+disable_mtrr_trim_setup: 0
+disable_percpu_irq: 0
+disable_randmaps: 0
+disable_timer_pin_setup: 0
+disable_trace_buffered_event: 1
+discard_slab: 0 0
+dm_alloc_md_mempools: 0 0 0 0 0
+dm_blk_getgeo: 1 0
+dm_blk_ioctl: 1 0 2 4
+dm_calculate_queue_limits: 0 0
+dm_cancel_deferred_remove: 0
+dm_create: 0 0
+dm_ctl_ioctl: 1 2 4
+dm_deleting_md: 0
+dm_device_name: 0
+dm_free_md_mempools: 0
+dm_get: 0
+dm_get_dev_t: 0
+dm_get_immutable_target_type: 0
+dm_get_live_table: 0 0
+dm_get_md: 0
+dm_get_md_type: 0
+dm_get_mdptr: 0
+dm_get_target_type: 0
+dm_hash_insert: 0 0 0
+dm_hash_remove_all: 0 0 0
+dm_kobject_uevent: 0 0 0
+dm_lock_for_deletion: 0 0 0
+dm_lock_md_type: 0
+dm_mq_init_request_queue: 0 0
+dm_open: 0 1
+dm_open_count: 0
+dm_pr_clear: 1 0
+dm_pr_preempt: 1 0 0 0 0
+dm_pr_register: 1 0 0 0
+dm_pr_release: 1 0 0
+dm_pr_reserve: 1 0 0 0
+dm_prepare_ioctl: 1 0 0
+dm_put: 0
+dm_put_live_table: 0 0
+dm_put_table_device: 0 0
+dm_put_target_type: 0
+dm_release: 2 1
+dm_resume: 0
+dm_set_geometry: 0 0
+dm_set_mdptr: 0 0
+dm_setup_md_queue: 0 0
+dm_split_args: 0 0 0
+dm_stat_free: 0
+dm_stats_create: 0 0 0 0 0 0 0 0 0 0
+dm_stats_message: 0 0 0 0 0
+dm_stop_queue: 0
+dm_suspend: 0 0
+dm_suspended_internally_md: 0
+dm_suspended_md: 0
+dm_swap_table: 0 0
+dm_sysfs_init: 0
+dm_table_add_target: 0 0 0 0 0
+dm_table_bio_based: 0
+dm_table_create: 0 0 0 0
+dm_table_event: 0
+dm_table_event_callback: 0 0 0
+dm_table_find_target: 0 0
+dm_table_free_md_mempools: 0
+dm_table_get_devices: 0
+dm_table_get_immutable_target: 0
+dm_table_get_md_mempools: 0
+dm_table_get_mode: 0
+dm_table_get_num_targets: 0
+dm_table_get_size: 0
+dm_table_get_target: 0 0
+dm_table_get_type: 0
+dm_table_has_no_data_devices: 0
+dm_table_postsuspend_targets: 0
+dm_table_request_based: 0
+dm_table_set_restrictions: 0 0 0
+dm_test_deferred_remove_flag: 0
+dm_unlock_md_type: 0
+dm_wait_event: 0 0
+dma_buf_begin_cpu_access: 1 0
+dma_buf_debug_open: 2 1
+dma_buf_end_cpu_access: 1 0
+dma_buf_file_release: 2 1
+dma_buf_ioctl: 1 0 4
+dma_buf_poll_cb: 1 0
+dma_fence_array_cb_func: 1 0
+dma_fence_array_create: 0 1 0 0 0
+dma_fence_chain_cb: 1 0
+dma_fence_chain_get_driver_name: 1
+dma_fence_chain_get_timeline_name: 1
+dma_fence_chain_signaled: 1
+dma_fence_default_wait_cb: 1 0
+dma_fence_get_status: 1
+dma_fence_init: 0 0 0 0 0
+dma_fence_match_context: 0 1
+dma_fence_put: 1
+dma_fence_release: 1
+dma_fence_remove_callback: 1 1
+dma_fence_signal: 1
+dma_fence_signal_timestamp_locked: 1 0
+dma_fence_stub_get_name: 1
+dma_fence_wait_timeout: 0 0 0
+dma_i915_sw_fence_wake: 1 0
+dma_i915_sw_fence_wake_timer: 1 0
+dma_resv_add_excl_fence: 1 1
+dma_resv_add_shared_fence: 1 1
+dma_resv_get_fences: 1 0 0 0
+dma_resv_reserve_shared: 1 0
+dma_resv_reset_shared_max: 1
+dma_resv_test_signaled: 1 0
+dma_resv_wait_timeout: 1 0 0 0
+dma_sync_single_for_cpu: 0 0 0 0
+dmaengine_summary_open: 2 1
+dmar_fault: 0 0
+dmi_name_in_vendors: 0
+dnotify_handle_event: 0 0 1 0 0 0
+do_arch_prctl_64: 0 1 2
+do_arch_prctl_common: 0 1 2
+do_blank_screen: 0
+do_blk_trace_setup: 1 1 1 0 0
+do_clone_file_range: 1 4 4 4 4 0
+do_dentry_open: 1 2 4
+do_drv_read: 1
+do_drv_write: 1
+do_flush_tlb_all: 1
+do_kernel_range_flush: 1
+do_md_run: 1
+do_md_stop: 1 0 1
+do_nothing: 1
+do_open: 2 1
+do_proc_bulk: 1 0
+do_proc_control: 1 0
+do_raw_read_lock: 1
+do_raw_read_unlock: 1
+do_raw_spin_lock: 1
+do_raw_spin_trylock: 0
+do_raw_spin_unlock: 1
+do_raw_write_lock: 0
+do_raw_write_unlock: 0
+do_sync_core: 1
+do_trace_netlink_extack: 1
+do_trace_rdpmc: 1 1 0
+do_trace_read_msr: 1 1 0
+do_trace_write_msr: 1 1 1
+do_unblank_screen: 0
+do_vfs_ioctl: 1 1 2 4
+do_wait_for_common: 1 0 1 0
+do_wait_intr_irq: 1 0
+do_writepages: 1 0
+do_xdp_generic: 1 3
+down_interruptible: 1
+down_read: 0
+down_read_failed: 1 1 0
+down_read_killable: 1
+down_trylock: 1
+down_write: 1
+down_write_killable: 1
+downgrade_write: 1
+dpm_complete: 1
+dpm_resume: 1
+dquot_commit: 0
+dquot_commit_info: 1 0
+dquot_file_open: 2 1
+dquot_writeback_dquots: 1 0
+driver_disconnect: 4
+driver_resume: 1
+drm_atomic_state_zpos_cmp: 0 0
+drm_bridge_connector_hpd_cb: 0 0
+drm_clflush_virt_range: 0 1
+drm_client_dev_restore: 1
+drm_connector_list_iter_begin: 1 0
+drm_connector_update_edid_property: 1 0
+drm_crtc_fence_get_driver_name: 1
+drm_crtc_fence_get_timeline_name: 1
+drm_debugfs_open: 2 1
+drm_dev_dbg: 1 0 0 4
+drm_dev_enter: 1 0
+drm_dev_put: 1
+drm_dp_channel_eq_ok: 3 2
+drm_dp_clock_recovery_ok: 3 2
+drm_dp_downstream_max_dotclock: 0 0
+drm_dp_dsc_sink_supported_input_bpcs: 0 0
+drm_dp_get_pcon_max_frl_bw: 0 0
+drm_dp_lttpr_count: 0
+drm_dp_lttpr_max_lane_count: 0
+drm_dp_lttpr_max_link_rate: 0
+drm_dp_pcon_dsc_bpp_incr: 0
+drm_dp_pcon_dsc_max_slice_width: 0
+drm_dp_pcon_dsc_max_slices: 0
+drm_dp_psr_setup_time: 0
+drm_dp_subconnector_type: 0 0
+drm_edid_header_is_valid: 0
+drm_file_alloc: 2
+drm_file_free: 2
+drm_gem_handle_create: 1 0 0
+drm_gem_object_lookup: 1 0
+drm_gem_shmem_free_object: 1
+drm_getcap: 1 0 1
+drm_getclient: 1 0 1
+drm_getstats: 1 0 1
+drm_getunique: 1 0 1
+drm_invalid_op: 1 0 1
+drm_ioctl_kernel: 1 0 0 0
+drm_is_current_master: 1
+drm_lease_owner: 1
+drm_master_open: 2
+drm_minor_acquire: 2
+drm_minor_release: 2
+drm_mm_remove_node: 1
+drm_modeset_lock_single_interruptible: 1
+drm_modeset_unlock: 1
+drm_noop: 1 0 1
+drm_open: 2 1
+drm_pci_set_busid: 1 1
+drm_release: 2 1
+drm_release_noglobal: 2 1
+drm_setclientcap: 1 0 1
+drm_setversion: 1 0 1
+drm_stub_open: 0 1
+drm_syncobj_file_release: 2 1
+drm_syncobj_replace_fence: 1 0
+drm_timeout_abs_to_jiffies: 0
+drm_version: 1 0 1
+drm_writeback_fence_get_driver_name: 1
+drm_writeback_fence_get_timeline_name: 1
+drpc_open: 2 1
+dst_clone: 1
+dst_discard: 3
+dst_discard_out: 0 3 3
+dst_mtu: 3
+dst_negative_advice: 1
+dst_release: 1
+dummy_cmp: 0 0
+dummy_downcall: 1 7 4
+dummy_free: 1
+dummy_ip6_datagram_recv_ctl: 1 2 3
+dummy_set_flag: 1 1 1 0
+dummycon_blank: 0 0 0
+dump_page: 1 0
+dump_stack_lvl: 1
+dump_stack_print_info: 2
+duration: 1 0
+dw_dma_interrupt: 0 0
+dwc_tx_status: 0 0 0
+dyn_event_open: 2 1
+dyn_event_write: 1 2 4 8
+e1000_close: 1
+e1000_get_eeprom_len: 1
+e1000_get_link: 1
+e1000_get_msglevel: 1
+e1000_get_regs_len: 1
+e1000_intr: 0 0
+e1000_intr_msi: 0 0
+e1000_intr_msi_test: 0 0
+e1000_intr_msix_rx: 0 0
+e1000_intr_msix_tx: 0 0
+e1000_ioctl: 1 0 0
+e1000_msix_other: 0 0
+e1000_nway_reset: 1
+e1000_open: 1
+e1000_set_msglevel: 1 0
+e1000_test_intr: 0 0
+e1000_tx_timeout: 1 0
+e1000e_close: 1
+e1000e_get_priv_flags: 1
+e1000e_open: 1
+e100_close: 1
+e100_do_ioctl: 1 0 0
+e100_get_eeprom_len: 1
+e100_get_link: 1
+e100_get_link_ksettings: 1 0
+e100_get_msglevel: 1
+e100_get_regs_len: 1
+e100_intr: 0 0
+e100_nway_reset: 1
+e100_open: 1
+e100_set_msglevel: 1 0
+e100_tx_timeout: 1 0
+eafnosupport_ipv6_route_input: 3
+early_hugetlb_free_vmemmap_param: 0
+early_init_on_alloc: 0
+early_init_on_free: 0
+early_initrd: 0
+early_initrdmem: 0
+early_ioremap_debug_setup: 0
+early_memblock: 0
+early_randomize_kstack_offset: 0
+edid_open: 2 1
+edid_write: 1 2 4 8
+eeepc_acpi_notify: 0 0
+eeepc_rfkill_notify: 0 0 0
+efivar_ssdt_setup: 0
+ehci_get_resuming_ports: 1
+ei_open: 2 1
+elevator_setup: 0
+emit_oa_config: 1 5 1 0
+enable_8259A_irq: 1
+enable_cgroup_debug: 0
+enable_cpu0_hotplug: 0
+enable_debug: 0
+enable_irq: 0
+enable_trace_buffered_event: 1
+end_page_private_2: 2
+end_page_writeback: 2
+enforcing_setup: 0
+engines_open: 2 1
+enqueue_to_backlog: 3 3 0
+environ_open: 0 1
+environ_read: 1 2 4 0
+ep_eventpoll_release: 2 1
+eprobe_dyn_event_create: 0
+eprobe_register: 1 0 1
+erase_effect: 1 4 1
+error: 1
+errseq_sample: 1
+eth_get_headlen: 1 3 3
+eth_header: 3 3 3 2 0 2
+eth_type_trans: 1 1
+eth_validate_addr: 1
+ethnl_default_done: 1
+ethnl_default_dumpit: 1 1
+ethnl_default_start: 1
+ethtool_convert_legacy_u32_to_link_mode: 0 1
+ethtool_flash_device: 1 0
+ethtool_get_channels: 1 0
+ethtool_get_coalesce: 1 0
+ethtool_get_drvinfo: 1 0
+ethtool_get_dump_data: 1 0
+ethtool_get_dump_flag: 1 0
+ethtool_get_eee: 1 0
+ethtool_get_eeprom: 1 0
+ethtool_get_features: 1 0
+ethtool_get_fecparam: 1 0
+ethtool_get_link: 1 0
+ethtool_get_link_ksettings: 1 0
+ethtool_get_module_eeprom: 1 0
+ethtool_get_module_info: 1 0
+ethtool_get_one_feature: 1 0 0
+ethtool_get_pauseparam: 1 0
+ethtool_get_perm_addr: 1 0
+ethtool_get_phc_vclocks: 1 0
+ethtool_get_phy_stats: 1 0
+ethtool_get_regs: 1 0
+ethtool_get_ringparam: 1 0
+ethtool_get_rxfh: 1 0
+ethtool_get_rxfh_indir: 1 0
+ethtool_get_rxnfc: 1 0 0
+ethtool_get_settings: 1 0
+ethtool_get_sset_info: 1 0
+ethtool_get_stats: 1 0
+ethtool_get_strings: 1 0
+ethtool_get_ts_info: 1 0
+ethtool_get_tunable: 1 0
+ethtool_get_wol: 1 0
+ethtool_notify: 1 0 0
+ethtool_op_get_link: 1
+ethtool_phys_id: 1 0
+ethtool_reset: 1 0
+ethtool_self_test: 1 0
+ethtool_set_channels: 1 0
+ethtool_set_coalesce: 1 0
+ethtool_set_dump: 1 0
+ethtool_set_eee: 1 0
+ethtool_set_eeprom: 1 0
+ethtool_set_features: 1 0
+ethtool_set_fecparam: 1 0
+ethtool_set_link_ksettings: 1 0
+ethtool_set_one_feature: 1 0 0
+ethtool_set_pauseparam: 1 0
+ethtool_set_per_queue: 1 0 0
+ethtool_set_ringparam: 1 0
+ethtool_set_rxfh: 1 0
+ethtool_set_rxfh_indir: 1 0
+ethtool_set_rxnfc: 1 0 0
+ethtool_set_settings: 1 0
+ethtool_set_tunable: 1 0
+ethtool_set_value: 1 0 1
+ethtool_set_value_void: 1 0 1
+ethtool_set_wol: 1 0
+evdev_fasync: 1 1 4
+evdev_handle_get_val: 1 1 0 1 0 0 4 0
+evdev_handle_mt_request: 1 0 4
+evdev_ioctl: 1 2 4
+evdev_ioctl_handler: 1 0 4 0
+evdev_open: 0 1
+evdev_read: 1 2 4 0
+evdev_release: 2 1
+evdev_write: 1 2 4 0
+event_callback: 1
+event_enable_read: 1 2 4 8
+event_enable_write: 1 2 4 8
+event_filter_read: 1 2 4 8
+event_filter_write: 1 2 4 8
+event_function: 0
+event_function_call: 1 0 0
+event_id_read: 1 2 4 8
+event_pid_write: 1 2 4 8 0
+event_sched_out: 1 0 1
+event_trigger_open: 2 1
+event_trigger_release: 2 1
+event_trigger_write: 1 2 4 8
+event_triggers_call: 1 1 4 5
+event_triggers_post_call: 1 5
+eventfd_read: 0 0
+eventfd_release: 2 1
+eventfd_write: 1 2 4 0
+exact_lock: 0 0
+exar_misc_handler: 0 0
+exar_pm: 1 0 1
+excl_retire: 1 0
+ext4_alloc_da_blocks: 2
+ext4_bmap: 1 0
+ext4_commit_super: 1
+ext4_discard_preallocations: 2 0
+ext4_file_mmap: 1 2
+ext4_file_open: 0 1
+ext4_file_read_iter: 0 0
+ext4_file_write_iter: 0 0
+ext4_freeze: 1
+ext4_getfsmap_dev_compare: 0 0
+ext4_htree_free_dir_info: 1
+ext4_inode_attach_jinode: 2
+ext4_invalidatepage: 1 0 1
+ext4_ioctl: 1 2 4
+ext4_journalled_invalidatepage: 1 0 1
+ext4_lazyinit_thread: 0
+ext4_orphan_file_empty: 1
+ext4_release_dir: 2 1
+ext4_release_file: 2 1
+ext4_superblock_csum_set: 2
+ext4_sync_fs: 1 0
+ext4_unfreeze: 1
+ext4_update_super: 1
+ext4_write_dquot: 0
+ext4_write_info: 1 0
+extfrag_open: 2 1
+extract_buf: 0 0
+f815xxa_mem_serial_out: 1 0 1
+f_getown: 1
+f_modown: 1 4 0 0
+f_setown: 1 4 0
+failover_slave_unregister: 1
+fake_panic_fops_open: 2 1
+fanout_add: 1 0
+fanout_set_data: 1 8 0 16
+fasync_helper: 0 1 0 1
+fasync_insert_entry: 1 1 1 0
+fasync_remove_entry: 1 1
+fat12_ent_blocknr: 1 0 0 0
+fat12_ent_bread: 1 0 0 0
+fat12_ent_get: 0
+fat12_ent_next: 0
+fat16_ent_get: 0
+fat16_ent_next: 0
+fat32_ent_get: 0
+fat32_ent_next: 0
+fat_add_cluster: 1
+fat_alloc_clusters: 1 0 0
+fat_block_truncate_page: 1 0
+fat_bmap: 1 0 0 0 0 0
+fat_chain_add: 1 0 0
+fat_checksum: 0
+fat_compat_ioctl_filldir: 0 0 0 0 1 0
+fat_cont_expand: 1 0
+fat_dir_ioctl: 1 2 4
+fat_direct_IO: 0 0
+fat_ent_blocknr: 1 0 0 0
+fat_ent_bread: 1 0 0 0
+fat_ent_reada: 1 0 0
+fat_fallocate: 1 0 1 0
+fat_file_release: 2 1
+fat_flush_inodes: 2 2 0
+fat_free_clusters: 1 0
+fat_generic_ioctl: 1 2 4
+fat_get_entry: 1 0 0 0
+fat_iget: 1 1
+fat_ioctl_filldir: 0 0 0 0 1 0
+fat_msg: 1 0 0 0
+fat_parse_long: 1 0 0 0 0 0
+fat_parse_short: 1 0 0 1
+fat_setattr: 1 1 0
+fat_trim_clusters: 1 0 0
+fat_trim_fs: 1 0
+fat_truncate_blocks: 1 0
+fat_truncate_time: 1 0 0
+fault_around_bytes_fops_open: 2 1
+fb_tunnels_only_for_init_net_sysctl_setup: 0
+fd_install: 0 1
+fence_check_cb_func: 1 0
+fget: 4
+fget_raw: 2
+fib6_dump_done: 1
+fib_lookup_good_nhc: 1 0 0
+fib_nl_dumprule: 1 1
+fib_rules_seq_read: 1 0
+fib_table_lookup: 1 0 0 0
+fifo_open: 0 1
+file_caps_disable: 0
+file_check_and_advance_wb_err: 1
+file_end_write: 1
+file_modified: 1
+file_ns_capable: 1 1 0
+file_path: 1 0 0
+file_ra_state_init: 1 1
+file_remove_privs: 1
+file_start_write: 1
+file_tty_write: 0 0 0
+file_update_time: 0
+filemap_fdatawait_range: 1 1 1
+filemap_fdatawrite_range: 1 1 1
+filemap_flush: 1
+filemap_write_and_wait_range: 1 0 0
+filename_lookup: 0 0 0 1 0
+filenametr_cmp: 0 0
+filenametr_hash: 0
+fill_async_buffer: 1
+fill_periodic_buffer: 1
+fill_readbuf: 1 2 4 0
+fill_registers_buffer: 1
+filldir: 0 0 0 0 1 0
+filldir64: 0 0 0 0 1 0
+filldir_one: 0 0 0 0 1 0
+fillonedir: 0 0 0 0 1 0
+filp_close: 4 0
+filter_device: 0 0 0
+find_get_entries: 1 1 1 0 0
+find_get_pid: 2
+find_lock_entries: 1 1 1 0 0
+find_memory_area: 1 0
+find_notification: 1 0
+find_vm_area: 0
+find_vpid: 4
+fini_debug_store_on_cpu: 0
+finish_rcuwait: 1
+finish_wait: 0 0
+fixup_unreferenced_params: 1 4
+fl6_free_socklist: 1
+fl6_merge_options: 0 1 1
+fl6_update_dst: 0 1 0
+flat_acpi_madt_oem_check: 0 0
+flip_smm_bit: 1
+flush_delayed_work: 1
+flush_ldt: 1
+flush_rdev_wq: 1
+flush_tlb_func: 1
+flush_tlb_mm_range: 1 0 0 0 0
+flush_tlb_one_kernel: 0
+flush_workqueue: 1
+flush_workqueue_prep_pwqs: 1 1 0
+follower_free: 0
+follower_get: 5 4
+follower_info: 1 0
+follower_init: 5
+follower_put: 5 4
+follower_put_val: 5 4
+follower_tlv_cmd: 1 0 0 4
+fops_atomic_t_open: 2 1
+fops_atomic_t_ro_open: 2 1
+fops_atomic_t_wo_open: 2 1
+fops_size_t_open: 2 1
+fops_size_t_ro_open: 2 1
+fops_size_t_wo_open: 2 1
+fops_u16_open: 2 1
+fops_u16_ro_open: 2 1
+fops_u16_wo_open: 2 1
+fops_u32_open: 2 1
+fops_u32_ro_open: 2 1
+fops_u32_wo_open: 2 1
+fops_u64_open: 2 1
+fops_u64_ro_open: 2 1
+fops_u64_wo_open: 2 1
+fops_u8_open: 2 1
+fops_u8_ro_open: 2 1
+fops_u8_wo_open: 2 1
+fops_ulong_open: 2 1
+fops_ulong_ro_open: 2 1
+fops_ulong_wo_open: 2 1
+fops_x16_open: 2 1
+fops_x16_ro_open: 2 1
+fops_x16_wo_open: 2 1
+fops_x32_open: 2 1
+fops_x32_ro_open: 2 1
+fops_x32_wo_open: 2 1
+fops_x64_open: 2 1
+fops_x64_ro_open: 2 1
+fops_x64_wo_open: 2 1
+fops_x8_open: 2 1
+fops_x8_ro_open: 2 1
+fops_x8_wo_open: 2 1
+force_gpt_fn: 0
+force_sig: 0
+format_decode: 0 0
+fortify_panic: 1
+fprop_local_destroy_percpu: 0
+free_all_swap_pages: 1
+free_anon_bdev: 0
+free_async: 1
+free_buf: 4
+free_compound_page: 2
+free_debug_processing: 0 0 0 0 0 0
+free_dma: 0
+free_insn_page: 1
+free_irq: 1 1
+free_modprobe_argv: 0
+free_nonslab_page: 0
+free_optinsn_page: 1
+free_pcp_prepare: 0 0
+free_percpu: 1
+free_pg_vec: 0 0 0
+free_swap_slot: 1
+free_tail_pages_check: 0 0
+free_the_page: 0 0
+free_uid: 0
+free_unref_page: 2 0
+free_unref_page_commit: 0 0 0
+freeze_super: 1
+frequency_open: 2 1
+from_kgid: 0 4
+from_kuid_munged: 0 0
+fs_names_setup: 0
+fs_reclaim_acquire: 0
+fs_reclaim_release: 0
+fscontext_read: 1 2 4 8
+fscontext_release: 2 1
+fsnotify: 0 1 0 0 0 1 0
+fsnotify_compare_groups: 1 0
+fsnotify_destroy_event: 1 1
+fsnotify_file: 1 0
+fsnotify_first_mark: 1
+fsnotify_peek_first_event: 1
+fsnotify_perm: 1 0
+fsnotify_remove_first_event: 1
+fsync_bdev: 1
+ftrace_dump: 0
+ftrace_event_avail_open: 2 1
+ftrace_event_is_function: 1
+ftrace_event_npid_write: 1 2 4 8
+ftrace_event_pid_write: 1 2 4 8
+ftrace_event_register: 1 0 1
+ftrace_event_release: 2 1
+ftrace_event_set_npid_open: 2 1
+ftrace_event_set_open: 2 1
+ftrace_event_set_pid_open: 2 1
+ftrace_event_write: 1 2 4 8
+ftrace_formats_open: 2 1
+ftrace_profile_set_filter: 1 1 4
+ftrace_set_clr_event: 1 0 0
+full_name_hash: 1 2 2
+full_proxy_open: 2 1
+full_proxy_release: 2 1
+fw_devlink_setup: 0
+fw_devlink_strict_setup: 0
+fw_domains_open: 2 1
+fwtable_read32: 1 0 0
+fwtable_write32: 1 0 1 0
+gen11_disable_metric_set: 1
+gen11_fwtable_read32: 1 0 0
+gen11_fwtable_write32: 1 0 1 0
+gen11_irq_handler: 0 0
+gen12_disable_metric_set: 1
+gen12_fwtable_read32: 1 0 0
+gen12_fwtable_write32: 1 0 1 0
+gen12_oa_disable: 1
+gen12_oa_enable: 1
+gen2_read32: 1 0 0
+gen2_write32: 1 0 1 0
+gen5_read32: 1 0 0
+gen5_write32: 1 0 1 0
+gen6_read32: 1 0 0
+gen6_write32: 1 0 1 0
+gen7_oa_disable: 1
+gen7_oa_enable: 1
+gen8_disable_metric_set: 1
+gen8_irq_handler: 0 0
+gen8_oa_disable: 1
+gen8_oa_enable: 1
+gen8_write32: 1 0 1 0
+generate_pm_trace: 0 0
+generate_random_guid: 1
+generate_random_uuid: 1
+generic_cont_expand_simple: 1 1
+generic_copy_file_range: 1 4 4 4 4 0
+generic_exec_single: 1 0
+generic_file_direct_write: 0 0
+generic_file_llseek: 1 0 0
+generic_file_mmap: 1 2
+generic_file_open: 2 1
+generic_file_read_iter: 0 0
+generic_file_readonly_mmap: 1 2
+generic_file_rw_checks: 1 4
+generic_file_write_iter: 0 0
+generic_get_free_region: 0 0 0
+generic_permission: 4 4 0
+generic_read_dir: 1 2 4 0
+generic_rs485_config: 1 0
+generic_validate_add_page: 0 0 0
+generic_write_checks: 0 0
+generic_xdp_tx: 2 1
+genl_bind: 1 0
+genl_lock_done: 1
+genl_lock_dumpit: 1 1
+genl_parallel_done: 1
+genl_rcv: 1
+genl_start: 1
+get_acpi_device: 1
+get_any_partial: 0 0 0
+get_clock: 0
+get_cpu_entry_area: 0
+get_data: 0
+get_driver_name: 1
+get_ibs_fetch_count: 0
+get_ibs_op_count: 0
+get_mm_memcg_path: 1
+get_net_ns: 1
+get_nfs_open_context: 0
+get_partial_node: 0 0 0 0
+get_phy_tunable: 1 0
+get_pid_task: 1 0
+get_rps_cpu: 3 3 0
+get_sg_io_hdr: 1 4
+get_swap_page_of_type: 1
+get_target_version: 1 0 0
+get_task_mm: 1
+get_timeline_name: 1
+get_user_ifreq: 0 0 4
+get_work_pool: 0
+getconsxy: 1 0
+getname_kernel: 0
+gfp_pfmemalloc_allowed: 1
+gid_cmp: 0 0
+gpu_state_read: 1 2 4 8
+gpu_state_release: 2 1
+gro_cells_receive: 3 3
+group_sched_out: 1 0 1
+groups_to_user: 8 1
+gss_pipe_destroy_msg: 1
+gss_pipe_downcall: 1 7 4
+gss_pipe_release: 2
+gss_v0_upcall: 1 1 2 4
+gss_v1_upcall: 1 1 2 4
+guc_info_open: 2 1
+guc_load_err_log_dump_open: 2 1
+guc_log_dump_open: 2 1
+guc_log_level_fops_open: 2 1
+guc_log_relay_open: 2 1
+guc_log_relay_release: 2 1
+guc_log_relay_write: 1 2 4 8
+guc_mmio_reg_cmp: 0 0
+guc_registered_contexts_open: 2 1
+guc_slpc_info_open: 2 1
+guc_virtual_context_enter: 1
+guc_virtual_context_exit: 1
+handle_eviocgbit: 1 0 0 4 0
+handle_nested_irq: 0
+handle_poweroff: 0
+handle_sysrq: 0
+handle_threaded_wake_irq: 0 0
+hardlockup_panic_setup: 0
+hctx_dispatched_write: 1 2 4 8
+hctx_io_poll_write: 1 2 4 8
+hctx_queued_write: 1 2 4 8
+hctx_run_write: 1 2 4 8
+hda_hwdep_ioctl: 1 1 0 4
+hdmi_cea_alloc_to_tlv_chmap: 1 0 0 0
+hdmi_chmap_cea_alloc_validate_get_type: 1 0 0
+hdmi_chmap_ctl_get: 5 4
+hdmi_chmap_ctl_info: 1 0
+hdmi_chmap_ctl_put: 5 4
+hdmi_chmap_ctl_tlv: 1 0 0 4
+hibernate_setup: 0
+hibernation_restore: 1
+hibernation_snapshot: 1
+hid_add_device: 1
+hid_alloc_report_buf: 1 0
+hid_check_keys_pressed: 1
+hid_connect: 2 0
+hid_debug_events_open: 2 1
+hid_debug_events_read: 1 2 4 8
+hid_debug_events_release: 2 1
+hid_debug_rdesc_open: 2 1
+hid_debug_register: 1 1
+hid_debug_unregister: 1
+hid_dump_report: 1 1 1 1
+hid_hw_close: 2
+hid_hw_open: 1
+hid_hw_start: 2 0
+hid_ignore: 1
+hid_input_report: 1 1 1 1 0
+hid_lookup_quirk: 1
+hid_open_report: 1
+hid_output_report: 1 1
+hid_post_reset: 1
+hid_pre_reset: 1
+hid_report_raw_event: 1 1 1 1 0
+hid_reset_resume: 1
+hid_restart_io: 1
+hid_resume: 1
+hid_scan_report: 1
+hid_set_field: 1 0 0
+hid_start_in: 1
+hiddev_fasync: 1 1 4
+hiddev_ioctl: 1 0 4
+hiddev_ioctl_string: 1 4
+hiddev_ioctl_usage: 1 0 4
+hiddev_lookup_report: 1 0
+hiddev_open: 2 1
+hiddev_read: 1 2 4 8
+hiddev_release: 2 1
+hiddev_write: 1 2 4 8
+hidinput_connect: 2 0
+hidinput_count_leds: 1
+hidinput_getkeycode: 1 0
+hidinput_setkeycode: 1 0 0
+hidraw_connect: 1
+hidraw_fasync: 1 1 4
+hidraw_get_report: 1 4 0 0
+hidraw_ioctl: 1 2 4
+hidraw_open: 0 1
+hidraw_read: 1 2 4 0
+hidraw_release: 2 1
+hidraw_send_report: 1 2 4 0
+hidraw_write: 1 2 4 0
+hot_add_disk: 1 4
+hot_remove_disk: 1 4
+housekeeping_isolcpus_setup: 0
+housekeeping_nohz_full_setup: 0
+hpet_fasync: 1 1 4
+hpet_interrupt: 0 0
+hpet_ioctl: 1 2 4
+hpet_ioctl_common: 1 0 4 0
+hpet_mmap: 1 2
+hpet_msi_interrupt_handler: 0 0
+hpet_msi_mask: 1
+hpet_msi_unmask: 1
+hpet_open: 0 1
+hpet_read: 1 2 4 0
+hpet_release: 2 1
+hpet_rtc_interrupt: 0 0
+hpet_setup: 0
+hrtimer_cancel: 1
+hrtimer_forward: 1 1 1
+hrtimer_reprogram: 1 0
+hrtimer_start_range_ns: 1 1 0 0
+hrtimer_try_to_cancel: 1
+hsu_dma_tx_status: 0 0 0
+hsw_disable_metric_set: 1
+hsw_hw_config: 1
+hswep_cbox_hw_config: 1 1
+hswep_pcu_hw_config: 1 1
+hswep_ubox_hw_config: 1 1
+hswep_uncore_irp_read_counter: 1 1
+hub6_serial_in: 1 0
+hub6_serial_out: 1 0 1
+hub_activate: 1 0
+hub_disconnect: 4
+hub_ioctl: 1 0 0
+hub_port_disable: 1 1 0
+hub_port_init: 1 1 1 0
+hub_post_reset: 1
+hub_pre_reset: 1
+hub_quiesce: 1 0
+hub_reset_resume: 1
+hub_resume: 1
+huc_info_open: 2 1
+huge_add_to_page_cache: 1 1 1
+hugepages_setup: 0
+hugepagesz_setup: 0
+hugetlb_fault_mutex_hash: 1 1
+hugetlbfs_fallocate: 1 0 1 0
+hugetlbfs_file_mmap: 1 2
+hugetlbfs_read_iter: 0 0
+hung_up_tty_fasync: 1 1 4
+hung_up_tty_ioctl: 1 0 4
+hung_up_tty_read: 0 0
+hung_up_tty_write: 0 0
+hvc_chars_in_buffer: 1
+hvc_close: 1 1
+hvc_hangup: 1
+hvc_open: 0 1
+hvc_poll: 1
+hvc_remove: 1
+hvc_tiocmget: 1
+hvc_tiocmset: 1 4 4
+hvc_write: 1 2 4
+hw_breakpoint_arch_parse: 1 0 0
+hw_breakpoint_event_init: 1
+hw_breakpoint_weight: 1
+hw_perf_event_destroy: 1
+hw_protection_shutdown: 0 0
+hwrng_fillfn: 0
+i2c_del_adapter: 0
+i801_isr: 0 0
+i8042_aux_test_irq: 0 0
+i8042_interrupt: 0 0
+i8xx_irq_handler: 0 0
+i915_active_acquire: 1
+i915_active_add_request: 1 1
+i915_active_ref: 1 1 1
+i915_active_release: 1
+i915_displayport_test_active_open: 2 1
+i915_displayport_test_active_write: 1 2 4 8
+i915_displayport_test_data_open: 2 1
+i915_displayport_test_type_open: 2 1
+i915_driver_lastclose: 1
+i915_drop_caches_fops_open: 2 1
+i915_drrs_ctl_fops_open: 2 1
+i915_dsc_bpp_open: 2 1
+i915_dsc_bpp_write: 1 2 4 8
+i915_dsc_fec_support_open: 2 1
+i915_dsc_fec_support_write: 1 2 4 8
+i915_edp_psr_debug_fops_open: 2 1
+i915_error_state_open: 2 1
+i915_error_state_write: 1 2 4 8
+i915_fbc_false_color_fops_open: 2 1
+i915_fifo_underrun_reset_write: 1 2 4 8
+i915_forcewake_open: 2 1
+i915_forcewake_release: 2 1
+i915_gem_begin_cpu_access: 1 0
+i915_gem_end_cpu_access: 1 0
+i915_gem_free_object: 1
+i915_gem_object_create_region: 1 5 0 0
+i915_gem_object_create_shmem: 1 5
+i915_gem_object_has_iomem: 1
+i915_gem_object_has_struct_page: 1
+i915_gem_object_pin_map: 1 0
+i915_gem_object_placement_possible: 1 0
+i915_gem_object_set_to_cpu_domain: 1 0
+i915_gem_object_set_to_gtt_domain: 1 0
+i915_gem_reject_pin_ioctl: 1 0 1
+i915_gpu_coredump_copy_to_buffer: 1 4 8 4
+i915_gpu_info_open: 2 1
+i915_hdcp_sink_capability_open: 2 1
+i915_hpd_short_storm_ctl_open: 2 1
+i915_hpd_short_storm_ctl_write: 1 2 4 8
+i915_hpd_storm_ctl_open: 2 1
+i915_hpd_storm_ctl_write: 1 2 4 8
+i915_ipc_status_open: 2 1
+i915_ipc_status_write: 1 2 4 8
+i915_irq_handler: 0 0
+i915_lpsp_capability_open: 2 1
+i915_oa_read: 1 2 4 0
+i915_oa_stream_destroy: 1
+i915_oa_stream_disable: 1
+i915_oa_stream_enable: 1
+i915_oa_wait_unlocked: 1
+i915_panel_open: 2 1
+i915_param_charp_open: 2 1
+i915_param_int_open: 2 1
+i915_param_int_write: 1 2 4 8
+i915_param_uint_open: 2 1
+i915_param_uint_write: 1 2 4 8
+i915_perf_get_oa_config: 1 4
+i915_perf_ioctl: 1 0 4
+i915_perf_noa_delay_fops_open: 2 1
+i915_perf_read: 1 2 4 8
+i915_perf_release: 2 1
+i915_pmu_event_destroy: 1
+i915_pmu_event_event_idx: 1
+i915_pmu_event_init: 1
+i915_pmu_event_read: 1
+i915_psr_sink_status_open: 2 1
+i915_psr_status_open: 2 1
+i915_request_add: 1
+i915_request_await_active: 1 0 0
+i915_request_await_dma_fence: 1 0
+i915_request_await_object: 1 1 0
+i915_request_create: 1
+i915_request_retire: 1
+i915_reset_error_state: 1
+i915_sched_node_init: 0
+i915_sw_fence_commit: 1
+i915_vm_alloc_pt_stash: 1 0 1
+i915_vm_lock_objects: 1 0
+i915_vm_map_pt_stash: 1 0
+i915_vma_bind: 1 1 0 0
+i915_vma_insert: 1 0 0 0
+i915_vma_instance: 1 1 0
+i915_vma_move_to_active: 1 1 0
+i915_vma_pin_ww: 1 0 0 0 0
+i915_wedged_fops_open: 2 1
+i965_irq_handler: 0 0
+ic_bootp_recv: 0 0 0 3
+ic_rarp_recv: 0 0 0 3
+icl_set_topdown_event_period: 1
+icl_update_topdown_event: 1
+icmp6_send: 3 0 0 0 0 3
+icmp_out_count: 1 0
+icmp_route_lookup: 3 0 3 3 3 3 3 0 0 0
+icmpv4_xrlim_allow: 3 3 0 0 0
+icmpv6_push_pending_frames: 3 0 0 3
+icmpv6_rcv: 3
+icmpv6_route_lookup: 3 3 3 0
+icmpv6_rt_has_prefsrc: 3 0
+icmpv6_xrlim_allow: 3 0 0
+icx_cha_hw_config: 1 1
+ida_free: 0 1
+idle_setup: 0
+idmap_pipe_destroy_msg: 1
+idmap_pipe_downcall: 1 7 4
+idmap_release_pipe: 2
+idr_alloc: 0 0 4 4 0
+idr_find: 0 2
+idr_remove: 0 4
+idr_replace: 0 0 0
+ieee80211_get_hdrlen_from_skb: 3
+ieee80211_get_regs_len: 1
+ieee80211_open: 1
+ieee80211_stop: 1
+ignore_loglevel_setup: 0
+ignore_task_cpu: 1
+igrab: 1
+ihold: 0
+ilk_irq_handler: 0 0
+import_iovec: 1 1 1 0 0 0
+import_single_range: 1 0 0 0 0
+in_aton: 0
+in_group_p: 1
+inet6_bind: 1 2 4
+inet6_compat_ioctl: 1 0 4
+inet6_destroy_sock: 1
+inet6_dump_fib: 1 1
+inet6_dump_ifacaddr: 1 1
+inet6_dump_ifaddr: 1 1
+inet6_dump_ifinfo: 1 1
+inet6_dump_ifmcaddr: 1 1
+inet6_getname: 1 0 0
+inet6_hash: 1
+inet6_ioctl: 1 2 4
+inet6_lookup_listener: 3 0 3 3 3 3 3 3 3 0
+inet6_netconf_dump_devconf: 1 1
+inet6_recvmsg: 1 2 0 4
+inet6_release: 2
+inet6_sendmsg: 1 2 0
+inet6_sk_rebuild_header: 1
+inet_accept: 1 0 0 0
+inet_addr_type: 1 0
+inet_bind: 1 2 4
+inet_compat_ioctl: 1 0 4
+inet_csk_accept: 1 0 0 0
+inet_csk_clear_xmit_timers: 1
+inet_csk_delete_keepalive_timer: 1
+inet_csk_destroy_sock: 1
+inet_csk_listen_start: 1 0
+inet_csk_listen_stop: 1
+inet_csk_prepare_forced_close: 1
+inet_csk_reqsk_queue_drop: 1 1
+inet_csk_reqsk_queue_drop_and_put: 3 3
+inet_csk_reset_keepalive_timer: 1 0
+inet_dgram_connect: 1 2 4 0
+inet_dump_fib: 1 1
+inet_dump_ifaddr: 1 1
+inet_frag_destroy: 3
+inet_frag_find: 3 0
+inet_frag_kill: 3
+inet_frag_queue_insert: 3 3 3 3
+inet_frag_rbtree_purge: 3
+inet_frag_reasm_finish: 3 3 3 3
+inet_frag_reasm_prepare: 3 3 3
+inet_getname: 1 0 0
+inet_getpeer: 3 0 0
+inet_gifconf: 1 0 0 0
+inet_hash: 1
+inet_ioctl: 1 2 4
+inet_listen: 1 0
+inet_netconf_dump_devconf: 1 1
+inet_put_port: 1
+inet_putpeer: 3
+inet_recv_error: 1 2 2 0
+inet_recvmsg: 1 2 0 4
+inet_release: 2
+inet_rtx_syn_ack: 1 1
+inet_select_addr: 3 3 0
+inet_send_prepare: 1
+inet_sendmsg: 1 2 0
+inet_sk_rebuild_header: 1
+inet_sk_set_state: 1 0
+inet_sk_state_store: 1 0
+inet_sock_destruct: 1
+inet_stream_connect: 1 2 4 0
+inet_twsk_deschedule_put: 3
+inet_twsk_put: 3
+inet_unhash: 1
+init_8259A: 0
+init_debug_store_on_cpu: 0
+init_dummy_netdev: 1
+init_once: 1
+init_peercred: 3
+init_pkru_read_file: 1 2 4 8
+init_pkru_write_file: 1 2 4 8
+init_setup: 0
+init_timer_key: 1 0 0 0 0
+initcall_blacklist: 0
+initramfs_async_setup: 0
+inode_dio_wait: 1
+inode_doinit_use_xattr: 1 1 0 0
+inode_doinit_with_dentry: 1 0
+inode_get_bytes: 1
+inode_init_once: 0
+inode_newsize_ok: 1 1
+inode_owner_or_capable: 1 1
+inotify_ioctl: 1 0 4
+inotify_read: 1 2 4 8
+inotify_release: 2 1
+input_close_device: 1
+input_default_getkeycode: 1 0
+input_default_setkeycode: 1 0 0
+input_event_from_user: 2 0
+input_event_to_user: 2 0
+input_ff_effect_from_user: 4 0 0
+input_ff_erase: 1 4 1
+input_ff_flush: 1 1
+input_ff_upload: 1 0 1
+input_flush_device: 1 1
+input_free_minor: 0
+input_get_keycode: 1 0
+input_get_timestamp: 1
+input_grab_device: 1
+input_handle_event: 1 0 0 4
+input_inject_event: 1 0 0 0
+input_pass_values: 1 0 0
+input_proc_devices_open: 2 1
+input_proc_handlers_open: 2 1
+input_release_device: 1
+input_set_keycode: 1 0
+instance_mkdir: 0
+instance_rmdir: 0
+int_pln_enable_setup: 0
+int_sqrt: 0
+intcapxt_mask_irq: 1
+intcapxt_unmask_irq: 1
+integrity_audit_setup: 0
+intel_crtc_arm_fifo_underrun: 1 1
+intel_enable_ipc: 1
+intel_fbc_reset_underrun: 1
+intel_frontbuffer_put: 1
+intel_guc_global_policies_update: 1
+intel_guc_log_relay_flush: 1
+intel_guc_log_relay_start: 1
+intel_iommu_setup: 0
+intel_pebs_aliases_core2: 1
+intel_pebs_aliases_ivb: 1
+intel_pebs_aliases_skl: 1
+intel_pebs_aliases_snb: 1
+intel_pmu_add_event: 1
+intel_pmu_arch_lbr_restore: 1
+intel_pmu_arch_lbr_save: 1
+intel_pmu_arch_lbr_xrstors: 1
+intel_pmu_arch_lbr_xsaves: 1
+intel_pmu_auto_reload_read: 1
+intel_pmu_aux_output_match: 1
+intel_pmu_check_period: 1 0
+intel_pmu_cpu_dead: 0
+intel_pmu_cpu_dying: 0
+intel_pmu_cpu_starting: 0
+intel_pmu_del_event: 1
+intel_pmu_disable_event: 1
+intel_pmu_disable_fixed: 1
+intel_pmu_enable_all: 0
+intel_pmu_enable_bts: 1
+intel_pmu_enable_event: 1
+intel_pmu_enable_fixed: 1
+intel_pmu_filter_match: 1
+intel_pmu_hw_config: 1
+intel_pmu_lbr_add: 1
+intel_pmu_lbr_del: 1
+intel_pmu_nhm_enable_all: 0
+intel_pmu_pebs_add: 1
+intel_pmu_pebs_del: 1
+intel_pmu_pebs_disable: 1
+intel_pmu_pebs_enable: 1
+intel_pmu_read_event: 1
+intel_pstate_setup: 0
+intel_pstate_update_limits: 0
+intel_pt_handle_vmx: 0
+intel_runtime_pm_get: 1
+intel_runtime_pm_put_unchecked: 1
+intel_set_masks: 1 0
+intel_tfa_pmu_enable_all: 0
+intel_uncore_forcewake_user_put: 2
+internal_add_timer: 0 0
+invalidate_bdev: 1
+invalidate_bh_lru: 1
+io_delay_param: 0
+io_err_ctr: 0 0 0
+io_err_dtr: 0
+io_ring_ctx_wait_and_kill: 1
+io_schedule_timeout: 0
+io_serial_in: 1 0
+io_serial_out: 1 0 1
+io_sq_thread: 0
+io_uring_get_socket: 0
+io_uring_mmap: 1 2
+io_uring_release: 2 1
+io_wqe_worker: 0
+ioam6_genl_dumpns: 1 1
+ioam6_genl_dumpns_done: 1
+ioam6_genl_dumpns_start: 1
+ioam6_genl_dumpsc: 1 1
+ioam6_genl_dumpsc_done: 1
+ioam6_genl_dumpsc_start: 1
+ioapic_ack_level: 1
+ioapic_ir_ack_level: 1
+ioapic_irq_get_chip_state: 1 0 0
+ioasid_get: 0
+ioasid_set_data: 0 0
+iomap_invalidatepage: 1 0 1
+iommu_dma_forcedac_setup: 0
+iommu_dma_setup: 0
+iommu_set_def_domain_type: 0
+iommu_setup: 0
+ioport_unmap: 1
+ioread16: 0
+ioread16be: 0
+ioread32: 0
+ioread32be: 0
+ioread8: 0
+iot2040_rs485_config: 1 0
+iounmap: 1
+iov_iter_advance: 0 0
+iov_iter_init: 0 0 0 0 4
+iov_iter_revert: 0 0
+iov_iter_single_seg_count: 2
+iov_iter_zero: 0 0
+ip4_datagram_connect: 1 2 4 0
+ip4_datagram_release_cb: 1
+ip6_append_data: 1 1 2 2 0 0 0 1 2
+ip6_confirm_neigh: 1 0
+ip6_cork_release: 0 0
+ip6_datagram_connect: 1 2 4 0
+ip6_datagram_connect_v6_only: 1 2 4 0
+ip6_datagram_recv_common_ctl: 1 2 3
+ip6_datagram_recv_ctl: 1 2 3
+ip6_datagram_recv_specific_ctl: 1 2 3
+ip6_datagram_release_cb: 1
+ip6_datagram_send_ctl: 1 1 2 0 0
+ip6_dst_hoplimit: 1
+ip6_dst_lookup_tail: 1 1 0 0
+ip6_flush_pending_frames: 1
+ip6_input: 3
+ip6_input_finish: 3 0 3
+ip6_link_failure: 1
+ip6_make_skb: 1 1 2 2 0 0 0 1 2 0
+ip6_negative_advice: 1
+ip6_parse_tlv: 0 3 3
+ip6_pkt_discard: 3
+ip6_pkt_prohibit: 3
+ip6_push_pending_frames: 1
+ip6_route_input: 3
+ip6_send_skb: 1
+ip6_setup_cork: 1 0 0 0 1 0
+ip6_sk_dst_lookup_flow: 1 0 1 1
+ip6_sk_dst_store_flow: 1 1 0
+ip6addrlbl_dump: 1 1
+ip_append_data: 1 0 0 0 2 0 0 0 2
+ip_auto_config_setup: 0
+ip_cmsg_recv_offset: 2 1 3 0 0
+ip_cmsg_send: 1 2 0 0
+ip_defrag: 3 3 0
+ip_error: 3
+ip_flush_pending_frames: 1
+ip_getsockopt: 1 2 4 8 0 16
+ip_local_deliver: 3
+ip_local_deliver_finish: 3 0 3
+ip_make_skb: 1 1 1 2 2 0 0 0 0 2
+ip_mc_check_igmp: 3
+ip_protocol_deliver_rcu: 3 3 3
+ip_push_pending_frames: 1 0
+ip_rcv: 0 0 0 3
+ip_recv_error: 1 2 2 0
+ip_route_output_flow: 1 0 1
+ip_rt_ioctl: 1 0 0
+ip_send_check: 3
+ip_setsockopt: 1 2 4 8 0 16
+ip_sock_set_freebind: 1
+ip_sock_set_mtu_discover: 1 0
+ip_sock_set_pktinfo: 1
+ip_sock_set_recverr: 1
+ip_sock_set_tos: 1 8
+ip_tunnel_get_iflink: 1
+ip_tunnel_init: 1
+ip_tunnel_parse_protocol: 3
+ip_tunnel_rcv: 3 3 0 0 0
+ip_tunnel_setup: 1 0
+ipc_mni_extend: 0
+ipcns_owner: 1
+ipcns_put: 1
+ipi_handler: 1
+ipi_mb: 1
+ipi_rseq: 1
+ipi_sync_core: 1
+ipi_sync_rq_state: 1
+ipip6_rcv: 3
+ipip6_tunnel_init: 1
+ipip6_tunnel_lookup: 3 3 3 3 3
+ipip6_tunnel_siocdevprivate: 1 0 0 0
+ipip_rcv: 3
+ipmr_rtm_dumplink: 1 1
+ipmr_rtm_dumproute: 1 1
+iput: 1
+ipv4_confirm_neigh: 1 0
+ipv4_link_failure: 1
+ipv4_negative_advice: 1
+ipv4_pktinfo_prepare: 1 2
+ipv6_chk_acast_addr_src: 1 1 2
+ipv6_chk_addr: 3 3 3 0
+ipv6_chk_addr_and_flags: 1 2 1 2 0 0
+ipv6_destopt_rcv: 3
+ipv6_dev_get_saddr: 3 3 0 3 0
+ipv6_fixup_options: 0 1
+ipv6_frag_rcv: 3
+ipv6_getsockopt: 1 2 4 8 0 16
+ipv6_mc_check_mld: 3
+ipv6_rcv: 0 0 0 3
+ipv6_recv_error: 1 2 2 0
+ipv6_recv_rxpmtu: 1 2 2 0
+ipv6_renew_options: 1 1 0 0
+ipv6_route_input: 3
+ipv6_route_ioctl: 1 0 0
+ipv6_rthdr_rcv: 3
+ipv6_setsockopt: 1 2 4 8 0 16
+ipv6_skip_exthdr: 3 3 0 0
+irq_affinity_list_proc_open: 2 1
+irq_affinity_list_proc_write: 1 2 4 8
+irq_affinity_proc_open: 2 1
+irq_affinity_proc_write: 1 2 4 8
+irq_affinity_setup: 0
+irq_chip_ack_parent: 1
+irq_chip_disable_parent: 1
+irq_chip_enable_parent: 1
+irq_chip_eoi_parent: 1
+irq_chip_mask_ack_parent: 1
+irq_chip_mask_parent: 1
+irq_chip_pm_get: 1
+irq_chip_pm_put: 1
+irq_chip_release_resources_parent: 1
+irq_chip_unmask_parent: 1
+irq_default_primary_handler: 0 0
+irq_disable: 0
+irq_dispose_mapping: 0
+irq_domain_deactivate_irq: 1
+irq_domain_free_irqs: 0 0
+irq_domain_reset_irq_data: 1
+irq_domain_update_bus_token: 0 0
+irq_forced_secondary_handler: 0 0
+irq_free_descs: 0 0
+irq_modify_status: 0 0 0
+irq_nested_primary_handler: 0 0
+irq_percpu_disable: 0 0
+irq_pm_remove_action: 1 1
+irq_set_chip_and_handler_name: 0 0 0 0
+irq_set_chip_data: 0 0
+irq_set_handler_data: 0 0
+irq_set_vcpu_affinity: 0 0
+irq_shutdown: 1
+irq_thread: 0
+irq_to_desc: 1
+irqfixup_setup: 0
+irqpoll_setup: 0
+is_acpi_device_node: 1
+is_cpu_allowed: 0 0
+is_hibernate_resume_dev: 0
+is_vmalloc_addr: 0
+iunique: 1 0
+ivbep_cbox_hw_config: 1 1
+ivbep_uncore_irp_read_counter: 1 1
+jbd2_cleanup_journal_tail: 1
+jbd2_journal_abort: 1 0
+jbd2_journal_flush: 1 0
+jbd2_journal_get_log_tail: 1 0 0
+jbd2_journal_lock_updates: 1
+jbd2_journal_start_commit: 1 0
+jbd2_journal_unlock_updates: 1
+jbd2_log_do_checkpoint: 1
+jbd2_log_start_commit: 1 1
+jbd2_log_wait_commit: 1 0
+jbd2_mark_journal_empty: 1 0
+jbd2_seq_info_open: 2 1
+jbd2_seq_info_release: 2 1
+jbd2_trans_will_send_data_barrier: 1 1
+jbd2_write_superblock: 1 0
+jiffies64_to_msecs: 0
+jiffies64_to_nsecs: 0
+jiffies_64_to_clock_t: 0
+jiffies_to_clock_t: 1
+jiffies_to_msecs: 1
+jump_label_cmp: 0 0
+kallsyms_open: 2 1
+kallsyms_show_value: 1
+kauditd_hold_skb: 1
+kauditd_retry_skb: 1
+kauditd_send_multicast_skb: 1
+kauditd_thread: 0
+kcalloc: 0 0
+kcompactd: 0
+keep_bootcon_setup: 0
+kern_path: 2 0 0
+kernel_fpu_begin_mask: 0
+kernel_init: 0
+kernel_restart: 1
+kernel_sock_ip_overhead: 1
+kernfs_dir_fop_release: 2 1
+kernfs_fop_open: 2 1
+kernfs_fop_read_iter: 0 0
+kernfs_fop_release: 2 1
+kernfs_fop_write_iter: 0 0
+kernfs_get_active: 0
+kernfs_iop_permission: 4 4 0
+kernfs_notify: 1
+kernfs_put_active: 0
+kernfs_put_open_node: 2 0
+key_put: 0
+keyring_detect_cycle_iterator: 0 0
+keyring_diff_objects: 0 0
+keyring_free_object: 1
+keyring_gc_check_iterator: 0 0
+keyring_read_iterator: 0 0
+keyring_search_iterator: 0 0
+kfree: 0
+kfree_const: 1
+kfree_link: 1
+kfree_sensitive: 1
+kfree_skb: 0
+kfree_skb_list: 1
+khvcd: 0
+kick_process: 0
+kill_fasync: 0 0 0
+kill_pgrp: 1 0 0
+kjournald2: 0
+kmalloc_array: 0 0 0
+kmalloc_fix_flags: 0
+kmalloc_large_node: 0 0 0
+kmalloc_order: 0 0 4
+kmalloc_slab: 4 0
+kmem_cache_alloc: 0 0
+kmem_cache_alloc_node: 0 1 0
+kmem_cache_alloc_node_trace: 0 0 0 0
+kmem_cache_destroy: 1
+kmem_cache_free: 0 0
+kmem_dump_obj: 1
+kmem_obj_info: 0 0 0
+kmem_valid_obj: 0
+kmemdup: 0 0 0
+kmemdup_nul: 4 0 0
+kmmpd: 0
+kmsg_open: 2 1
+kmsg_read: 1 2 4 8
+kmsg_release: 2 1
+knc_pmu_disable_event: 1
+knc_pmu_enable_all: 0
+knc_pmu_enable_event: 1
+knl_cha_hw_config: 1 1
+kobject_init: 1 0
+kobject_uevent: 0 0
+kobject_uevent_env: 0 0 0
+kpagecgroup_read: 1 2 4 8
+kpagecount_read: 1 2 4 8
+kpageflags_read: 1 2 4 8
+kprobe_blacklist_open: 2 1
+kprobe_event_delete: 0
+kprobe_register: 1 0 1
+kprobes_open: 2 1
+krealloc: 1 1 0
+kref_get_unless_zero: 1
+kref_put: 1
+ksize: 1
+kstrtobool_from_user: 2 4 0
+kstrtoint: 6 0 0
+kstrtoint_from_user: 2 4 0 1
+kstrtou16_from_user: 2 4 0 0
+kstrtouint_from_user: 2 4 0 1
+kstrtoul_from_user: 2 4 0 0
+kstrtoull_from_user: 2 4 0 0
+kswapd: 0
+kt_serial_in: 1 0
+kthread: 0
+kthread_stop: 1
+kthread_worker_fn: 0
+kvfree: 1
+kvfree_call_rcu: 1 0
+kvm_async_pf_task_wait_schedule: 0
+kvm_async_pf_task_wake: 0
+kvm_clock_get_cycles: 0
+kvm_disable_host_haltpoll: 1
+kvm_enable_host_haltpoll: 1
+kvm_pv_guest_cpu_reboot: 1
+kvmalloc_node: 0 0 0
+kzalloc: 4
+l1d_flush_parse_cmdline: 0
+l1tf_cmdline: 0
+lapic_assign_legacy_vector: 0 0
+ldsem_down_read: 1 0
+ldsem_down_read_trylock: 1
+ldsem_down_write: 1 0
+ldsem_up_read: 1
+ldsem_up_write: 1
+lease_break_callback: 1
+leave_mm: 0
+legacy_pic_int_noop: 0
+legacy_pic_uint_noop: 0
+lg_g15_raw_event: 1 1 1 1
+lg_raw_event: 1 1 1 1
+linear_ctr: 0 0 0
+linear_dtr: 0
+linear_iterate_devices: 0 0 0
+linear_status: 0 0 0 0 0
+list_del_event: 1 1
+list_devices: 1 0 0
+list_lru_destroy: 1
+list_version_get_info: 0 0
+list_version_get_needed: 0 0
+list_versions: 1 0 0
+llc_open: 2 1
+llist_add_batch: 0 0 0
+lo_ioctl: 1 0 2 4
+lo_open: 1 2
+load_direct_gdt: 0
+load_elf_library: 1
+load_fixmap_gdt: 0
+load_ramdisk: 0
+lock_acquire: 0 0 0 0 0 0 0
+lock_buffer: 2
+lock_downgrade: 1 0
+lock_is_held_type: 0 0
+lock_page_lruvec_irqsave: 2 0
+lock_page_memcg: 2
+lock_pin_lock: 1
+lock_release: 0 0
+lock_sock_nested: 1 0
+lock_unpin_lock: 1 1
+lockd: 0
+lockdep_init_map_type: 5 0 0 0 0 0 0
+lockdep_rht_bucket_is_held: 1 1
+lockdep_rht_mutex_is_held: 1
+lockdep_sb_freeze_acquire: 1
+lockdep_sb_freeze_release: 1
+lockref_get: 5
+lockref_get_not_dead: 1
+locks_unlink_lock_ctx: 1
+log_buf_len_setup: 0
+loglevel: 0
+logon_vet_description: 0
+look_up_lock_class: 0 0
+lookup_mnt: 0
+lookup_one_len: 4 1 4
+lookup_rules_ops: 1 0
+loop_add: 4
+loop_control_ioctl: 1 2 4
+loop_probe: 0
+loopback_dev_init: 1
+lpe_audio_irq_mask: 1
+lpe_audio_irq_unmask: 1
+lpj_setup: 0
+lru_cache_add: 2
+lsm_read: 1 2 4 0
+lzo_compress_threadfn: 0
+lzo_decompress_threadfn: 0
+machine_real_restart: 0
+machine_restart: 0
+make_8259A_irq: 0
+make_kgid: 0 2
+make_kprojid: 0 0
+make_kuid: 1 0
+mark_buffer_dirty: 1
+mark_page_accessed: 2
+mark_tsc_unstable: 1
+mask_8259A_irq: 0
+mask_and_ack_8259A: 1
+mask_ioapic_irq: 1
+mask_lapic_irq: 1
+master_free: 0
+master_get: 5 4
+master_info: 1 0
+master_put: 5 4
+match_held_lock: 0 0
+max_loop_setup: 0
+maxcpus: 0
+may_umount: 0
+may_umount_tree: 0
+maybe_add_creds: 3 1 1
+mc146818_set_time: 0
+mce_adjust_timer_default: 0
+mce_cpu_restart: 1
+mce_disable_cmci: 1
+mce_enable_ce: 1
+mcheck_disable: 0
+mcheck_enable: 0
+md_add_new_disk: 1 0
+md_alloc: 0 0
+md_error: 1 1
+md_getgeo: 1 0
+md_ioctl: 1 0 2 4
+md_open: 1 2
+md_probe: 0
+md_seq_open: 2 1
+md_set_array_info: 1 0
+md_set_read_only: 1 4
+md_set_readonly: 1 1
+md_setup: 0
+md_thread: 0
+mddev_unlock: 1
+mdiobus_get_phy: 1 1
+mds_cmdline: 0
+mem16_serial_in: 1 0
+mem16_serial_out: 1 0 1
+mem32_serial_in: 1 0
+mem32_serial_out: 1 0 1
+mem32be_serial_in: 1 0
+mem32be_serial_out: 1 0 1
+mem_cgroup_charge_skmem: 1 1 0
+mem_cgroup_uncharge_skmem: 1 8
+mem_cgroup_update_lru_size: 2 2 2 0
+mem_dump_obj: 1
+mem_open: 0 1
+mem_read: 1 2 4 0
+mem_release: 2 1
+mem_rw: 1 2 4 8 0
+mem_serial_in: 1 0
+mem_serial_out: 1 0 1
+mem_sleep_default_setup: 0
+mem_write: 1 2 4 0
+memcg_alloc_page_obj_cgroups: 0 0 0 0
+memcg_slab_free_hook: 0 0 0
+memcg_slab_post_alloc_hook: 0 0 0 0 0
+memchr: 4 0 4
+memcmp: 0 1 1
+memcpy: 0 1 1
+memdup_user: 2 4
+memdup_user_nul: 2 4
+memory_bm_find_bit: 0 0 0 0
+memory_open: 0 1
+mempool_free: 0 0
+memremap: 8 12 0
+memtype_free: 0 0
+memtype_seq_open: 2 1
+memunmap: 1
+message_stats_print: 0 0 0 0 0 0
+microcode_fini_cpu_amd: 0
+migration_cpu_stop: 0
+mii_ethtool_get_link_ksettings: 1 0
+minstrel_ht_free: 1
+minstrel_ht_get_expected_throughput: 0
+mirror_ctr: 0 0 0
+mirror_dtr: 0
+mirror_iterate_devices: 0 0 0
+mirror_status: 0 0 0 0 0
+misc_open: 0 1
+mitigations_parse_cmdline: 0
+ml_ff_upload: 1 0 1
+mmap_mem: 1 2
+mmap_write_unlock: 1
+mmap_zero: 1 2
+mmput: 1
+mnt_cursor_del: 1 1
+mnt_want_write_file: 1
+mntget: 0
+mntns_owner: 1
+mntns_put: 1
+mntput: 0
+mod_delayed_work_on: 0 0 1 0
+mod_objcg_state: 0 0 0 0
+mod_timer: 5 5
+modify_user_hw_breakpoint_check: 1 0 0
+module_memfree: 0
+module_put: 1
+modules_open: 2 1
+mon_bin_fetch: 1 1 0 0
+mon_bin_flush: 1 0
+mon_bin_get_event: 1 1 0 0 0 0
+mon_bin_ioctl: 1 2 4
+mon_bin_mmap: 1 2
+mon_bin_open: 0 1
+mon_bin_read: 1 2 4 0
+mon_bin_release: 2 1
+mon_bin_wait_event: 1 1
+mon_reader_del: 2 1
+mon_stat_open: 2 1
+mon_stat_release: 2 1
+mon_text_ctor: 1
+mon_text_open: 2 1
+mon_text_read_data: 0 1
+mon_text_read_statset: 0 1
+mon_text_read_t: 1 2 4 8
+mon_text_read_u: 1 2 4 8
+mon_text_read_wait: 1 1
+mon_text_release: 2 1
+mount_param: 0
+mountinfo_open: 2 1
+mounts_open: 2 1
+mounts_open_common: 2 1 0
+mounts_release: 2 1
+mountstats_open: 2 1
+mp_map_gsi_to_irq: 0 0 0
+mp_unmap_irq: 0
+mpol_shared_policy_lookup: 1 1
+mqueue_read_file: 1 2 4 0
+mrtsock_destruct: 1
+msg_print_ext_body: 1 1 1 1 1
+msg_zerocopy_callback: 1 1 0
+msg_zerocopy_put_abort: 3 0
+msg_zerocopy_realloc: 1 2 1
+msr_event_init: 1
+msr_event_start: 1 0
+msr_event_stop: 1 0
+msr_event_update: 1
+msr_ioctl: 1 2 4
+msr_open: 0 1
+msr_read: 1 2 4 0
+msr_write: 1 2 4 0
+mtrr_add_page: 0 0 0 0
+mtrr_close: 2 1
+mtrr_del_page: 0 0 0
+mtrr_file_add: 0 0 0 1 0
+mtrr_ioctl: 1 0 4
+mtrr_open: 2 1
+mtrr_rendezvous_handler: 0
+mtrr_write: 1 2 4 8
+multi_cpu_stop: 0
+mutex_destroy: 0
+mutex_lock_io_nested: 1 0
+mutex_lock_nested: 0 0
+mutex_optimistic_spin: 1 0 0
+mutex_trylock: 1
+mutex_unlock: 0
+n_null_close: 1
+n_null_open: 1
+n_null_receivebuf: 1 0 0 0
+n_tty_close: 1
+n_tty_flush_buffer: 1
+n_tty_ioctl: 1 1 0 4
+n_tty_ioctl_helper: 1 1 0 4
+n_tty_kick_worker: 1
+n_tty_open: 1
+n_tty_receive_buf: 1 0 0 0
+n_tty_receive_buf_common: 1 0 0 0 0
+n_tty_write_wakeup: 1
+name_to_dev_t: 0
+napi_busy_loop: 1 2 1 1 1
+napi_disable: 1
+napi_get_frags: 1
+napi_gro_frags: 1
+napi_reuse_skb: 1 1
+napi_schedule_prep: 1
+napi_skb_free_stolen_head: 1
+napi_threaded_poll: 0
+native_machine_restart: 1
+native_stop_other_cpus: 0
+ncpus_cmp_func: 0 0
+ndisc_is_multicast: 0
+neigh_dump_info: 1 1
+neigh_rand_reach_time: 0
+neightbl_dump_info: 1 1
+net_failover_close: 1
+net_failover_open: 1
+net_generic: 3 0
+net_selftest_get_strings: 1
+net_test_netif_carrier: 1
+net_test_phy_loopback_disable: 1
+net_test_phy_loopback_enable: 1
+net_test_phy_loopback_tcp: 1
+net_test_phy_loopback_udp: 1
+net_test_phy_loopback_udp_mtu: 1
+net_test_phy_phydev: 1
+netdev_get_name: 1 0 0
+netdev_info: 1 0 1 1
+netdev_ioctl: 1 0 0
+netdev_master_upper_dev_get_rcu: 2
+netdev_refcnt_read: 1
+netif_carrier_off: 1
+netif_carrier_on: 1
+netif_receive_skb: 3
+netif_receive_skb_core: 3
+netif_receive_skb_internal: 3
+netif_receive_skb_list_internal: 1
+netif_rx: 3
+netif_rx_any_context: 3
+netif_rx_internal: 3
+netif_rx_ni: 3
+netif_set_real_num_rx_queues: 1 1
+netif_set_real_num_tx_queues: 1 1
+netif_tx_wake_all_queues: 1
+netlbl_calipso_listall: 1 1
+netlbl_cipsov4_listall: 1 1
+netlbl_mgmt_listall: 1 1
+netlbl_mgmt_protocols: 1 1
+netlbl_sock_getattr: 1 0
+netlbl_unlabel_staticlist: 1 1
+netlbl_unlabel_staticlistdef: 1 1
+netlink_attachskb: 3 3 0 3
+netlink_autobind: 1
+netlink_bind: 1 2 4
+netlink_broadcast_filtered: 1 2 3 1 0 0 0
+netlink_connect: 1 2 4 0
+netlink_data_ready: 1
+netlink_deliver_tap: 1 2
+netlink_dump: 1
+netlink_getname: 1 0 0
+netlink_getsockopt: 1 2 4 8 0 16
+netlink_has_listeners: 1 0
+netlink_insert: 1 0
+netlink_ioctl: 1 2 4
+netlink_kernel_release: 1
+netlink_lookup: 3 3 3
+netlink_recvmsg: 1 2 0 4
+netlink_release: 2
+netlink_sendmsg: 1 2 0
+netlink_setsockopt: 1 2 4 8 0 16
+netlink_skb_destructor: 1
+netlink_sock_destruct: 1
+netlink_trim: 2 0
+netlink_unicast: 1 2 3 2
+netlink_update_listeners: 1
+netlink_update_socket_mc: 1 0 4
+netns_owner: 1
+netns_put: 1
+new_inode: 1
+nexthop_fib_nhc: 1 0
+nexthop_get_nhc_lookup: 1 0 0 0
+nexthop_is_blackhole: 1
+nexthop_num_path: 1
+nf_conntrack_destroy: 1
+nf_hook: 0 3 3 3 0
+nf_hook_slow: 3 0 3 0
+nfnetlink_bind: 1 0
+nfnetlink_has_listeners: 1 0
+nfnetlink_rcv: 1
+nfnl_pernet: 1
+nfo_ethtool_get_link_ksettings: 1 0
+nfs3_nlm_alloc_call: 1
+nfs3_nlm_release_call: 1
+nfs3_proc_lock: 0 0 0
+nfs4_callback_svc: 0
+nfs4_close_state: 0 0
+nfs4_delegreturn_release: 1
+nfs4_do_unlck: 0 0 0 0
+nfs4_file_open: 0 1
+nfs4_free_closedata: 1
+nfs4_free_lock_state: 0 0
+nfs4_lock_release: 1
+nfs4_locku_release_calldata: 1
+nfs4_open_confirm_release: 1
+nfs4_open_release: 1
+nfs4_opendata_put: 0
+nfs4_opendata_to_nfs4_state: 0
+nfs4_proc_lock: 0 0 0
+nfs4_put_lock_state: 0
+nfs4_put_open_state: 0
+nfs4_put_state_owner: 0
+nfs4_release_lockowner_release: 1
+nfs4_renew_release: 1
+nfs4_run_state_manager: 0
+nfs4_schedule_state_renewal: 0
+nfs_async_rename_release: 1
+nfs_async_unlink_release: 1
+nfs_closedir: 2 1
+nfs_commit_release: 1
+nfs_commit_release_pages: 0
+nfs_direct_commit_complete: 0
+nfs_file_clear_open_context: 1
+nfs_file_mmap: 1 2
+nfs_file_open: 0 1
+nfs_file_read: 0 0
+nfs_file_release: 2 1
+nfs_file_set_open_context: 1 1
+nfs_file_write: 0 0
+nfs_flock: 0 0 0
+nfs_force_lookup_revalidate: 0
+nfs_free_seqid: 0
+nfs_get_lock_context: 0
+nfs_invalidate_page: 1 0 1
+nfs_io_completion_commit: 1
+nfs_lock: 0 0 0
+nfs_open: 2 1
+nfs_opendir: 0 1
+nfs_pgio_release: 1
+nfs_post_op_update_inode_force_wcc: 0 0
+nfs_proc_lock: 0 0 0
+nfs_put_client: 0
+nfs_put_lock_context: 0
+nfs_readdir_clear_array: 2
+nfs_root_setup: 0
+nfs_sb_deactive: 0
+nfsaddrs_config_setup: 0
+nhm_limit_period: 1 0
+nhmex_bbox_hw_config: 1 1
+nhmex_mbox_hw_config: 1 1
+nhmex_rbox_hw_config: 1 1
+nhmex_sbox_hw_config: 1 1
+nl80211_dump_interface: 1 1
+nl80211_dump_mpath: 1 1
+nl80211_dump_mpp: 1 1
+nl80211_dump_scan: 1 1
+nl80211_dump_station: 1 1
+nl80211_dump_survey: 1 1
+nl80211_dump_wiphy: 1 1
+nl80211_dump_wiphy_done: 1
+nl80211_get_reg_dump: 1 1
+nl80211_vendor_cmd_dump: 1 1
+nl_fib_input: 1
+nla_put: 1 0 0 0
+nlm4svc_callback_release: 1
+nlm_end_grace_read: 1 2 4 8
+nlm_end_grace_write: 1 2 4 8
+nlm_traverse_files: 1 0 0
+nlmclnt_release_call: 0
+nlmclnt_rpc_release: 1
+nlmsvc_always_match: 0 1
+nlmsvc_callback_release: 1
+nlmsvc_grant_release: 1
+nlmsvc_is_client: 0 1
+nlmsvc_mark_host: 0 1
+nlmsvc_match_ip: 0 1
+nlmsvc_match_sb: 1 0
+nlmsvc_put_owner: 1
+nlmsvc_release_block: 0
+nlmsvc_release_call: 0
+nlmsvc_release_host: 0
+nlmsvc_same_host: 0 1
+nlmsvc_traverse_blocks: 1 0 0
+nlmsvc_traverse_shares: 1 0 0
+nlmsvc_unlock_all_by_sb: 1
+no_action: 0 0
+no_hash_pointers_enable: 0
+no_initrd: 0
+no_open: 2 1
+no_scroll: 0
+node_retire: 1 0
+noexec_setup: 0
+nohibernate_setup: 0
+nohz_csd_func: 1
+noirqdebug_setup: 0
+nonmi_ipi_setup: 0
+nonseekable_open: 0 1
+nonx32_setup: 0
+noop: 1
+noop_direct_IO: 0 0
+noop_invalidatepage: 1 0 1
+noop_send_IPI_all: 0
+noop_send_IPI_allbutself: 0
+noop_send_IPI_self: 0
+nop_trace_init: 1
+nopat: 0
+noresume_setup: 0
+nosgx: 0
+nosmp: 0
+nosoftlockup_setup: 0
+nospectre_v1_cmdline: 0
+note_interrupt: 0 0
+notifier_del_vio: 1 0
+notimercheck: 0
+notsc_setup: 0
+nowatchdog_setup: 0
+nrcpus: 0
+ns_capable: 1 0
+ns_get_owner: 1
+ns_ioctl: 1 0 4
+ns_to_timespec64: 1
+nsecs_to_jiffies: 1
+nsecs_to_jiffies64: 0
+ntp_servers_open: 2 1
+ntp_tick_adj_setup: 0
+numa_setup: 0
+number: 0 0 0 0
+nv_close: 1
+nv_get_link_ksettings: 1 0
+nv_get_regs_len: 1
+nv_nic_irq: 0 0
+nv_nic_irq_optimized: 0 0
+nv_nic_irq_other: 0 0
+nv_nic_irq_rx: 0 0
+nv_nic_irq_test: 0 0
+nv_nic_irq_tx: 0 0
+nv_nway_reset: 1
+nv_open: 1
+nv_tx_timeout: 1 0
+nv_update_linkspeed: 1
+nvidia_set_debug_port: 0
+nvram_misc_ioctl: 1 2 4
+nvram_misc_open: 0 1
+nvram_misc_read: 1 2 4 0
+nvram_misc_release: 2 1
+nvram_misc_write: 1 2 4 0
+obj_cgroup_charge: 0 0 0
+obj_cgroup_charge_pages: 0 0 0
+obj_cgroup_put: 0
+obj_cgroup_uncharge: 0 0
+oom_adj_read: 1 2 4 0
+oom_adj_write: 1 2 4 0
+oom_reaper: 0
+oom_score_adj_read: 1 2 4 0
+oom_score_adj_write: 1 2 4 0
+oops_setup: 0
+open_exec: 4
+open_flush_pipefs: 0 1
+open_flush_procfs: 2 1
+open_kcore: 2 1
+open_port: 0 1
+open_proxy_open: 2 1
+open_related_ns: 1 1
+option_setup: 0
+orc_sort_cmp: 0 0
+osi_setup: 0
+osq_lock: 1
+osq_unlock: 1
+out_of_line_wait_on_bit: 1 0 0 0
+out_of_line_wait_on_bit_lock: 1 0 0 0
+p4_hw_config: 1
+p4_pmu_disable_event: 1
+p4_pmu_enable_all: 0
+p4_pmu_enable_event: 1
+p6_pmu_disable_event: 1
+p6_pmu_enable_all: 0
+p6_pmu_enable_event: 1
+p9_client_clunk: 1
+p9_client_open: 1 1
+p9_client_walk: 1 0 0 0
+packet_bind: 1 2 4
+packet_bind_spkt: 1 2 4
+packet_cached_dev_get: 1
+packet_direct_xmit: 3
+packet_getname: 1 0 0
+packet_getname_spkt: 1 0 0
+packet_getsockopt: 1 2 4 8 0 16
+packet_ioctl: 1 2 4
+packet_mc_add: 1 0
+packet_mc_drop: 1 0
+packet_parse_headers: 3 1
+packet_recvmsg: 1 2 0 4
+packet_release: 2
+packet_sendmsg: 1 2 0
+packet_sendmsg_spkt: 1 2 0
+packet_set_ring: 1 0 0 4
+packet_setsockopt: 1 2 4 8 0 16
+packet_sock_destruct: 1
+page_cache_pipe_buf_confirm: 0 0
+page_counter_charge: 1 1
+page_counter_try_charge: 1 1 0
+page_counter_uncharge: 1 8
+page_frag_alloc_align: 0 2 0 0
+page_frag_free: 1
+page_mapping: 1
+page_put_link: 1
+page_zero_new_buffers: 1 0 1
+pagecache_get_page: 0 0 0 0
+pagemap_open: 0 1
+pagemap_read: 1 2 4 0
+pagemap_release: 2 1
+panic_on_taint_setup: 0
+param_array_free: 1
+param_free_charp: 1
+param_setup_earlycon: 0
+parp_redo: 1
+parse_acpi: 0
+parse_acpi_bgrt: 0
+parse_acpi_skip_timer_override: 0
+parse_acpi_use_timer_override: 0
+parse_alloc_mptable_opt: 0
+parse_amd_iommu_dump: 0
+parse_amd_iommu_intr: 0
+parse_amd_iommu_options: 0
+parse_direct_gbpages_off: 0
+parse_direct_gbpages_on: 0
+parse_disable_apic_timer: 0
+parse_efi_cmdline: 0
+parse_hardened_usercopy: 0
+parse_ivrs_acpihid: 0
+parse_ivrs_hpet: 0
+parse_ivrs_ioapic: 0
+parse_lapic: 0
+parse_lapic_timer_c2_ok: 0
+parse_memmap_opt: 0
+parse_memopt: 0
+parse_no_kvmapf: 0
+parse_no_kvmclock: 0
+parse_no_kvmclock_vsyscall: 0
+parse_no_stealacc: 0
+parse_noapic: 0
+parse_nolapic_timer: 0
+parse_nopv: 0
+parse_pci: 0
+parse_pmtmr: 0
+parse_trust_cpu: 0
+parse_usbdevfs_streams: 1 4 0 0 0 0
+pat_debug_setup: 0
+path_get: 1
+path_is_mountpoint: 1
+path_lookupat: 0 0 1
+pc_nvram_read: 4 4 8
+pc_nvram_write: 2 4 8
+pcc_mbox_irq: 0 0
+pccardd: 0
+pci_find_bus: 0 0
+pci_fintek_rs485_config: 1 0
+pci_msi_mask_irq: 1
+pci_msi_unmask_irq: 1
+pci_pio_to_address: 0
+pci_read_config_dword: 1 1 0
+pci_setup: 0
+pci_unmap_biosrom: 1
+pcibios_scan_root: 0
+pcibios_scan_specific_bus: 0
+pcie_aspm_disable: 0
+pcie_pme_irq: 0 0
+pcie_pme_setup: 0
+pcie_port_pm_setup: 0
+pcie_port_setup: 0
+pcm_chmap_ctl_info: 1 0
+pcm_chmap_ctl_private_free: 0
+pcm_chmap_ctl_tlv: 1 0 0 4
+pcm_lib_apply_appl_ptr: 1 0
+pcpu_free_area: 0 0
+pd_vma_clear_pages: 1
+pd_vma_set_pages: 1
+pebs_update_state: 0 0 1 0
+peernet2id: 1 1
+peernet_has_id: 1 1
+percpu_alloc_setup: 0
+percpu_counter_add_batch: 1 0 0
+percpu_counter_destroy: 0
+percpu_down_write: 1
+percpu_ref_exit: 4
+percpu_rwsem_wait: 1 0
+percpu_up_write: 1
+perf_allow_kernel: 0
+perf_copy_attr: 4 0
+perf_event__output_id_sample: 1 0 0
+perf_event_addr_filters_apply: 1
+perf_event_addr_filters_sync: 1
+perf_event_ctx_lock_nested: 1 0
+perf_event_disable: 1
+perf_event_enable: 1
+perf_event_idx_default: 1
+perf_event_nop_int: 1 0
+perf_event_period: 1 0
+perf_event_read: 1 0
+perf_event_release_kernel: 1
+perf_event_set_output: 1 4
+perf_event_update_userpage: 1
+perf_fasync: 1 1 4
+perf_group_detach: 1
+perf_ibs_init: 1
+perf_ibs_read: 1
+perf_ibs_start: 1 0
+perf_ibs_stop: 1 0
+perf_ioctl: 1 2 4
+perf_iommu_event_init: 1
+perf_iommu_read: 1
+perf_iommu_start: 1 0
+perf_iommu_stop: 1 0
+perf_kprobe_event_init: 1
+perf_log_throttle: 1 0
+perf_mmap: 1 2
+perf_output_read: 0 1
+perf_pmu_commit_txn: 0
+perf_pmu_disable: 1
+perf_pmu_enable: 1
+perf_pmu_nop_int: 0
+perf_pmu_nop_txn: 0 0
+perf_pmu_nop_void: 1
+perf_pmu_start_txn: 0 0
+perf_read: 1 2 4 0
+perf_reg_validate: 0
+perf_release: 2 1
+perf_remove_from_context: 1 0
+perf_remove_from_owner: 1
+perf_sched_cb_dec: 1
+perf_sched_cb_inc: 1
+perf_swevent_init: 1
+perf_swevent_read: 1
+perf_tp_event_init: 1
+perf_trace_add_input_randomness: 0 0
+perf_trace_cfg80211_return_u32: 0 0
+perf_trace_cfg80211_return_uint: 0 0
+perf_trace_cpu_latency_qos_request: 0 0
+perf_trace_destroy: 1
+perf_trace_emulate_vsyscall: 0 0
+perf_trace_event_unreg: 1
+perf_trace_finish_task_reaping: 0 0
+perf_trace_init: 1
+perf_trace_intel_gpu_freq_change: 0 0
+perf_trace_kyber_throttled: 0 0 0
+perf_trace_mark_victim: 0 0
+perf_trace_mm_compaction_kcompactd_sleep: 0 0
+perf_trace_mm_vmscan_kswapd_sleep: 0 0
+perf_trace_net_dev_rx_exit_template: 0 0
+perf_trace_prandom_u32: 0 0
+perf_trace_rpcgss_import_ctx: 0 0
+perf_trace_sched_kthread_stop_ret: 0 0
+perf_trace_sched_wake_idle_without_ipi: 0 0
+perf_trace_skip_task_reaping: 0 0
+perf_trace_softirq: 0 0
+perf_trace_start_task_reaping: 0 0
+perf_trace_svc_wake_up: 0 0
+perf_trace_wake_reaper: 0 0
+perf_trace_x86_irq_vector: 0 0
+perf_uprobe_event_init: 1
+perf_uprobe_init: 1 1 1
+pgprot_writethrough: 0
+phy_do_ioctl: 1 0 0
+phy_do_ioctl_running: 1 0 0
+phy_ethtool_ksettings_get: 1 0
+phy_ethtool_nway_reset: 1
+phy_interrupt: 0 0
+phy_unregister_fixup_for_id: 0
+physflat_acpi_madt_oem_check: 0 0
+pick_file: 0 4
+pid_maps_open: 0 1
+pid_numa_maps_open: 0 1
+pid_smaps_open: 0 1
+pid_task: 1 0
+pidfd_release: 2 1
+pidff_upload_effect: 1 0 1
+pidns_get_parent: 1
+pidns_owner: 1
+pidns_put: 1
+pim_rcv: 3
+ping: 1
+ping_bind: 1 2 4
+ping_close: 1 0 0
+ping_get_port: 1 1
+ping_hash: 1
+ping_init_sock: 1
+ping_queue_rcv_skb: 1 2
+ping_recvmsg: 1 2 0 4
+ping_unhash: 1
+ping_v4_push_pending_frames: 1 0 0
+ping_v4_sendmsg: 1 2 0
+ping_v6_sendmsg: 1 2 0
+pipe_fasync: 1 1 4
+pipe_ioctl: 1 2 4
+pipe_read: 0 0
+pipe_release: 2 1
+pipe_write: 0 0
+platform_device_unregister: 0
+pm_clk_destroy: 0
+pm_clk_destroy_action: 1
+pm_debug_messages_setup: 0
+pm_notifier_call_chain: 1
+pm_qos_update_target: 1 1 0 0
+pm_runtime_barrier: 1
+pm_runtime_disable_action: 1
+pm_runtime_enable: 1
+pm_runtime_init: 1
+pm_runtime_no_callbacks: 1
+pm_set_vt_switch: 0
+pm_stay_awake: 1
+pmc_dev_state_open: 2 1
+pmc_pss_state_open: 2 1
+pmc_sleep_tmr_open: 2 1
+pndisc_redo: 1
+pnp_setup_reserve_dma: 0
+pnp_setup_reserve_io: 0
+pnp_setup_reserve_irq: 0
+pnp_setup_reserve_mem: 0
+pnp_test_handler: 0 0
+pnpacpi_setup: 0
+pointer: 0 0 0 0 0
+port_debugfs_open: 2 1
+port_fops_fasync: 1 1 4
+port_fops_open: 2 1
+port_fops_read: 1 2 4 8
+port_fops_release: 2 1
+port_fops_write: 1 2 4 8
+posix_clock_ioctl: 1 2 4
+posix_clock_open: 0 1
+posix_clock_read: 1 2 4 0
+posix_clock_release: 2 1
+posix_lock_inode: 0 0 0
+possible_parents_open: 2 1
+power_supply_hwmon_bitmap_free: 1
+pps_cdev_fasync: 1 1 4
+pps_cdev_ioctl: 1 2 4
+pps_cdev_open: 0 1
+pps_cdev_pps_fetch: 1 0
+pps_cdev_release: 2 1
+prandom_seed: 0
+prb_read_valid: 0 1 1
+prepare_to_wait: 1 0 0
+prepare_to_wait_event: 0 0 0
+prepare_to_wait_exclusive: 3 0 0
+pri_wm_latency_open: 2 1
+pri_wm_latency_write: 1 2 4 8
+print_codec_info: 1 1
+print_event_filter: 1 0
+print_hex_dump: 0 0 0 0 0 3 3 0
+print_local_APIC: 1
+print_subsystem_event_filter: 1 0
+print_trace_line: 1
+print_unlock_imbalance_bug: 0 0 0
+print_usage_bug: 0 0 0 0
+probes_open: 2 1
+probes_write: 1 2 4 8
+proc_bus_pci_ioctl: 1 0 4
+proc_bus_pci_open: 2 1
+proc_bus_pci_read: 1 2 4 8
+proc_bus_pci_release: 2 1
+proc_bus_pci_write: 1 2 4 8
+proc_comm_connector: 1
+proc_coredump_filter_read: 1 2 4 0
+proc_coredump_filter_write: 1 2 4 0
+proc_do_submiturb: 1 0 4 4 4
+proc_fd_permission: 4 4 0
+proc_gid_map_open: 0 1
+proc_gid_map_write: 1 2 4 0
+proc_id_map_release: 2 1
+proc_ioctl: 1 0
+proc_kill_sb: 1
+proc_loginuid_read: 1 2 4 0
+proc_loginuid_write: 1 2 4 0
+proc_map_release: 2 1
+proc_pid_attr_open: 0 1
+proc_pid_attr_read: 1 2 4 0
+proc_pid_attr_write: 1 2 4 0
+proc_pid_cmdline_read: 1 2 4 0
+proc_projid_map_open: 0 1
+proc_projid_map_write: 1 2 4 0
+proc_put_link: 1
+proc_reg_mmap: 1 2
+proc_reg_open: 0 1
+proc_reg_read: 1 2 4 0
+proc_reg_read_iter: 0 0
+proc_reg_release: 2 1
+proc_reg_unlocked_ioctl: 1 2 4
+proc_reg_write: 1 2 4 0
+proc_scsi_devinfo_open: 2 1
+proc_scsi_devinfo_write: 1 2 4 8
+proc_scsi_host_open: 2 1
+proc_scsi_host_write: 1 2 4 8
+proc_scsi_open: 2 1
+proc_scsi_write: 1 2 4 8
+proc_seq_open: 2 1
+proc_seq_release: 2 1
+proc_sessionid_read: 1 2 4 0
+proc_setgroups_open: 0 1
+proc_setgroups_release: 2 1
+proc_setgroups_write: 1 2 4 0
+proc_single_open: 0 1
+proc_sys_call_handler: 0 0 0
+proc_sys_open: 0 1
+proc_sys_permission: 4 4 0
+proc_sys_read: 0 0
+proc_sys_write: 0 0
+proc_timens_set_offset: 1 1 0 0
+proc_uid_map_open: 0 1
+proc_uid_map_write: 1 2 4 0
+process_preds: 1 4 0 0
+processcompl: 1 4
+processcompl_compat: 1 4
+prof_cpu_mask_proc_open: 2 1
+prof_cpu_mask_proc_write: 1 2 4 8
+profile_open: 2 1
+profile_setup: 0
+propagate_mount_busy: 0 0
+prune_tree_thread: 0
+pskb_expand_head: 0 0 0 0
+pskb_may_pull: 3 0
+pskb_trim_rcsum_slow: 3 3
+pt_buffer_free_aux: 1
+pt_event_addr_filters_sync: 1
+pt_event_addr_filters_validate: 0
+pt_event_destroy: 1
+pt_event_init: 1
+pt_event_read: 1
+ptm_open_peer: 1 1 4
+ptmx_open: 2 1
+ptp_classify_raw: 3
+ptp_clock_index: 1
+ptp_get_vclocks_index: 0 0
+ptp_ioctl: 1 2 4
+ptp_open: 1 2
+ptp_read: 1 0 2 4
+ptrace_may_access: 2 0
+pty_close: 1 1
+pty_flush_buffer: 1
+pty_open: 0 1
+pty_resize: 1 0
+pty_unix98_ioctl: 1 2 4
+pty_write: 1 2 4
+push_cpu_stop: 0
+put_cmsg: 2 0 0 0 0
+put_cpu_partial: 0 0 0
+put_cred_rcu: 1
+put_ctx: 1
+put_filesystem: 1
+put_fs_context: 1
+put_ipc_ns: 1
+put_mnt_ns: 1
+put_nfs_open_context: 0
+put_old_timespec32: 0 4
+put_page: 1
+put_pid_ns: 0
+put_sg_io_hdr: 0 4
+put_system: 1
+put_timespec64: 0 4
+put_user_ifreq: 0 4
+putconsxy: 1 0
+queue_oob: 1 2 1
+queue_state_write: 1 2 4 8
+queue_work_on: 0 0 0
+queue_write_hint_store: 1 2 4 8
+queued_read_lock_slowpath: 0
+queueptr: 0
+quiet_kernel: 0
+radix_tree_delete: 0 0
+radix_tree_next_chunk: 0 0 0
+radix_tree_node_ctor: 1
+raid_setup: 0
+ramfs_kill_sb: 1
+random_fasync: 1 1 4
+random_ioctl: 1 2 4
+random_read: 1 2 4 0
+random_write: 1 2 4 0
+rapl_event_update: 1
+rapl_pmu_event_init: 1
+rapl_pmu_event_read: 1
+raw6_destroy: 1
+raw_abort: 1 0
+raw_bind: 1 2 4
+raw_close: 1 0 0
+raw_destroy: 1
+raw_getsockopt: 1 2 4 8 0 16
+raw_hash_sk: 1
+raw_ioctl: 1 2 4
+raw_pci_read: 0 0 0 0 0 0
+raw_rcv_skb: 1 2
+raw_recvmsg: 1 2 0 4
+raw_sendmsg: 1 2 0
+raw_setsockopt: 1 2 4 8 0 16
+raw_sk_init: 1
+raw_unhash_sk: 1
+rawv6_bind: 1 2 4
+rawv6_close: 1 0 0
+rawv6_getsockopt: 1 2 4 8 0 16
+rawv6_init_sk: 1
+rawv6_ioctl: 1 2 4
+rawv6_rcv_skb: 1 2
+rawv6_recvmsg: 1 2 0 4
+rawv6_sendmsg: 1 2 0
+rawv6_setsockopt: 1 2 4 8 0 16
+rb_erase: 1 1
+rb_first: 1
+rb_first_postorder: 2
+rb_insert_color: 0 1
+rb_last: 1
+rb_next: 1
+rb_next_postorder: 2
+rb_simple_read: 1 2 4 8
+rb_simple_write: 1 2 4 8
+rbtree_open: 0 1
+rcs_topology_open: 2 1
+rcu_barrier_func: 1
+rcu_cpu_kthread: 0
+rcu_cpu_kthread_park: 0
+rcu_cpu_kthread_setup: 0
+rcu_exp_handler: 1
+rcu_gp_kthread: 0
+rcu_gp_set_torture_wait: 0
+rcu_segcblist_enqueue: 0 1
+rcu_segcblist_entrain: 0 0
+rcu_sync_enter: 1
+rcu_sync_exit: 1
+rcu_sync_func: 1
+rcuwait_wake_up: 0
+rdinit_setup: 0
+rdmsr_safe_on_cpu: 1 8 0 0
+rdmsr_safe_regs_on_cpu: 1 0
+rdrand_cmdline: 0
+read_enabled_file_bool: 1 2 4 8
+read_file_blob: 1 2 4 8
+read_flush_pipefs: 1 2 4 0
+read_flush_procfs: 1 2 4 8
+read_gssp: 1 2 4 8
+read_iter_null: 0 0
+read_iter_zero: 0 0
+read_kcore: 1 2 4 8
+read_mem: 1 2 4 0
+read_null: 1 2 4 0
+read_port: 1 2 4 0
+read_profile: 1 2 4 8
+read_tlv_buf: 1 0 4 0
+read_tsc: 0
+read_vmcore: 1 2 4 8
+read_zero: 1 2 4 0
+readonly: 0
+readwrite: 0
+realloc_user_queue: 1 0
+reap_as: 1
+rebind_marked_interfaces: 1
+reboot_setup: 0
+receive_fd: 1 0
+reclaimer: 0
+recursively_mark_NOTATTACHED: 1
+redirected_tty_write: 0 0
+refcount_dec_and_lock: 0 0
+refcount_dec_and_lock_irqsave: 0 0 0
+refcount_inc: 2
+refcount_warn_saturate: 1 0
+refill_obj_stock: 0 0 0
+refill_stock: 1 8
+reg_vif_get_iflink: 1
+regcache_default_cmp: 0 0
+regcache_sync: 1
+register_lock_class: 0 0 0
+register_netdev: 1
+register_netdevice: 0
+register_perf_hw_breakpoint: 1
+regmap_access_open: 0 1
+regmap_cache_bypass_write_file: 1 2 4 0
+regmap_cache_only_write_file: 1 2 4 0
+regmap_debugfs_get_dump_start: 1 0 8 0
+regmap_lock_hwlock: 1
+regmap_lock_hwlock_irq: 1
+regmap_lock_hwlock_irqsave: 1
+regmap_lock_mutex: 1
+regmap_lock_raw_spinlock: 1
+regmap_lock_spinlock: 1
+regmap_lock_unlock_none: 1
+regmap_map_read_file: 1 2 4 0
+regmap_name_read_file: 1 2 4 0
+regmap_parse_16_be: 0
+regmap_parse_16_be_inplace: 1
+regmap_parse_16_le: 0
+regmap_parse_16_le_inplace: 1
+regmap_parse_16_native: 0
+regmap_parse_24: 0
+regmap_parse_32_be: 0
+regmap_parse_32_be_inplace: 1
+regmap_parse_32_le: 0
+regmap_parse_32_le_inplace: 1
+regmap_parse_32_native: 0
+regmap_parse_64_be: 0
+regmap_parse_64_be_inplace: 1
+regmap_parse_64_le: 0
+regmap_parse_64_le_inplace: 1
+regmap_parse_64_native: 0
+regmap_parse_8: 0
+regmap_parse_inplace_noop: 1
+regmap_range_read_file: 1 2 4 0
+regmap_read_debugfs: 1 0 1 2 4 8
+regmap_reg_ranges_read_file: 1 2 4 0
+regmap_unlock_hwlock: 1
+regmap_unlock_hwlock_irq: 1
+regmap_unlock_hwlock_irqrestore: 1
+regmap_unlock_mutex: 1
+regmap_unlock_raw_spinlock: 1
+regmap_unlock_spinlock: 1
+relay_destroy_buf: 1
+relay_file_open: 2 1
+relay_file_read: 1 2 4 8
+relay_file_read_consume: 1 1 4
+relay_file_release: 2 1
+relay_flush: 1
+relay_open: 0 1 0 0 0 0
+relay_pipe_buf_release: 0 0
+release_evntsel_nmi: 0
+release_flush_pipefs: 2 1
+release_flush_procfs: 2 1
+release_kcore: 2 1
+release_perfctr_nmi: 0
+release_sock: 1
+remote_function: 1
+remove_all: 1 0 0
+remove_full: 0 0 0
+remove_inode_hugepages: 1 1 1
+remove_partial: 0 0
+remove_vm_area: 2
+reqsk_put: 1
+reqsk_queue_alloc: 1
+request_dma: 0 0
+request_threaded_irq: 1 0 0 1 1 1
+request_wait_wake: 1 0
+rescuer_thread: 0
+reserve_setup: 0
+restart_array: 1
+restore_reserve_on_error: 1 0 1 1
+resume_offset_setup: 0
+resume_setup: 0
+resumedelay_setup: 0
+resumewait_setup: 0
+retain_initrd_param: 0
+retransmits_timed_out: 1 1 1
+retrieve_status: 0 0 0
+retrigger_next_event: 1
+reuseport_alloc: 1 0
+reuseport_attach_prog: 1 1
+reuseport_detach_prog: 1
+reuseport_detach_sock: 1
+reuseport_migrate_sock: 3 3 3
+reuseport_resurrect: 1 1 0 0
+reuseport_stop_listen_sock: 1
+rfkill_find_type: 0
+rfkill_fop_ioctl: 1 2 4
+rfkill_fop_open: 0 1
+rfkill_fop_read: 1 2 4 0
+rfkill_fop_release: 2 1
+rfkill_fop_write: 1 2 4 0
+rhashtable_insert_slow: 1 0 1
+rht_assign_unlock: 1 1 1
+rht_bucket_nested: 1 1
+rht_bucket_nested_insert: 1 1 1
+rht_key_hashfn: 1 1 0 0
+rht_lock: 1 1
+rht_unlock: 1 1
+ring3mwait_disable: 0
+ring_buffer_alloc_read_page: 1 1
+ring_buffer_attach: 1 4
+ring_buffer_bytes_cpu: 1 1
+ring_buffer_commit_overrun_cpu: 1 1
+ring_buffer_consume: 1 1 1 1
+ring_buffer_dropped_events_cpu: 1 1
+ring_buffer_entries_cpu: 1 1
+ring_buffer_event_data: 4
+ring_buffer_event_length: 4
+ring_buffer_get: 4
+ring_buffer_iter_advance: 1
+ring_buffer_lock_reserve: 1 4
+ring_buffer_oldest_event_ts: 1 1
+ring_buffer_overrun_cpu: 1 1
+ring_buffer_read_events_cpu: 1 1
+ring_buffer_read_page: 1 1 4 1 0
+ring_buffer_record_is_on: 1
+ring_buffer_record_off: 1
+ring_buffer_record_on: 1
+ring_buffer_time_stamp: 1
+ring_buffer_unlock_commit: 1 4
+ring_buffer_wait: 1 1 0
+ring_buffer_write: 1 4 4
+rng_dev_open: 0 1
+rng_dev_read: 1 2 4 0
+role_trans_cmp: 0 0
+role_trans_hash: 0
+root_data_setup: 0
+root_delay_setup: 0
+root_dev_setup: 0
+rootwait_setup: 0
+round_jiffies: 0
+round_jiffies_relative: 0
+round_jiffies_up: 1
+round_jiffies_up_relative: 0
+rpc_cb_add_xprt_release: 1
+rpc_dummy_info_open: 0 1
+rpc_info_open: 0 1
+rpc_info_release: 2 1
+rpc_kill_sb: 1
+rpc_pipe_generic_upcall: 1 1 2 4
+rpc_pipe_ioctl: 1 2 4
+rpc_pipe_open: 0 1
+rpc_pipe_read: 1 2 4 0
+rpc_pipe_release: 2 1
+rpc_pipe_write: 1 2 4 0
+rpc_proc_open: 2 1
+rpc_put_task_async: 0
+rpc_release_client: 1
+rpc_wake_up_status: 0 0
+rpcb_map_release: 1
+rpm_sysfs_remove: 1
+rps_boost_open: 2 1
+rps_trigger_softirq: 1
+rt6_multipath_hash: 3 0 3 0
+rt6_remove_exception_rt: 1
+rtc_add_offset: 1 0
+rtc_alarm_irq_enable: 1 0
+rtc_dev_fasync: 1 1 4
+rtc_dev_ioctl: 1 2 4
+rtc_dev_open: 0 1
+rtc_dev_read: 1 2 4 0
+rtc_dev_release: 2 1
+rtc_handler: 0
+rtc_irq_set_freq: 1 4
+rtc_irq_set_state: 1 0
+rtc_ktime_to_tm: 0 1
+rtc_proc_del_device: 0
+rtc_read_alarm: 1 0
+rtc_read_time: 1 0
+rtc_set_alarm: 1 0
+rtc_set_time: 1 0
+rtc_time64_to_tm: 1 0
+rtc_timer_enqueue: 1 1
+rtc_timer_remove: 1 1
+rtc_tm_to_time64: 0
+rtc_update_irq_enable: 1 0
+rtc_valid_tm: 0
+rtl8139_close: 1
+rtl8139_get_link: 1
+rtl8139_get_link_ksettings: 1 0
+rtl8139_get_msglevel: 1
+rtl8139_get_regs_len: 1
+rtl8139_interrupt: 0 0
+rtl8139_nway_reset: 1
+rtl8139_open: 1
+rtl8139_set_msglevel: 1 0
+rtl8139_tx_timeout: 1 0
+rtl8169_close: 1
+rtl8169_get_regs_len: 1
+rtl8169_interrupt: 0 0
+rtl8169_tx_timeout: 1 0
+rtl_disable_clk: 1
+rtl_open: 1
+rtm_dump_nexthop: 1 1
+rtm_dump_nexthop_bucket: 1 1
+rtnetlink_bind: 1 0
+rtnetlink_rcv: 1
+rtnl_bridge_getlink: 1 1
+rtnl_delete_link: 1
+rtnl_dump_all: 1 1
+rtnl_dump_ifinfo: 1 1
+rtnl_fdb_dump: 1 1
+rtnl_net_dumpid: 1 1
+rtnl_stats_dump: 1 1
+rtnl_unregister_all: 0
+run_ksoftirqd: 0
+rwlock_bug: 0 0
+rwsem_down_write_slowpath: 1 0
+rwsem_mark_wake: 1 0 0
+rwsem_spin_on_owner: 1
+sanity: 0
+save_async_options: 0
+sb_end_intwrite: 2
+sb_freeze_unlock: 1
+sb_start_intwrite_trylock: 2
+sb_start_write: 1
+scan_swap_map_slots: 1 0 0 0
+scanarg: 4 4
+sched_set_stop_task: 0 0
+schedule_timeout_idle: 0
+schedule_timeout_killable: 0
+scm_fp_dup: 0
+scm_recv: 0 0 0
+scnprintf: 0 0 0 1
+screen_pos: 1 8 1
+scsi_autopm_get_device: 1
+scsi_autopm_put_device: 1
+scsi_block_when_processing_errors: 1
+scsi_bsg_sg_io_fn: 1 0 1 1
+scsi_cmd_allowed: 3 2
+scsi_dev_info_add_list: 0 0
+scsi_initialize_rq: 1
+scsi_ioctl: 1 0 1 0 4
+scsi_ioctl_block_when_processing_errors: 1 0 1
+scsi_kunmap_atomic_sg: 1
+scsi_mq_exit_request: 4 4 0
+scsi_sanitize_inquiry_string: 0 0
+scsicam_bios_param: 1 1 0
+sd_default_probe: 0
+sd_getgeo: 1 0
+sd_ioctl: 1 0 2 4
+sd_open: 1 2
+sd_pr_clear: 1 0
+sd_pr_preempt: 1 0 0 0 0
+sd_pr_register: 1 0 0 0
+sd_pr_release: 1 0 0
+sd_pr_reserve: 1 0 0 0
+seccomp_check_filter: 0 0
+seccomp_notify_ioctl: 1 2 4
+seccomp_notify_release: 2 1
+secretmem_freepage: 2
+secretmem_release: 2 1
+secure_tcp_seq: 3 3 3 3
+security_capable: 1 1 0 0
+security_compute_av: 0 0 1 1 0 0
+security_compute_sid: 0 1 1 1 0 0 0 0
+security_compute_xperms_decision: 0 0 1 1 2 0
+security_context_str_to_sid: 1 4 0 0
+security_context_to_sid_default: 0 1 1 0 0 0
+security_file_ioctl: 1 2 4
+security_file_open: 1
+security_file_permission: 1 0
+security_file_set_fowner: 1
+security_genfs_sid: 0 1 1 1 0
+security_get_allow_unknown: 1
+security_get_bool_value: 1 1
+security_get_reject_unknown: 1
+security_getprocattr: 1 1 1 0
+security_inode_copy_up_xattr: 0
+security_inode_permission: 4 0
+security_inode_setattr: 1 0
+security_ismaclabel: 0
+security_kernel_load_data: 1 0
+security_load_policy: 1 4 4 0
+security_mls_enabled: 1
+security_netlink_send: 1 2
+security_perf_event_open: 1 0
+security_perf_event_read: 1
+security_perf_event_write: 1
+security_policycap_supported: 1 1
+security_set_bools: 1 1 1
+security_setprocattr: 1 1 6 4
+security_sid_to_context: 1 1 0 0
+security_sid_to_context_core: 0 1 0 0 0 0
+security_sidtab_hash_stats: 1 0
+security_sk_classify_flow: 1 0
+security_sock_rcv_skb: 1 2
+security_socket_getpeersec_dgram: 1 0 0
+security_socket_getpeersec_stream: 1 8 16 16
+security_socket_getsockopt: 1 2 4
+security_socket_recvmsg: 1 2 2 2
+security_socket_sendmsg: 0 0 0
+security_socket_setsockopt: 1 2 4
+security_socket_socketpair: 1 3
+security_task_setscheduler: 1
+security_transition_sid: 0 1 1 1 0 0
+security_tun_dev_alloc_security: 0
+security_tun_dev_attach_queue: 0
+security_tun_dev_free_security: 1
+security_tun_dev_open: 0
+security_unix_may_send: 1 3
+security_validate_transition_user: 1 0 0 0 0
+seg6_genl_dumphmac: 1 1
+seg6_genl_dumphmac_done: 1
+seg6_genl_dumphmac_start: 1
+sel_commit_bools_write: 1 2 4 0
+sel_kill_sb: 1
+sel_make_policy_nodes: 1 0
+sel_mmap_handle_status: 1 2
+sel_mmap_policy: 1 2
+sel_open_avc_cache_stats: 0 1
+sel_open_handle_status: 0 1
+sel_open_policy: 0 1
+sel_read_avc_cache_threshold: 1 2 4 0
+sel_read_avc_hash_stats: 1 2 4 0
+sel_read_bool: 1 2 4 0
+sel_read_checkreqprot: 1 2 4 0
+sel_read_class: 1 2 4 0
+sel_read_enforce: 1 2 4 0
+sel_read_handle_status: 1 2 4 0
+sel_read_handle_unknown: 1 2 4 0
+sel_read_initcon: 1 2 4 0
+sel_read_mls: 1 2 4 0
+sel_read_perm: 1 2 4 0
+sel_read_policy: 1 2 4 0
+sel_read_policycap: 1 2 4 0
+sel_read_policyvers: 1 2 4 0
+sel_read_sidtab_hash_stats: 1 2 4 0
+sel_release_policy: 2 1
+sel_write_access: 1 7 4
+sel_write_avc_cache_threshold: 1 2 4 0
+sel_write_bool: 1 2 4 0
+sel_write_checkreqprot: 1 2 4 0
+sel_write_context: 1 7 4
+sel_write_create: 1 7 4
+sel_write_disable: 1 2 4 0
+sel_write_enforce: 1 2 4 0
+sel_write_load: 1 2 4 0
+sel_write_member: 1 7 4
+sel_write_relabel: 1 7 4
+sel_write_user: 1 7 4
+sel_write_validatetrans: 1 2 4 0
+select_comparison_fn: 0 1 1
+select_fallback_rq: 0 0
+select_task_rq_fair: 0 0 0
+select_task_rq_idle: 0 0 0
+select_task_rq_rt: 0 0 0
+selinux_capable: 0 0 0 0
+selinux_disable: 1
+selinux_enabled_setup: 0
+selinux_file_alloc_security: 1
+selinux_file_fcntl: 1 2 4
+selinux_file_ioctl: 1 2 4
+selinux_file_lock: 1 0
+selinux_file_open: 1
+selinux_file_permission: 1 0
+selinux_file_receive: 1
+selinux_free_mnt_opts: 1
+selinux_genfs_get_sid: 1 1 1 0
+selinux_inode_copy_up_xattr: 0
+selinux_inode_setattr: 1 0
+selinux_ismaclabel: 0
+selinux_kernel_load_data: 1 0
+selinux_kernel_module_request: 0
+selinux_netlbl_skbuff_getsid: 0 1 0 0
+selinux_netlbl_socket_setsockopt: 1 2 4
+selinux_netlink_send: 1 2
+selinux_perf_event_alloc: 1
+selinux_perf_event_free: 1
+selinux_perf_event_read: 1
+selinux_perf_event_write: 1
+selinux_policy_cancel: 1 0
+selinux_policy_commit: 1 0
+selinux_release_secctx: 0 0
+selinux_sb_alloc_security: 1
+selinux_sb_kern_mount: 1
+selinux_secid_to_secctx: 0 0 0
+selinux_sk_free_security: 1
+selinux_socket_accept: 1 3
+selinux_socket_getpeersec_dgram: 1 0 0
+selinux_socket_getpeersec_stream: 1 8 16 16
+selinux_socket_getsockopt: 1 2 4
+selinux_socket_recvmsg: 1 2 2 2
+selinux_socket_sendmsg: 1 2 2
+selinux_socket_setsockopt: 1 2 4
+selinux_socket_sock_rcv_skb: 1 2
+selinux_socket_socketpair: 1 3
+selinux_socket_unix_may_send: 1 3
+selinux_status_update_setenforce: 1 0
+selinux_transaction_write: 1 2 4 0
+selinux_tun_dev_attach_queue: 0
+selinux_tun_dev_free_security: 1
+selinux_tun_dev_open: 0
+send_break: 1 0
+send_sigio: 0 0 0
+send_signal: 0 0 0 0
+seq_fdinfo_open: 0 1
+seq_open: 1 2
+seq_open_net: 2 1
+seq_open_private: 1 2 2
+seq_read: 1 2 4 0
+seq_read_iter: 0 0
+seq_release: 2 1
+seq_release_net: 2 1
+seq_release_private: 2 1
+serial8250_break_ctl: 1 4
+serial8250_config_port: 1 1
+serial8250_console_putchar: 1 4
+serial8250_do_pm: 1 0 1
+serial8250_do_set_mctrl: 1 4
+serial8250_em485_config: 1 0
+serial8250_em485_destroy: 0
+serial8250_enable_ms: 1
+serial8250_get_mctrl: 1
+serial8250_handle_irq: 1 0
+serial8250_interrupt: 0 0
+serial8250_pm: 1 0 1
+serial8250_release_port: 1
+serial8250_request_port: 1
+serial8250_resume_port: 0
+serial8250_set_mctrl: 1 4
+serial8250_suspend_port: 0
+serial8250_tx_dma: 0
+serial8250_tx_empty: 1
+serial8250_unregister_port: 0
+serial8250_update_uartclk: 1 4
+serial8250_verify_port: 1 0
+serial_putc: 1 4
+serio_interrupt: 1 0 0
+serport_ldisc_close: 1
+serport_ldisc_hangup: 1
+serport_ldisc_ioctl: 1 1 0 4
+serport_ldisc_open: 1
+serport_ldisc_receive: 1 0 0 0
+serport_ldisc_write_wakeup: 1
+services_compute_xperms_decision: 0 0
+session_of_pgrp: 4
+set_bitmap_file: 1 4
+set_blocksize: 0 4
+set_buf_size: 0
+set_capacity: 0 0
+set_capacity_and_notify: 0 0
+set_carrier_timeout: 0
+set_clock: 0 0
+set_close_on_exec: 1 0
+set_cmdline_ftrace: 0
+set_corruption_check: 0
+set_corruption_check_period: 0
+set_corruption_check_size: 0
+set_data: 0 0
+set_debug_rodata: 0
+set_dhash_entries: 0
+set_disk_ro: 0 0
+set_ftrace_dump_on_oops: 0
+set_hashdist: 0
+set_ihash_entries: 0
+set_kprobe_boot_events: 0
+set_memory_ro: 1 0
+set_mhash_entries: 0
+set_mminit_loglevel: 0
+set_mphash_entries: 0
+set_nohugeiomap: 0
+set_normalized_timespec64: 0 0 0
+set_offload: 1 4
+set_phy_tunable: 1 0
+set_primary_fwnode: 1 1
+set_reset_devices: 0
+set_task_cpu: 0 0
+set_tcpmhash_entries: 0
+set_thash_entries: 0
+set_trace_boot_clock: 0
+set_trace_boot_options: 0
+set_tracepoint_printk: 0
+set_tracepoint_printk_stop: 0
+set_tracer_flag: 1 1 0
+set_tracing_thresh: 0
+set_uhash_entries: 0
+setattr_copy: 1 1 0
+setattr_prepare: 1 1 0
+setup_acpi_rsdp: 0
+setup_acpi_sci: 0
+setup_add_efi_memmap: 0
+setup_apicpmtimer: 0
+setup_clearcpuid: 0
+setup_data_read: 1 2 4 8
+setup_disable_pku: 0
+setup_disable_smap: 0
+setup_disable_smep: 0
+setup_disableapic: 0
+setup_early_printk: 0
+setup_elfcorehdr: 0
+setup_forced_irqthreads: 0
+setup_hrtimer_hres: 0
+setup_init_pkru: 0
+setup_io_tlb_npages: 0
+setup_noclflush: 0
+setup_noefi: 0
+setup_nolapic: 0
+setup_noreplace_smp: 0
+setup_ohci1394_dma: 0
+setup_print_fatal_signals: 0
+setup_relax_domain_level: 0
+setup_sched_thermal_decay_shift: 0
+setup_schedstats: 0
+setup_show_lapic: 0
+setup_slab_merge: 0
+setup_slab_nomerge: 0
+setup_slub_debug: 0
+setup_slub_max_order: 0
+setup_slub_min_objects: 0
+setup_slub_min_order: 0
+setup_storage_paranoia: 0
+setup_swap_account: 0
+setup_tick_nohz: 0
+setup_trace_event: 0
+setup_unknown_nmi_panic: 0
+setup_userpte: 0
+setup_vm_debug: 0
+setup_vmw_sched_clock: 0
+severities_coverage_open: 2 1
+severities_coverage_write: 1 2 4 8
+sg_add_request: 1
+sg_allow_access: 1 0
+sg_build_indirect: 1 1 1
+sg_common_write: 1 1 0 1
+sg_fasync: 1 1 4
+sg_finish_rem_req: 1
+sg_get_rq_mark: 1 2
+sg_init_one: 0 4 4
+sg_init_table: 0 0
+sg_ioctl: 1 2 4
+sg_mmap: 1 2
+sg_new_read: 1 2 4 1
+sg_new_write: 1 1 2 4 0 0 0
+sg_next: 0
+sg_open: 0 1
+sg_proc_single_open_adio: 2 1
+sg_proc_single_open_dressz: 2 1
+sg_proc_write_adio: 1 2 4 8
+sg_proc_write_dressz: 1 2 4 8
+sg_read: 1 2 4 0
+sg_read_oxfer: 1 2 4
+sg_release: 2 1
+sg_remove_request: 1 1
+sg_set_buf: 0 0 0
+sg_write: 1 2 4 0
+sha1_transform: 0 0 0
+sha256: 0 0 0
+shm_fallocate: 1 0 1 0
+shm_release: 2 1
+shmem_fallocate: 1 0 1 0
+shmem_file_read_iter: 0 0
+shmem_getpage_gfp: 1 1 0 0 1 0 0
+shmem_init_inode: 1
+shmem_mmap: 1 2
+shmem_put_link: 1
+shmem_undo_range: 1 1 1 0
+should_failslab: 0 0
+show_header: 1 2 4 8
+show_stack: 0 0 2
+show_traces_open: 2 1
+show_traces_release: 2 1
+sidtab_search_entry: 0 0
+sighand_ctor: 1
+signalfd_dequeue: 1 0 1
+signalfd_read: 1 2 4 8
+signalfd_release: 2 1
+simple_attr_open: 2 1 0 0 0
+simple_attr_read: 1 2 4 8
+simple_attr_release: 2 1
+simple_attr_write: 1 2 4 8
+simple_empty: 1
+simple_open: 0 1
+simple_read_from_buffer: 2 4 8 1 1
+simple_strtol: 0 0 0
+simple_strtoul: 0 0 0
+simple_strtoull: 0 0 0
+simple_transaction_get: 1 2 4
+simple_transaction_read: 1 2 4 0
+simple_transaction_release: 2 1
+simple_transaction_set: 1 7
+simple_write_to_buffer: 1 8 0 2 4
+single_open: 1 0 0
+single_open_net: 2 1
+single_open_size: 1 0 0 2
+single_release: 2 1
+single_release_net: 2 1
+singleton_release: 2 1
+sixaxis_set_operational_usb: 1
+sk_attach_bpf: 8 1
+sk_attach_filter: 0 1
+sk_clear_memalloc: 1
+sk_common_release: 1
+sk_detach_filter: 1
+sk_dst_check: 1 1
+sk_error_report: 1
+sk_filter_trim_cap: 1 2 0
+sk_free: 1
+sk_free_unlock_clone: 1
+sk_get_filter: 1 8 16
+sk_get_peer_cred: 1
+sk_page_frag_refill: 1 1
+sk_reset_timer: 1 1 0
+sk_reuseport_attach_bpf: 8 1
+sk_reuseport_attach_filter: 0 1
+sk_reuseport_prog_free: 1
+sk_send_sigurg: 1
+sk_set_memalloc: 1
+sk_set_peek_off: 1 0
+sk_stream_alloc_skb: 1 0 1 1
+sk_stream_error: 1 2 3
+sk_stream_kill_queues: 1
+sk_stream_wait_connect: 1 0
+sk_stream_wait_memory: 1 0
+sk_wake_async: 1 0 0
+sk_wmem_free_skb: 1 1
+skb_checksum: 1 1 1 0
+skb_checksum_help: 2
+skb_clone: 2 0
+skb_condense: 2
+skb_consume_udp: 1 3 2
+skb_copy_and_csum_datagram_msg: 3 0 2
+skb_copy_bits: 3 0 0 0
+skb_copy_datagram_from_iter: 3 0 2 3
+skb_copy_datagram_iter: 3 0 2 2
+skb_copy_ubufs: 2 0
+skb_csum_unnecessary: 2
+skb_do_copy_data_nocache: 1 1 2 1 3 1
+skb_dst: 3
+skb_dst_force: 2
+skb_ensure_writable: 3 3
+skb_entail: 1 1
+skb_eth_pop: 3
+skb_free_datagram: 1 3
+skb_header_pointer: 3 3 0 0
+skb_mpls_dec_ttl: 3
+skb_mpls_update_lse: 3 3
+skb_orphan_partial: 1
+skb_page_frag_refill: 3 0 0
+skb_panic: 3 0 0 0
+skb_partial_csum_set: 3 1 1
+skb_pull_rcsum: 3 0
+skb_push: 3 0
+skb_put: 0 0
+skb_queue_purge: 5
+skb_queue_tail: 0 0
+skb_rbtree_purge: 1
+skb_recv_datagram: 1 2 2 0
+skb_release_data: 1
+skb_release_head_state: 1
+skb_scrub_packet: 3 3
+skb_set_owner_w: 3 1
+skb_setup_tx_timestamp: 3 1
+skb_store_bits: 3 3 1 3
+skb_tx_error: 1
+skb_unlink: 0 0
+skb_vlan_pop: 3
+skb_warn_bad_offload: 3
+skb_zerocopy_headlen: 3
+skb_zerocopy_iter_stream: 1 1 2 3 3
+skew_tick: 0
+skip_spaces: 0
+skx_cha_hw_config: 1 1
+sky2_close: 1
+sky2_get_eeprom_len: 1
+sky2_get_link_ksettings: 1 0
+sky2_get_msglevel: 1
+sky2_get_regs_len: 1
+sky2_intr: 0 0
+sky2_ioctl: 1 0 0
+sky2_nway_reset: 1
+sky2_open: 1
+sky2_set_msglevel: 1 0
+sky2_test_intr: 0 0
+sky2_tx_timeout: 1 0
+slab_debug_trace_open: 2 1
+slab_debug_trace_release: 2 1
+slab_out_of_memory: 0 0 1
+slabinfo_open: 2 1
+slow_avc_audit: 0 0 1 1 0 0 0 3 0
+smaps_rollup_open: 0 1
+smaps_rollup_release: 2 1
+smbus_alert: 0 0
+smp_call_function_single: 1 0 0 0
+smp_call_function_single_async: 1 0
+smpboot_thread_fn: 0
+smt_cmdline_disable: 0
+snapshot_image_loaded: 1
+snapshot_ioctl: 1 2 4
+snapshot_open: 0 1
+snapshot_read: 1 2 4 0
+snapshot_read_next: 1
+snapshot_release: 2 1
+snapshot_set_swap_area: 1 4
+snapshot_write: 1 2 4 0
+snapshot_write_finalize: 1
+snapshot_write_next: 1
+snb_uncore_imc_event_init: 1
+snb_uncore_imc_hw_config: 1 1
+snbep_cbox_hw_config: 1 1
+snbep_pcu_hw_config: 1 1
+snbep_qpi_hw_config: 1 1
+snbep_uncore_pci_read_counter: 1 1
+snd_card_disconnect: 0
+snd_card_file_remove: 1 1
+snd_card_id_read: 1 1
+snd_card_info_read: 1 1
+snd_card_locked: 0
+snd_ctl_boolean_mono_info: 1 0
+snd_ctl_boolean_stereo_info: 1 0
+snd_ctl_elem_add: 1 0 0
+snd_ctl_elem_info: 1 0
+snd_ctl_elem_init_enum_names: 0
+snd_ctl_elem_list: 1 0
+snd_ctl_elem_read: 1 4
+snd_ctl_elem_user_enum_info: 1 0
+snd_ctl_elem_user_free: 0
+snd_ctl_elem_user_info: 1 0
+snd_ctl_elem_user_tlv: 1 0 0 4
+snd_ctl_elem_write: 1 1 4
+snd_ctl_fasync: 1 1 4
+snd_ctl_find_id: 1 0
+snd_ctl_free_one: 0
+snd_ctl_get_ioff: 0 0
+snd_ctl_ioctl: 1 2 4
+snd_ctl_notify: 1 0 0
+snd_ctl_notify_one: 1 0 0 0
+snd_ctl_open: 0 1
+snd_ctl_read: 1 2 4 0
+snd_ctl_release: 2 1
+snd_ctl_remove: 1 1
+snd_ctl_remove_user_ctl: 1 0
+snd_ctl_request_layer: 0
+snd_ctl_tlv_ioctl: 1 4 0
+snd_disconnect_fasync: 1 1 4
+snd_disconnect_ioctl: 1 0 4
+snd_disconnect_read: 1 2 4 8
+snd_disconnect_release: 2 1
+snd_disconnect_write: 1 2 4 8
+snd_hda_mixer_amp_switch_info: 1 0
+snd_hda_mixer_amp_tlv: 1 0 0 4
+snd_hda_mixer_amp_volume_info: 1 0
+snd_hda_spdif_mask_info: 1 0
+snd_hdac_bus_exec_verb: 1 1 4 0
+snd_hdac_codec_read: 1 4 0 4 4
+snd_hdac_regmap_add_vendor_verb: 1 1
+snd_hwdep_control_ioctl: 1 1 0 4
+snd_hwdep_ioctl: 1 2 4
+snd_hwdep_mmap: 1 2
+snd_hwdep_open: 0 1
+snd_hwdep_proc_read: 1 1
+snd_hwdep_read: 1 2 4 0
+snd_hwdep_release: 2 1
+snd_hwdep_write: 1 2 4 0
+snd_info_entry_ioctl: 1 0 4
+snd_info_entry_open: 2 1
+snd_info_entry_read: 1 2 4 8
+snd_info_entry_release: 2 1
+snd_info_entry_write: 1 2 4 8
+snd_info_text_entry_open: 2 1
+snd_info_text_entry_release: 2 1
+snd_info_text_entry_write: 1 2 4 8
+snd_info_version_read: 1 1
+snd_jack_kctl_private_free: 0
+snd_lookup_minor_data: 4 0
+snd_minor_info_read: 1 1
+snd_open: 0 1
+snd_pcm_action: 0 1 0
+snd_pcm_action_group: 0 1 0 0
+snd_pcm_action_lock_irq: 0 1 0
+snd_pcm_capture_open: 2 1
+snd_pcm_channel_info: 1 0
+snd_pcm_channel_info_user: 1 4
+snd_pcm_common_ioctl: 1 1 0 4
+snd_pcm_control_ioctl: 1 1 0 4
+snd_pcm_delay: 1 0
+snd_pcm_do_drain_init: 1 0
+snd_pcm_do_prepare: 1 1
+snd_pcm_drain: 1 1
+snd_pcm_drop: 1
+snd_pcm_fasync: 1 1 4
+snd_pcm_forward: 1 4
+snd_pcm_forward_ioctl: 1 4
+snd_pcm_hw_free: 1
+snd_pcm_hw_params: 1 4
+snd_pcm_hw_params_old_user: 1 4
+snd_pcm_hw_params_user: 1 4
+snd_pcm_hw_refine: 1 4
+snd_pcm_hw_refine_old_user: 1 4
+snd_pcm_hw_refine_user: 1 4
+snd_pcm_hwsync: 1
+snd_pcm_info_user: 4 4
+snd_pcm_ioctl: 1 0 4
+snd_pcm_ioctl_sync_ptr_compat: 1 4
+snd_pcm_kernel_ioctl: 1 0 0
+snd_pcm_lib_free_pages: 1
+snd_pcm_lib_free_vmalloc_buffer: 1
+snd_pcm_lib_ioctl: 1 0 0
+snd_pcm_lib_preallocate_max_proc_read: 1 1
+snd_pcm_lib_preallocate_proc_read: 1 1
+snd_pcm_lib_preallocate_proc_write: 1 1
+snd_pcm_link: 1 4
+snd_pcm_playback_open: 2 1
+snd_pcm_playback_silence: 1 0
+snd_pcm_post_drain_init: 1 0
+snd_pcm_post_pause: 1 0
+snd_pcm_post_prepare: 1 0
+snd_pcm_post_reset: 1 0
+snd_pcm_post_resume: 1 0
+snd_pcm_post_start: 1 0
+snd_pcm_post_stop: 1 0
+snd_pcm_post_suspend: 1 0
+snd_pcm_prepare: 1 1
+snd_pcm_proc_read: 1 1
+snd_pcm_read: 1 2 4 8
+snd_pcm_readv: 0 0
+snd_pcm_release: 2 1
+snd_pcm_release_substream: 1
+snd_pcm_reset: 1
+snd_pcm_rewind: 1 4
+snd_pcm_rewind_ioctl: 1 4
+snd_pcm_status64: 1 0
+snd_pcm_status_user32: 1 4 0
+snd_pcm_status_user64: 1 4 0
+snd_pcm_stop: 1 0
+snd_pcm_stop_xrun: 1
+snd_pcm_stream_group_ref: 1
+snd_pcm_stream_lock_irq: 1
+snd_pcm_stream_lock_nested: 4
+snd_pcm_stream_proc_info_read: 1 1
+snd_pcm_stream_unlock: 4
+snd_pcm_stream_unlock_irq: 1
+snd_pcm_substream_proc_hw_params_read: 1 1
+snd_pcm_substream_proc_info_read: 1 1
+snd_pcm_substream_proc_status_read: 1 1
+snd_pcm_substream_proc_sw_params_read: 1 1
+snd_pcm_sw_params: 1 0
+snd_pcm_sw_params_user: 1 4
+snd_pcm_sync_ptr: 1 4
+snd_pcm_timer_resolution: 1
+snd_pcm_tstamp: 1 4
+snd_pcm_undo_pause: 1 0
+snd_pcm_undo_resume: 1 0
+snd_pcm_undo_start: 1 0
+snd_pcm_unlink: 1
+snd_pcm_update_hw_ptr: 1
+snd_pcm_write: 1 2 4 8
+snd_pcm_writev: 0 0
+snd_pcm_xferi_frames_ioctl: 1 4
+snd_pcm_xfern_frames_ioctl: 1 4
+snd_pcm_xrun: 1
+snd_power_ref_and_wait: 1
+snd_power_wait: 1
+snd_request_card: 0
+snd_seq_client_enqueue_event: 1 0 1 1 1
+snd_seq_client_ioctl_unlock: 0
+snd_seq_client_use_ptr: 0
+snd_seq_create_port: 1 0
+snd_seq_delete_port: 1 1
+snd_seq_device_info: 1 1
+snd_seq_expand_var_event: 0 4 2 0 0
+snd_seq_fifo_cell_out: 1 0 1
+snd_seq_fifo_cell_putback: 1 0
+snd_seq_fifo_clear: 1
+snd_seq_fifo_resize: 1 0
+snd_seq_fifo_unused_cells: 0
+snd_seq_get_port_info: 0 0
+snd_seq_ioctl: 1 2 4
+snd_seq_ioctl_client_id: 1 0
+snd_seq_ioctl_create_port: 1 0
+snd_seq_ioctl_create_queue: 1 0
+snd_seq_ioctl_delete_port: 1 0
+snd_seq_ioctl_delete_queue: 1 0
+snd_seq_ioctl_get_client_info: 1 0
+snd_seq_ioctl_get_client_pool: 1 0
+snd_seq_ioctl_get_named_queue: 1 0
+snd_seq_ioctl_get_port_info: 1 0
+snd_seq_ioctl_get_queue_client: 1 0
+snd_seq_ioctl_get_queue_info: 1 0
+snd_seq_ioctl_get_queue_status: 1 0
+snd_seq_ioctl_get_queue_tempo: 1 0
+snd_seq_ioctl_get_queue_timer: 1 0
+snd_seq_ioctl_get_subscription: 1 0
+snd_seq_ioctl_pversion: 1 0
+snd_seq_ioctl_query_next_client: 1 0
+snd_seq_ioctl_query_next_port: 1 0
+snd_seq_ioctl_query_subs: 1 0
+snd_seq_ioctl_remove_events: 1 0
+snd_seq_ioctl_running_mode: 1 0
+snd_seq_ioctl_set_client_info: 1 0
+snd_seq_ioctl_set_client_pool: 1 0
+snd_seq_ioctl_set_port_info: 1 0
+snd_seq_ioctl_set_queue_client: 1 0
+snd_seq_ioctl_set_queue_info: 1 0
+snd_seq_ioctl_set_queue_tempo: 1 0
+snd_seq_ioctl_set_queue_timer: 1 0
+snd_seq_ioctl_subscribe_port: 1 0
+snd_seq_ioctl_system_info: 1 0
+snd_seq_ioctl_unsubscribe_port: 1 0
+snd_seq_kernel_client_dispatch: 0 0 0 0
+snd_seq_open: 0 1
+snd_seq_pool_done: 1
+snd_seq_pool_init: 1
+snd_seq_pool_mark_closing: 1
+snd_seq_pool_new: 0
+snd_seq_port_connect: 1 0 0 0 0 0
+snd_seq_port_disconnect: 1 0 0 0 0 0
+snd_seq_port_get_subscription: 0 0 0
+snd_seq_port_query_nearest: 0 0
+snd_seq_port_use_ptr: 0 0
+snd_seq_prioq_remove_events: 0 1 0
+snd_seq_queue_alloc: 1 0 0
+snd_seq_queue_check_access: 0 1
+snd_seq_queue_delete: 1 0
+snd_seq_queue_find_name: 0
+snd_seq_queue_is_used: 0 1
+snd_seq_queue_remove_cells: 1 0
+snd_seq_queue_set_owner: 0 1 0
+snd_seq_queue_timer_close: 0
+snd_seq_queue_timer_open: 0
+snd_seq_queue_timer_set_tempo: 0 1 0
+snd_seq_queue_use: 0 1 0
+snd_seq_read: 1 2 4 0
+snd_seq_release: 2 1
+snd_seq_set_port_info: 1 0
+snd_seq_system_broadcast: 1 1 0
+snd_seq_timer_close: 0
+snd_seq_timer_defaults: 0
+snd_seq_timer_get_cur_tick: 0
+snd_seq_timer_get_cur_time: 0 0
+snd_seq_timer_open: 0
+snd_seq_timer_set_skew: 0 0 0
+snd_seq_timer_set_tempo_ppq: 0 0 0
+snd_seq_write: 1 2 4 0
+snd_timer_close: 1
+snd_timer_close_locked: 1 0
+snd_timer_instance_free: 1
+snd_timer_notify1: 1 0
+snd_timer_open: 1 0 0
+snd_timer_proc_read: 1 1
+snd_timer_start1: 1 0 0
+snd_timer_start_slave: 1 0
+snd_timer_stop1: 1 0
+snd_timer_stop_slave: 1 0
+snd_timer_user_append_to_tqueue: 1 0
+snd_timer_user_disconnect: 1
+snd_timer_user_fasync: 1 1 4
+snd_timer_user_ioctl: 1 2 4
+snd_timer_user_open: 0 1
+snd_timer_user_read: 1 2 4 0
+snd_timer_user_release: 2 1
+snd_use_lock_sync_helper: 1 0 0
+snoop_urb: 1 0 1 0 0 0 0 0
+snoop_urb_data: 0 0
+snprintf: 0 0 0 0
+snr_cha_hw_config: 1 1
+snr_pcu_hw_config: 1 1
+sock_alloc_send_pskb: 1 1 3 2 0 0
+sock_alloc_send_skb: 1 0 2 0
+sock_bindtoindex_locked: 1 0
+sock_close: 2 1
+sock_cmsg_send: 1 2 0
+sock_common_getsockopt: 1 2 4 8 0 16
+sock_common_recvmsg: 1 2 0 4
+sock_common_setsockopt: 1 2 4 8 0 16
+sock_def_destruct: 1
+sock_def_error_report: 1
+sock_def_readable: 1
+sock_def_wakeup: 1
+sock_def_write_space: 1
+sock_dequeue_err_skb: 1
+sock_diag_bind: 1 0
+sock_diag_destroy: 1 0
+sock_diag_rcv: 1
+sock_edemux: 1
+sock_efree: 1
+sock_enable_timestamps: 1
+sock_fasync: 1 1 4
+sock_gen_put: 1
+sock_getbindtodevice: 1 8 16 16
+sock_getsockopt: 1 0 4 8 16
+sock_gettstamp: 1 4 0 0
+sock_i_uid: 1
+sock_ioctl: 1 2 4
+sock_is_registered: 0
+sock_kfree_s: 1 1 2
+sock_kmalloc: 1 2 0
+sock_mmap: 1 2
+sock_no_accept: 1 0 0 0
+sock_no_connect: 1 2 4 0
+sock_no_ioctl: 1 0 4
+sock_no_linger: 1
+sock_no_listen: 1 0
+sock_no_socketpair: 1 3
+sock_ofree: 1
+sock_owned_by_me: 3
+sock_owned_by_user: 1
+sock_pfree: 1
+sock_prot_inuse_add: 1 1 0
+sock_queue_err_skb: 1 2
+sock_queue_rcv_skb: 1 2
+sock_read_iter: 0 0
+sock_recv_errqueue: 1 2 2 0 0
+sock_recvmsg: 1 2 2
+sock_rfree: 1
+sock_rmem_free: 1
+sock_rps_record_flow: 1
+sock_sendmsg_nosec: 1 2
+sock_set_keepalive: 1
+sock_set_mark: 1 8
+sock_set_priority: 1 8
+sock_set_rcvbuf: 1 8
+sock_set_reuseaddr: 1
+sock_set_reuseport: 1
+sock_set_timeout: 1 8 0 16 4
+sock_set_timestamp: 1 4 8
+sock_set_timestamping: 1 4 0
+sock_setsockopt: 1 0 4 8 0 16
+sock_unregister: 0
+sock_wake_async: 1 0 0
+sock_wfree: 1
+sock_wmalloc: 1 2 0 0
+sock_write_iter: 0 0
+softlockup_fn: 0
+softlockup_start_fn: 0
+softlockup_stop_fn: 0
+sony_raw_event: 1 1 1 1
+sony_resume: 1
+sony_suspend: 2 0
+sparse_keymap_getkeycode: 1 0
+sparse_keymap_setkeycode: 1 0 0
+spi_print_msg: 0
+spin_bug: 1 0
+spr_cha_hw_config: 1 1
+spr_limit_period: 1 0
+spr_wm_latency_open: 2 1
+spr_wm_latency_write: 1 2 4 8
+sr_block_ioctl: 1 0 2 4
+sr_block_open: 1 2
+srbds_parse_cmdline: 0
+sscanf: 6 0 4 4 0 4
+sseu_status_open: 2 1
+start_secondary: 1
+stat_open: 2 1
+static_call_site_cmp: 0 0
+static_key_slow_dec: 1
+stop_trace_on_warning: 0
+str_to_user: 1 0 4
+strcasecmp: 0 0
+strchr: 4 0
+strcmp: 1 0
+strcpy: 0 0
+stream_open: 2 1
+strict_iomem: 0
+strim: 6
+string: 0 0 0 0
+string_unescape: 4 4 0 0
+stripe_ctr: 0 0 0
+stripe_dtr: 0
+stripe_iterate_devices: 0 0 0
+stripe_status: 0 0 0 0 0
+strlcpy: 1 1 0
+strlen: 4
+strncmp: 6 0 0
+strncpy: 2 0 0
+strndup_user: 4 0
+strnlen: 2 0
+strnlen_user: 4 0
+strreplace: 0 0 0
+strscpy: 1 1 1
+submit_bh_wbc: 0 1 1 0 0
+subsystem_filter_read: 1 2 4 8
+subsystem_filter_write: 1 2 4 8
+subsystem_open: 2 1
+subsystem_release: 2 1
+super_setup_bdi: 1
+super_setup_bdi_name: 1 0 1 0
+suspend_stats_open: 2 1
+svc_auth_unregister: 0
+svc_data_ready: 1
+svc_tcp_listen_data_ready: 1
+svc_tcp_state_change: 1
+svc_write_space: 1
+svc_xprt_enqueue: 1
+sw_perf_event_destroy: 1
+swake_up_locked: 1
+swap_count_continued: 1 1 0
+swap_free: 1
+swapdev_block: 1 1
+swaps_open: 2 1
+switch_hrtimer_base: 1 1 0
+swp_entry_cmp: 0 0
+symbol_put_addr: 1
+sync_blockdev: 1
+sync_file_create: 1
+sync_file_get_fence: 0
+sync_file_ioctl: 1 2 4
+sync_file_release: 2 1
+sync_filesystem: 1
+sync_followers: 5 5 4
+sync_inodes_sb: 1
+sync_mapping_buffers: 1
+synchronize_irq: 1
+synchronize_srcu: 0
+syncobj_wait_fence_func: 1 0
+sysfs_kf_bin_open: 0
+sysfs_kf_bin_write: 0 0 0 0
+sysfs_kf_write: 0 0 0 0
+sysfs_kill_sb: 1
+sysrq_always_enabled_setup: 0
+sysrq_ftrace_dump: 0
+sysrq_handle_SAK: 0
+sysrq_handle_crash: 0
+sysrq_handle_kill: 0
+sysrq_handle_loglevel: 0
+sysrq_handle_moom: 0
+sysrq_handle_mountro: 0
+sysrq_handle_reboot: 0
+sysrq_handle_show_timers: 0
+sysrq_handle_showallcpus: 0
+sysrq_handle_showlocks: 0
+sysrq_handle_showmem: 0
+sysrq_handle_showregs: 0
+sysrq_handle_showstate: 0
+sysrq_handle_showstate_blocked: 0
+sysrq_handle_sync: 0
+sysrq_handle_term: 0
+sysrq_handle_thaw: 0
+sysrq_handle_unraw: 0
+sysrq_handle_unrt: 0
+sysrq_show_rcu: 0
+system_enable_read: 1 2 4 8
+system_enable_write: 1 2 4 8
+system_tr_open: 2 1
+sysvipc_proc_open: 2 1
+sysvipc_proc_release: 2 1
+table_clear: 1 0 0
+table_deps: 1 0 0
+table_load: 1 0 0
+table_status: 1 0 0
+take_cpu_down: 0
+take_dentry_name_snapshot: 0 1
+target_message: 1 0 0
+task_active_pid_ns: 0
+task_clock_event_init: 1
+task_clock_event_read: 1
+task_work_add: 0 1 0
+tc_dump_action: 1 1
+tc_dump_chain: 1 1
+tc_dump_qdisc: 1 1
+tc_dump_tclass: 1 1
+tc_dump_tfilter: 1 1
+tcf_gate_entry_destructor: 1
+tcf_tunnel_encap_put_tunnel: 1
+tcp_abort: 1 0
+tcp_ack: 1 2 0
+tcp_add_backlog: 3 3
+tcp_check_oom: 1 1
+tcp_check_req: 1 2 1 0 0
+tcp_checksum_complete: 3
+tcp_child_process: 3 3 3
+tcp_chrono_stop: 1 0
+tcp_cleanup_congestion_control: 1
+tcp_cleanup_rbuf: 1 0
+tcp_cleanup_ulp: 1
+tcp_clear_retrans: 1
+tcp_close: 1 0 0
+tcp_conn_request: 0 0 1 2
+tcp_connect: 1
+tcp_current_mss: 1
+tcp_data_queue: 1 2
+tcp_data_ready: 1
+tcp_data_snd_check: 1
+tcp_disconnect: 1 0
+tcp_done: 1
+tcp_enter_cwr: 1
+tcp_enter_loss: 1
+tcp_enter_memory_pressure: 1
+tcp_enter_quickack_mode: 1 8
+tcp_fastopen_active_detect_blackhole: 1 1
+tcp_fastopen_active_disable: 1
+tcp_fastopen_active_disable_ofo_check: 1
+tcp_fastopen_destroy_cipher: 1
+tcp_filter: 1 2
+tcp_finish_connect: 1 2
+tcp_free_fastopen_req: 1
+tcp_getsockopt: 1 2 4 8 0 16
+tcp_gro_complete: 3
+tcp_init_sock: 1
+tcp_init_transfer: 1 0 0
+tcp_initialize_rcv_mss: 1
+tcp_ioctl: 1 2 4
+tcp_ld_RTO_revert: 1 8
+tcp_leave_memory_pressure: 1
+tcp_metrics_nl_dump: 1 1
+tcp_mss_to_mtu: 1 0
+tcp_mstamp_refresh: 1
+tcp_mtu_to_mss: 1 0
+tcp_mtup_init: 1
+tcp_new_space: 1
+tcp_out_of_resources: 1 1
+tcp_parse_options: 1 2 1 0 0
+tcp_push: 1 2 1 1 1
+tcp_push_one: 1 1
+tcp_rack_skb_timeout: 1 1 0
+tcp_rate_check_app_limited: 1
+tcp_rcv_fastopen_synack: 1 2 0
+tcp_rcv_state_process: 1 2
+tcp_rcv_synrecv_state_fastopen: 1
+tcp_recv_timestamp: 2 1 0
+tcp_recvmsg: 1 2 0 4
+tcp_recvmsg_locked: 1 2 2 2 2 0 0
+tcp_release_cb: 1
+tcp_reno_ssthresh: 1
+tcp_reno_undo_cwnd: 1
+tcp_reset: 1 0
+tcp_retransmit_skb: 1 1 0
+tcp_retransmit_timer: 1
+tcp_rtx_synack: 1 1
+tcp_segs_in: 3 3
+tcp_send_ack: 1
+tcp_send_active_reset: 1 0
+tcp_send_challenge_ack: 1
+tcp_send_fin: 1
+tcp_send_rcvq: 1 2 2
+tcp_send_synack: 1
+tcp_sendmsg: 1 2 0
+tcp_sendmsg_fastopen: 1 2 0 2 3
+tcp_sendmsg_locked: 1 2 2
+tcp_set_keepalive: 1 8
+tcp_set_rcvlowat: 1 0
+tcp_set_state: 1 0
+tcp_setsockopt: 1 2 4 8 0 16
+tcp_shutdown: 1 8
+tcp_simple_retransmit: 1
+tcp_sock_set_keepcnt: 1 0
+tcp_sock_set_keepidle: 1 0
+tcp_sock_set_keepintvl: 1 0
+tcp_sock_set_nodelay: 1
+tcp_sock_set_quickack: 1 8
+tcp_sock_set_syncnt: 1 0
+tcp_sock_set_user_timeout: 1 8
+tcp_stream_memory_free: 1 0
+tcp_syn_ack_timeout: 1
+tcp_synack_rtt_meas: 1 1
+tcp_sync_mss: 1 0
+tcp_time_wait: 1 0 1
+tcp_timewait_state_process: 3 3 3
+tcp_twsk_destructor: 1
+tcp_update_metrics: 1
+tcp_update_pacing_rate: 1
+tcp_urg: 1 2 2
+tcp_v4_conn_request: 1 2
+tcp_v4_connect: 1 2 4 0
+tcp_v4_destroy_sock: 1
+tcp_v4_do_rcv: 1 2
+tcp_v4_init_seq: 3
+tcp_v4_init_sock: 1
+tcp_v4_mtu_reduced: 1
+tcp_v4_reqsk_destructor: 1
+tcp_v6_conn_request: 1 2
+tcp_v6_connect: 1 2 4 0
+tcp_v6_destroy_sock: 1
+tcp_v6_do_rcv: 1 2
+tcp_v6_early_demux: 1
+tcp_v6_fill_cb: 3 3 3
+tcp_v6_inbound_md5_hash: 3 3
+tcp_v6_init_seq: 3
+tcp_v6_init_sock: 1
+tcp_v6_mtu_reduced: 1
+tcp_v6_rcv: 3
+tcp_v6_reqsk_destructor: 1
+tcp_v6_send_reset: 0 3
+tcp_v6_timewait_ack: 3 3
+tcp_validate_incoming: 1 2 2 0
+tcp_wfree: 1
+tcp_write_err: 1
+tcp_write_queue_purge: 1
+tcp_write_xmit: 1 1 0 0 1
+tcp_xmit_retransmit_queue: 1
+text_mode: 0
+tg3_close: 1
+tg3_get_eeprom_len: 1
+tg3_get_link_ksettings: 1 0
+tg3_get_msglevel: 1
+tg3_get_regs_len: 1
+tg3_get_rxfh_indir_size: 1
+tg3_get_ts_info: 1 0
+tg3_interrupt: 0 0
+tg3_interrupt_tagged: 0 0
+tg3_ioctl: 1 0 0
+tg3_msi: 0 0
+tg3_msi_1shot: 0 0
+tg3_nway_reset: 1
+tg3_open: 1
+tg3_set_msglevel: 1 0
+tg3_test_isr: 0 0
+tg3_tx_timeout: 1 0
+thaw_super: 1
+thaw_super_locked: 1
+threshold_restart_bank: 1
+tick_broadcast_control: 0
+tick_program_event: 1 0
+time_out_leases: 1 0
+timens_offsets_open: 0 1
+timens_offsets_write: 1 2 4 0
+timens_owner: 1
+timens_put: 1
+timer_interrupt: 0 0
+timerfd_read: 1 2 4 8
+timerfd_release: 2 1
+timerqueue_add: 1 1
+timerqueue_del: 1 1
+timerqueue_iterate_next: 1
+timerslack_ns_open: 0 1
+timerslack_ns_write: 1 2 4 0
+tioccons: 1
+tiocgetd: 1 4
+tiocgwinsz: 1 4
+tiocsetd: 1 4
+tiocsti: 1 4
+tiocswinsz: 1 4
+tk_debug_sleep_time_open: 2 1
+tlb_remove_table_smp_sync: 1
+tlbflush_read_file: 1 2 4 8
+tlbflush_write_file: 1 2 4 8
+toggle_bp_slot: 1 0 1
+touch_atime: 3
+tp_perf_event_destroy: 1
+tpacket_destruct_skb: 1
+trace_array_destroy: 1
+trace_array_init_printk: 1
+trace_array_put: 1
+trace_block_dirty_buffer: 1
+trace_break_lease_block: 1 0
+trace_break_lease_noblock: 1 0
+trace_break_lease_unblock: 1 0
+trace_credit_entropy_bits: 0 4 4 0
+trace_debit_entropy: 0 0
+trace_dma_fence_init: 0
+trace_dma_fence_signaled: 1
+trace_dump_stack: 0
+trace_empty: 1
+trace_event_raw_event_add_input_randomness: 0 0
+trace_event_raw_event_cfg80211_return_u32: 0 0
+trace_event_raw_event_cfg80211_return_uint: 0 0
+trace_event_raw_event_cpu_latency_qos_request: 0 0
+trace_event_raw_event_emulate_vsyscall: 0 0
+trace_event_raw_event_finish_task_reaping: 0 0
+trace_event_raw_event_intel_gpu_freq_change: 0 0
+trace_event_raw_event_kyber_throttled: 0 0 0
+trace_event_raw_event_mark_victim: 0 0
+trace_event_raw_event_mm_compaction_kcompactd_sleep: 0 0
+trace_event_raw_event_mm_vmscan_kswapd_sleep: 0 0
+trace_event_raw_event_net_dev_rx_exit_template: 0 0
+trace_event_raw_event_prandom_u32: 0 0
+trace_event_raw_event_rpcgss_import_ctx: 0 0
+trace_event_raw_event_sched_kthread_stop_ret: 0 0
+trace_event_raw_event_sched_wake_idle_without_ipi: 0 0
+trace_event_raw_event_skip_task_reaping: 0 0
+trace_event_raw_event_softirq: 0 0
+trace_event_raw_event_start_task_reaping: 0 0
+trace_event_raw_event_svc_wake_up: 0 0
+trace_event_raw_event_wake_reaper: 0 0
+trace_event_raw_event_x86_irq_vector: 0 0
+trace_ext4_sync_fs: 1 0
+trace_extract_entropy: 0 0 0
+trace_fib_table_lookup: 1 0 0 0
+trace_find_event_field: 1 4
+trace_format_open: 2 1
+trace_get_user: 0 2 4 8
+trace_handle_return: 0
+trace_hrtimer_cancel: 1
+trace_hrtimer_start: 1 0
+trace_i915_request_add: 1
+trace_ignore_this_task: 0 0 0
+trace_inet_sock_set_state: 1 1 8
+trace_jbd2_checkpoint: 1 1
+trace_kfree: 0 0
+trace_kfree_skb: 1 0
+trace_kmalloc: 0 4 4 4 0
+trace_kmalloc_node: 0 1 0 0 0 1
+trace_kmem_cache_alloc: 0 0 0 0 0
+trace_kmem_cache_free: 0 0 0
+trace_kprobe_create: 0
+trace_leases_conflict: 0 1 0
+trace_lock_acquire: 0 0 0 0 0 0 0
+trace_lock_release: 0 0
+trace_min_max_read: 1 2 4 8
+trace_min_max_write: 1 2 4 8
+trace_mix_pool_bytes: 0 4 0
+trace_mix_pool_bytes_nolock: 0 0 0
+trace_mm_page_free: 0 0
+trace_mmap_lock_acquire_returned: 1 1 0 0
+trace_mmap_lock_released: 1 1 0
+trace_mmap_lock_start_locking: 1 1 0
+trace_module_get: 1 0
+trace_module_put: 1 0
+trace_module_request: 0 0 0
+trace_napi_gro_frags_entry: 1
+trace_napi_gro_frags_exit: 1
+trace_netif_receive_skb_entry: 3
+trace_netif_receive_skb_exit: 3
+trace_netif_rx: 3
+trace_netif_rx_entry: 3
+trace_netif_rx_exit: 3
+trace_netif_rx_ni_entry: 3
+trace_netif_rx_ni_exit: 3
+trace_netlink_extack: 0
+trace_note: 1 0 0 0 0
+trace_options_core_read: 1 2 4 8
+trace_options_core_write: 1 2 4 8
+trace_options_read: 1 2 4 8
+trace_options_write: 1 2 4 8
+trace_parse_run_command: 1 2 4 8 0
+trace_percpu_free_percpu: 0 0 0
+trace_rcu_callback: 0 1 0
+trace_rcu_kvfree_callback: 0 1 0 0
+trace_read_msr: 1 1 0
+trace_rtc_alarm_irq_enable: 0 1
+trace_rtc_irq_set_freq: 4
+trace_rtc_irq_set_state: 0
+trace_rtc_read_alarm: 0 0
+trace_rtc_read_time: 0 0
+trace_rtc_set_time: 0 0
+trace_rtc_timer_dequeue: 1
+trace_rtc_timer_enqueue: 1
+trace_sched_wakeup: 0
+trace_sched_waking: 0
+trace_seq_printf: 0 0 1
+trace_seq_to_user: 1 2 4
+trace_set_options: 1 0
+trace_sock_rcvqueue_full: 1 2
+trace_tcp_bad_csum: 3
+trace_tcp_destroy_sock: 1
+trace_tcp_receive_reset: 1
+trace_timer_init: 1
+trace_tlb_flush: 0 0
+trace_uprobe_create: 0
+trace_uprobe_register: 1 0 1
+trace_workqueue_activate_work: 0
+trace_workqueue_queue_work: 0 0 0
+trace_write_msr: 1 0 0
+trace_writeback_bdi_register: 0
+trace_writeback_queue: 1 0
+trace_xdp_exception: 1 1 2
+tracing_buffers_open: 2 1
+tracing_buffers_read: 1 2 4 8
+tracing_buffers_release: 2 1
+tracing_clock_open: 2 1
+tracing_clock_write: 1 2 4 8
+tracing_cpumask_read: 1 2 4 8
+tracing_cpumask_write: 1 2 4 8
+tracing_entries_read: 1 2 4 8
+tracing_entries_write: 1 2 4 8
+tracing_err_log_open: 2 1
+tracing_err_log_release: 2 1
+tracing_err_log_write: 1 2 4 8
+tracing_free_buffer_release: 2 1
+tracing_free_buffer_write: 1 2 4 8
+tracing_mark_raw_write: 1 2 4 8
+tracing_mark_write: 1 2 4 8
+tracing_open: 2 1
+tracing_open_generic: 2 1
+tracing_open_generic_tr: 2 1
+tracing_open_pipe: 2 1
+tracing_read_pipe: 1 2 4 8
+tracing_readme_read: 1 2 4 8
+tracing_release: 2 1
+tracing_release_generic_tr: 2 1
+tracing_release_pipe: 2 1
+tracing_resize_ring_buffer: 1 0 1
+tracing_saved_cmdlines_open: 2 1
+tracing_saved_cmdlines_size_read: 1 2 4 8
+tracing_saved_cmdlines_size_write: 1 2 4 8
+tracing_saved_tgids_open: 2 1
+tracing_set_clock: 1 0
+tracing_set_cpumask: 1 0
+tracing_set_trace_read: 1 2 4 8
+tracing_set_trace_write: 1 2 4 8
+tracing_set_tracer: 1 0
+tracing_single_release_tr: 2 1
+tracing_snapshot_cond_disable: 1
+tracing_stat_open: 2 1
+tracing_stat_release: 2 1
+tracing_stats_read: 1 2 4 8
+tracing_thresh_read: 1 2 4 8
+tracing_thresh_write: 1 2 4 8
+tracing_time_stamp_mode_open: 2 1
+tracing_total_entries_read: 1 2 4 8
+tracing_trace_options_open: 2 1
+tracing_trace_options_write: 1 2 4 8
+tracing_wait_pipe: 1
+tracing_write_stub: 1 2 4 8
+trigger_card_free: 1
+trigger_process_regex: 1 6
+truncate_bdev_range: 1 1 0 0
+truncate_exceptional_pvec_entries: 1 0 0
+truncate_inode_pages_range: 1 1 1
+truncate_setsize: 1 0
+try_charge_memcg: 1 0 1
+try_module_get: 1
+try_to_wake_up: 0 0 0
+tsc_early_khz_setup: 0
+tsc_setup: 0
+tso_count_descs: 3
+tsx_async_abort_parse_cmdline: 0
+ttm_pool_debugfs_globals_open: 2 1
+ttm_pool_debugfs_shrink_open: 2 1
+ttm_tt_debugfs_shrink_open: 2 1
+ttwu_do_activate: 0 0 0 0
+ttwu_do_wakeup: 0 0 0 0
+ttwu_queue_wakelist: 0 0 0
+ttwu_stat: 0 0 0
+tty_add_file: 1 1
+tty_alloc_file: 1
+tty_audit_log: 0 1 0 0
+tty_audit_tiocsti: 1 4
+tty_buffer_flush: 1 0
+tty_buffer_lock_exclusive: 1
+tty_buffer_restart_work: 1
+tty_buffer_unlock_exclusive: 1
+tty_chars_in_buffer: 1
+tty_check_change: 1
+tty_do_resize: 1 0
+tty_driver_flush_buffer: 1
+tty_driver_name: 1
+tty_fasync: 1 1 4
+tty_flip_buffer_push: 0
+tty_free_file: 1
+tty_get_pgrp: 1
+tty_hung_up_p: 1
+tty_init_dev: 0 1
+tty_insert_flip_string_fixed_flag: 0 0 0 0
+tty_ioctl: 1 2 4
+tty_jobctrl_ioctl: 1 1 1 0 4
+tty_ldisc_deref: 1
+tty_ldisc_get: 1 4
+tty_ldisc_hangup: 1 1
+tty_ldisc_put: 5
+tty_ldisc_ref_wait: 1
+tty_ldisc_reinit: 1 0
+tty_ldisc_restore: 1 1
+tty_lock: 1
+tty_mode_ioctl: 1 1 0 4
+tty_open: 0 1
+tty_port_close: 1 1 1
+tty_port_tty_set: 1 0
+tty_read: 0 0
+tty_release: 2 1
+tty_send_xchar: 1 1
+tty_set_ldisc: 1 4
+tty_signal_session_leader: 1 0
+tty_termios_baud_rate: 1
+tty_termios_input_baud_rate: 1
+tty_tiocgicount: 1 4
+tty_tiocgserial: 1 4
+tty_tiocmget: 1 4
+tty_tiocsserial: 1 4
+tty_unlock: 1
+tty_unthrottle: 1
+tty_vhangup: 1
+tty_wait_until_sent: 1 0
+tty_write: 0 0
+tun_attach: 1 1 0 0 0 0
+tun_attach_filter: 1
+tun_build_skb: 1 1 2 0 3 0
+tun_chr_close: 2 1
+tun_chr_fasync: 1 1 4
+tun_chr_ioctl: 1 2 4
+tun_chr_open: 0 1
+tun_chr_read_iter: 0 0
+tun_chr_write_iter: 0 0
+tun_detach_all: 0
+tun_detach_filter: 1 0
+tun_do_read: 1 1 2 2 2
+tun_flow_create: 1 3 2 1
+tun_flow_init: 0
+tun_flow_uninit: 0
+tun_flow_update: 1 3 1
+tun_get: 0
+tun_get_addr_len: 1
+tun_get_link_ksettings: 1 0
+tun_get_msglevel: 1
+tun_get_user: 0 0 0 0 0 0
+tun_net_change_carrier: 1 0
+tun_net_close: 1
+tun_net_init: 0
+tun_net_open: 1
+tun_not_capable: 1
+tun_ptr_free: 1
+tun_recvmsg: 1 2 2 2
+tun_ring_recv: 1 2 0
+tun_rx_batched: 1 1 3 2
+tun_sendmsg: 0 0 0
+tun_set_ebpf: 1 1 4
+tun_set_headroom: 1 0
+tun_set_iff: 1 1 0
+tun_set_msglevel: 1 0
+tun_set_sndbuf: 1
+tun_sock_write_space: 1
+tun_xdp_act: 1 1 0 1
+tun_xdp_one: 1 1 2 0 0
+tun_xdp_xmit: 1 0 0 0
+tunnel4_rcv: 3
+tunnel64_rcv: 3
+txopt_get: 1
+u32_array_open: 2 1
+u32_array_read: 1 2 4 8
+u32_array_release: 2 1
+uart_add_one_port: 0 0
+uart_break_ctl: 1 0
+uart_change_speed: 1 1 0
+uart_chars_in_buffer: 1
+uart_close: 1 1
+uart_flush_buffer: 1
+uart_get_divisor: 1 0
+uart_get_icount: 1 0
+uart_get_info: 1 0
+uart_get_info_user: 1 0
+uart_get_iso7816_config: 1 4
+uart_get_lsr_info: 1 4
+uart_get_rs485_config: 1 4
+uart_handle_cts_change: 1 4
+uart_handle_dcd_change: 1 4
+uart_hangup: 1
+uart_ioctl: 1 2 4
+uart_open: 0 1
+uart_remove_one_port: 0 0
+uart_resume_port: 0 0
+uart_set_info_user: 1 0
+uart_set_iso7816_config: 1 4
+uart_set_ldisc: 1
+uart_set_rs485_config: 1 4
+uart_shutdown: 1 1
+uart_startup: 1 1 0
+uart_tiocmget: 1
+uart_tiocmset: 1 4 4
+uart_update_timeout: 1 0 1
+uart_wait_modem_status: 1 4
+uart_write: 1 2 4
+uart_write_wakeup: 0
+uc_usage_open: 2 1
+ucs_cmp: 0 0
+udp_abort: 1 0
+udp_cmsg_send: 0 2 0
+udp_destroy_sock: 1
+udp_destruct_sock: 1
+udp_disconnect: 1 0
+udp_flush_pending_frames: 1
+udp_getsockopt: 1 2 4 8 0 16
+udp_init_sock: 1
+udp_ioctl: 1 2 4
+udp_lib_close: 1 0 0
+udp_lib_hash: 1
+udp_lib_unhash: 1
+udp_push_pending_frames: 1
+udp_recvmsg: 1 2 0 4
+udp_send_skb: 1 1 1
+udp_sendmsg: 1 2 0
+udp_setsockopt: 1 2 4 8 0 16
+udp_v4_rehash: 1
+udp_v6_early_demux: 1
+udp_v6_push_pending_frames: 1
+udp_v6_rehash: 1
+udp_v6_send_skb: 1 0 1
+udplite_rcv: 3
+udplite_sk_init: 1
+udplitev6_rcv: 3
+udpv6_destroy_sock: 1
+udpv6_getsockopt: 1 2 4 8 0 16
+udpv6_rcv: 3
+udpv6_recvmsg: 1 2 0 4
+udpv6_sendmsg: 1 2 0
+udpv6_setsockopt: 1 2 4 8 0 16
+uevent_net_rcv: 1
+umh_keys_cleanup: 0
+umwait_update_control_msr: 1
+unbound_pwq_by_node: 0 0
+uncharge_page: 2 0
+uncore_freerunning_counter: 1 1
+uncore_freerunning_hw_config: 1 1
+uncore_pmu_event_init: 1
+uncore_pmu_event_read: 1
+uncore_pmu_to_box: 1 1
+uncore_validate_group: 1 1
+uni2char: 0 0 0
+univ8250_config_port: 1 4
+unix_accept: 1 0 0 0
+unix_attach_fds: 0 1
+unix_autobind: 1
+unix_bind: 1 2 4
+unix_close: 1 0 0
+unix_compat_ioctl: 1 0 4
+unix_destruct_scm: 1
+unix_detach_fds: 0 0
+unix_dgram_connect: 1 2 4 0
+unix_dgram_disconnected: 1 3
+unix_dgram_peer_wake_disconnect_wakeup: 1 3
+unix_dgram_peer_wake_me: 1 3
+unix_dgram_recvmsg: 1 2 0 4
+unix_dgram_sendmsg: 1 2 0
+unix_find_other: 1 2 2 1 2 0
+unix_getname: 1 0 0
+unix_inflight: 0 0
+unix_ioctl: 1 2 4
+unix_listen: 1 0
+unix_release: 2
+unix_seqpacket_recvmsg: 1 2 0 4
+unix_seqpacket_sendmsg: 1 2 0
+unix_set_peek_off: 1 0
+unix_sock_destructor: 1
+unix_socketpair: 1 3
+unix_state_double_lock: 1 3
+unix_stream_connect: 1 2 4 0
+unix_stream_read_actor: 0 0 0 0
+unix_stream_recv_urg: 0
+unix_stream_recvmsg: 1 2 0 4
+unix_stream_sendmsg: 1 2 0
+unix_stream_splice_actor: 0 0 0 0
+unix_unhash: 1
+unix_wait_for_peer: 3 1
+unix_write_space: 1
+unlock_buffer: 2
+unlock_page: 2
+unlock_page_memcg: 2
+unmap_hugepage_range: 1 1 1 0
+unmap_mapping_range: 1 1 1 0
+unmask_8259A_irq: 0
+unmask_ioapic_irq: 1
+unmask_lapic_irq: 1
+unpin_user_page: 2
+unregister_handler_proc: 1 1
+unregister_hw_breakpoint: 1
+unregister_netdevice_queue: 1 0
+unregister_shrinker: 1
+unregister_vt_notifier: 1
+unusable_open: 2 1
+unxlate_dev_mem_ptr: 12 8
+up: 1
+up_read: 0
+up_read_non_owner: 0
+up_write: 1
+update_array_info: 1 0
+update_filter: 1 4
+update_mptable_setup: 0
+update_region: 1 8 8
+update_rq_clock: 0
+update_stibp_msr: 1
+update_tfa_sched: 1
+urandom_read: 1 2 4 0
+urandom_read_nowarn: 2 4
+usb_alloc_coherent: 1 1 0 1
+usb_altnum_to_altsetting: 1 0
+usb_anchor_urb: 0 1
+usb_autopm_get_interface: 1
+usb_autopm_get_interface_async: 1
+usb_autopm_get_interface_no_resume: 1
+usb_autopm_put_interface: 4
+usb_autopm_put_interface_async: 1
+usb_autopm_put_interface_no_suspend: 4
+usb_autoresume_device: 1
+usb_autosuspend_device: 1
+usb_block_urb: 1
+usb_bulk_msg: 1 1 0 0 0 0
+usb_cache_string: 1 1
+usb_clear_halt: 1 4
+usb_control_msg: 1 1 0 0 1 0 0 0 0
+usb_create_ep_devs: 1 1 1
+usb_create_sysfs_intf_files: 1
+usb_device_dump: 0 0 0 8 0 0 0 0 0
+usb_device_read: 1 2 4 8
+usb_disable_device: 1 0
+usb_disable_device_endpoints: 1 0
+usb_disable_endpoint: 1 0 0
+usb_disable_interface: 1 1 0
+usb_disable_lpm: 1
+usb_disable_ltm: 1
+usb_disable_usb2_hardware_lpm: 1
+usb_driver_claim_interface: 0 1 1
+usb_driver_release_interface: 0 1
+usb_enable_endpoint: 1 1 0
+usb_enable_interface: 1 1 0
+usb_enable_lpm: 1
+usb_enable_ltm: 1
+usb_enable_usb2_hardware_lpm: 1
+usb_find_alt_setting: 1 0 0
+usb_forced_unbind_intf: 1
+usb_free_coherent: 1 1 1 1
+usb_free_streams: 4 0 0 0
+usb_get_dev: 1
+usb_get_urb: 0
+usb_hcd_alloc_bandwidth: 1 1 0 0
+usb_hcd_disable_endpoint: 1 1
+usb_hcd_flush_endpoint: 1 1
+usb_hcd_irq: 0 0
+usb_hcd_is_primary_hcd: 1
+usb_hcd_reset_endpoint: 1 1
+usb_hcd_submit_urb: 0 0
+usb_hcd_unlink_urb: 1 0
+usb_hub_claim_port: 1 4 1
+usb_hub_release_all_ports: 1 1
+usb_hub_release_port: 1 4 1
+usb_ifnum_to_if: 1 0
+usb_interrupt_msg: 1 1 4 0 0 0
+usb_kill_anchored_urbs: 1
+usb_kill_urb: 1
+usb_open: 0 1
+usb_put_dev: 1
+usb_put_intf: 4
+usb_queue_reset_device: 4
+usb_release_bos_descriptor: 1
+usb_remove_ep_devs: 1
+usb_remove_sysfs_intf_files: 1
+usb_reset_and_verify_device: 1
+usb_reset_configuration: 1
+usb_reset_device: 1
+usb_reset_endpoint: 1 4
+usb_set_configuration: 1 4
+usb_set_device_state: 1 0
+usb_set_interface: 1 1 1
+usb_start_wait_urb: 0 0 0
+usb_stor_control_thread: 0
+usb_stor_disconnect: 4
+usb_stor_post_reset: 1
+usb_stor_pre_reset: 1
+usb_stor_report_bus_reset: 1
+usb_stor_reset_resume: 1
+usb_stor_resume: 1
+usb_string: 1 1 0 0
+usb_string_sub: 1 0 0 0
+usb_unbind_and_rebind_marked_interfaces: 1
+usb_unbind_interface: 1
+usb_unlink_urb: 1
+usb_unlocked_disable_lpm: 4
+usb_unlocked_enable_lpm: 1
+usb_unpoison_urb: 1
+usbdev_ioctl: 1 2 4
+usbdev_mmap: 1 2
+usbdev_open: 0 1
+usbdev_read: 1 2 4 0
+usbdev_release: 2 1
+usbhid_disconnect: 4
+usbhid_init_reports: 1
+usbhid_open: 1
+usbhid_output_report: 1 4 0
+usbhid_parse: 1
+usbhid_power: 2 0
+usbhid_raw_request: 1 4 4 0 0 0
+usbhid_request: 1 1 0
+usbhid_restart_ctrl_queue: 1
+usbhid_restart_out_queue: 1
+usbhid_start: 1
+usbhid_submit_report: 1 1 0
+usbhid_wait_io: 1
+usblp_cache_device_id_string: 1
+usblp_disconnect: 4
+usblp_hp_channel_change_request: 1 4 0
+usblp_ioctl: 1 0 4
+usblp_open: 2 1
+usblp_read: 1 2 4 8
+usblp_release: 2 1
+usblp_resume: 1
+usblp_rwait_and_lock: 1 1
+usblp_set_protocol: 1 4
+usblp_submit_read: 1
+usblp_write: 1 2 4 8
+usblp_wwait: 1 1
+usercopy_abort: 0 0 0 0 16
+usercopy_warn: 0 0 0 0 16
+usermodehelper_read_lock_wait: 0
+userns_owner: 1
+userns_put: 1
+utf16s_to_utf8s: 0 5 0 0 0
+utsns_owner: 1
+utsns_put: 1
+v1_tlb_flush_all: 1
+v9fs_dir_release: 2 1
+v9fs_direct_IO: 0 0
+v9fs_fid_lookup: 1
+v9fs_file_flock_dotl: 0 0 0
+v9fs_file_lock: 0 0 0
+v9fs_file_lock_dotl: 0 0 0
+v9fs_file_mmap: 1 2
+v9fs_file_open: 0 1
+v9fs_file_read_iter: 0 0
+v9fs_file_write_iter: 0 0
+v9fs_inode_init_once: 1
+v9fs_invalidate_page: 1 0 1
+v9fs_mmap_file_mmap: 1 2
+v9fs_mmap_file_read_iter: 0 0
+v9fs_mmap_file_write_iter: 0 0
+v9fs_open_fid_add: 2 1
+v9fs_open_to_dotl_flags: 1
+v9fs_uflags2omode: 1 2
+v9fs_writeback_fid: 1
+valid_phys_addr_range: 8 4
+validate_event: 1
+validate_group: 1
+valleyview_irq_handler: 0 0
+vc_do_resize: 1 1 0 0
+vc_resize: 0 0 0
+vc_uniscr_check: 1
+vc_uniscr_copy_line: 1 4 1 8 0 4
+vcs_fasync: 1 1 4
+vcs_open: 0 1
+vcs_poll_data_get: 1
+vcs_read: 1 2 4 0
+vcs_release: 2 1
+vcs_scr_readw: 1 9
+vcs_scr_updated: 1
+vcs_scr_writew: 1 9 9
+vcs_write: 1 2 4 0
+vdso32_setup: 0
+vdso_setup: 0
+vendor_class_identifier_setup: 0
+verify_lock_unused: 0 0 0
+vfree: 0
+vfs_clone_file_range: 1 4 4 4 4 0
+vfs_copy_file_range: 1 4 4 4 4 0
+vfs_dedupe_file_range: 1 4
+vfs_dedupe_file_range_one: 1 4 4 4 4 0
+vfs_fallocate: 1 0 1 0
+vfs_fileattr_get: 1 0
+vfs_fileattr_set: 1 1 0
+vfs_fsync: 1 0
+vfs_fsync_range: 0 0 0 0
+vfs_read: 1 2 4 8
+vfs_write: 1 2 4 8
+vga_arb_open: 0 1
+vga_arb_read: 1 2 4 0
+vga_arb_release: 2 1
+vga_arb_write: 1 2 4 0
+vga_get: 1 0 0
+vga_put: 1 0
+vga_tryget: 1 0
+vgacon_blank: 0 0 0
+vgpu_read32: 1 0 0
+vgpu_write32: 1 0 1 0
+via_rng_data_present: 0 1
+video_setup: 0
+virtblk_getgeo: 1 0
+virtio_check_driver_offered_feature: 1 0
+virtio_gpu_array_from_handles: 1 0 0
+virtio_gpu_array_lock_resv: 1
+virtio_gpu_array_put_free: 1
+virtio_gpu_array_unlock_resv: 1
+virtio_gpu_cmd_context_create: 1 1 0 0
+virtio_gpu_cmd_get_capset: 1 0 0 0
+virtio_gpu_cmd_submit: 1 0 0 1 1 1
+virtio_gpu_cmd_transfer_from_host_3d: 1 1 0 0 0 0 0 1 1
+virtio_gpu_cmd_transfer_to_host_2d: 1 0 0 0 0 0 1 0
+virtio_gpu_cmd_transfer_to_host_3d: 1 1 0 0 0 0 0 1 1
+virtio_gpu_execbuffer_ioctl: 1 0 1
+virtio_gpu_fence_alloc: 1
+virtio_gpu_fence_signaled: 1
+virtio_gpu_free_object: 1
+virtio_gpu_get_caps_ioctl: 1 0 1
+virtio_gpu_get_driver_name: 1
+virtio_gpu_get_timeline_name: 1
+virtio_gpu_getparam_ioctl: 1 0 1
+virtio_gpu_map_ioctl: 1 0 1
+virtio_gpu_mode_dumb_mmap: 1 1 0 0
+virtio_gpu_notify: 1
+virtio_gpu_object_create: 1 0 0 1
+virtio_gpu_resource_assign_uuid: 1 0
+virtio_gpu_resource_create_blob_ioctl: 1 0 1
+virtio_gpu_resource_create_ioctl: 1 0 1
+virtio_gpu_resource_info_ioctl: 1 0 1
+virtio_gpu_transfer_from_host_ioctl: 1 0 1
+virtio_gpu_transfer_to_host_ioctl: 1 0 1
+virtio_gpu_vram_create: 1 0 0
+virtio_gpu_vram_free: 1
+virtio_gpu_wait_ioctl: 1 0 1
+virtio_net_hdr_to_skb: 3 0
+virtnet_close: 1
+virtnet_get_link_ksettings: 1 0
+virtnet_open: 1
+virtqueue_get_buf: 1 0
+virtual_context_enter: 1
+virtual_context_exit: 1
+vm_get_page_prot: 0
+vm_unmap_ram: 0 0
+vma_create: 1 1 0
+vma_interval_tree_iter_first: 1 1 1
+vma_interval_tree_iter_next: 1 1 1
+vmalloc: 0
+vmalloc_dump_obj: 0
+vmalloc_to_page: 1
+vmap: 1 1 0 0
+vmap_pfn: 1 1 0
+vmap_small_pages_range_noflush: 2 2 0 2
+vmaster_hook: 0 0
+vmemdup_user: 0 0
+vmware_pv_guest_cpu_reboot: 1
+vp_config_changed: 0 0
+vp_get: 1 0 0 0
+vp_interrupt: 0 0
+vp_vring_interrupt: 0 0
+vprintk: 0 0
+vprintk_deferred: 0 0
+vring_interrupt: 0 0
+vrr_range_open: 2 1
+vsnprintf: 0 0 0 0
+vsyscall_setup: 0
+vt_ioctl: 1 2 4
+vt_resize: 1 0
+vunmap: 1
+vzalloc: 0
+wait_for_completion_interruptible: 1
+wait_for_completion_interruptible_timeout: 1 1
+wait_for_stable_page: 2
+wait_on_buffer: 1
+wait_on_page_private_2: 2
+wait_on_page_writeback: 2
+wait_port_writable: 1 1
+wake_q_add: 0 1
+wake_q_add_safe: 0 0
+wake_up_bit: 0 0
+wake_up_process: 1
+wake_up_state: 0 0
+wake_up_var: 1
+wakeup_all_recovery_waiters: 1
+wakeup_mirrord: 1
+wakeup_sources_read_unlock: 0
+wakeup_sources_stats_open: 0 1
+walk_page_range: 1 0 1 0 0
+warn_alloc: 0 0 0 2
+warn_bootconfig: 0
+watchdog: 0
+watchdog_thresh_setup: 0
+wbinvd_on_cpu: 0
+within_kprobe_blacklist: 0
+wm_latency_write: 1 2 4 1
+worker_thread: 0
+write_dirty_buffer: 1 0
+write_enabled_file_bool: 1 2 4 8
+write_flush: 2 4 8 1
+write_flush_pipefs: 1 2 4 0
+write_flush_procfs: 1 2 4 8
+write_full: 1 2 4 0
+write_gssp: 1 2 4 8
+write_inode_now: 1 0
+write_iter_null: 0 0
+write_mem: 1 2 4 0
+write_null: 1 2 4 0
+write_pci_config: 0 0 0 0 0
+write_pool: 2 4
+write_port: 1 2 4 0
+write_profile: 1 2 4 8
+write_sysrq_trigger: 1 2 4 8
+writeback_inodes_sb: 1 0
+wrmsr_safe_on_cpu: 1 8 0 0
+wrmsr_safe_regs_on_cpu: 1 0
+ww_mutex_lock: 1 0
+ww_mutex_lock_interruptible: 1 0
+ww_mutex_unlock: 1
+x86_nofsgsbase_setup: 0
+x86_noinvpcid_setup: 0
+x86_nopcid_setup: 0
+x86_op_int_noop: 0
+x86_perf_event_update: 1
+x86_pmu_aux_output_match: 1
+x86_pmu_check_period: 1 0
+x86_pmu_commit_txn: 0
+x86_pmu_disable: 1
+x86_pmu_disable_event: 1
+x86_pmu_enable: 1
+x86_pmu_enable_event: 1
+x86_pmu_event_idx: 1
+x86_pmu_event_init: 1
+x86_pmu_filter_match: 1
+x86_pmu_hw_config: 1
+x86_pmu_read: 1
+x86_pmu_start: 1 0
+x86_pmu_start_txn: 0 0
+x86_pmu_stop: 1 0
+x86_pmu_update_cpu_context: 0 0
+x86_rdrand_setup: 0
+xa_load: 0 0
+xas_find: 0 0
+xdp_convert_zc_to_xdp_frame: 2
+xdp_do_generic_redirect: 2 2 0 1
+xdp_do_redirect: 1 2 1
+xdp_return_frame: 3
+xdp_return_frame_rx_napi: 2
+xdp_rxq_info_unreg: 1
+xehp_fwtable_write32: 1 0 1 0
+xfrm4_ah_rcv: 3
+xfrm4_esp_rcv: 3
+xfrm4_ipcomp_rcv: 3
+xfrm4_rcv: 3
+xfrm6_ah_rcv: 3
+xfrm6_esp_rcv: 3
+xfrm6_ipcomp_rcv: 3
+xfrm6_policy_check: 3 3
+xfrm6_rcv: 3
+xfrm_confirm_neigh: 1 0
+xfrm_dump_policy: 1 1
+xfrm_dump_policy_done: 1
+xfrm_dump_policy_start: 1
+xfrm_dump_sa: 1 1
+xfrm_dump_sa_done: 1
+xfrm_link_failure: 1
+xfrm_lookup_route: 1 0 0 1 0
+xfrm_negative_advice: 1
+xfrm_netlink_rcv: 1
+xfrm_output: 1 2
+xfrm_output_resume: 1 2 0
+xfrm_policy_lookup: 3 0 0 0 3
+xfrm_selector_match: 3 0 0
+xfrm_sk_policy_lookup: 0 0 0 0 3
+xhci_alloc_command_with_ctx: 0 0 0
+xhci_alloc_stream_info: 0 0 0 0 0
+xhci_alloc_streams: 0 0 0 0 0 0
+xhci_configure_endpoint: 0 0 0 0 0
+xhci_context_open: 2 1
+xhci_debugfs_create_stream_files: 0 0 0
+xhci_endpoint_copy: 0 0 0 0
+xhci_endpoint_zero: 0 0 0
+xhci_free_command: 0 0
+xhci_free_stream_info: 0 0
+xhci_get_ep_ctx: 0 0 0
+xhci_get_input_control_ctx: 0
+xhci_intel_unregister_pdev: 1
+xhci_port_open: 2 1
+xhci_port_state_to_neutral: 1
+xhci_port_write: 1 2 4 8
+xhci_ring_open: 2 1
+xhci_setup_streams_ep_input_ctx: 0 0 0
+xhci_slot_copy: 0 0 0
+xhci_stream_context_array_open: 2 1
+xhci_stream_id_open: 2 1
+xhci_stream_id_write: 1 2 4 8
+xlate_dev_mem_ptr: 8
+xprt_find_transport_ident: 0
+xprt_put: 0
+xprt_switch_put: 0
+xrstors: 0 0
+xs_data_ready: 1
+xs_error_report: 1
+xs_tcp_state_change: 1
+xs_tcp_write_space: 1
+xs_udp_write_space: 1
+xs_write_space: 1
+xsaves: 0 0
+yenta_interrupt: 0 0
+yenta_probe_handler: 0 0
+zero_ctr: 0 0 0
+zerocopy_sg_from_iter: 3 2
+zhaoxin_pmu_disable_event: 1
+zhaoxin_pmu_disable_fixed: 1
+zhaoxin_pmu_enable_all: 0
+zhaoxin_pmu_enable_event: 1
+zhaoxin_pmu_enable_fixed: 1

@@ -1,0 +1,15 @@
+kmalloc
+kmalloc_node
+kmem_alloc
+kmem_cache_alloc
+kmem_cache_alloc_node
+kmem_cache_zalloc
+kmem_zalloc
+kmem_zone_zalloc
+kvcalloc
+kvmalloc
+kvzalloc
+kvzalloc_node
+kzalloc
+kzalloc_node
+vzalloc

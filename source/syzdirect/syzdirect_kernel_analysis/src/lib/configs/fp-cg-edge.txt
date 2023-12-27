@@ -1,0 +1,1 @@
+batadv_softif_init_late <- ethtool_set_rxfh

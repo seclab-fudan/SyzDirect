@@ -1,0 +1,12 @@
+{
+	"target": "linux/amd64",
+	"sshkey": "/your/stretch.id_rsa",
+	"procs": 8,
+	"type": "qemu",
+	"vm": {
+		"count": 1,
+		"cpu": 2,
+		"mem": 4096
+	},
+	"reproduce": false
+}
