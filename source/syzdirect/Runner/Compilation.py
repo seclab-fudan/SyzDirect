@@ -81,9 +81,9 @@ exec $CLANG "$@"
             f.writelines([f"{c}=n\n" for c in DisabledConfigs])
             f.writelines("\nCONFIG_KCOV=y\n")
 
-        
-        
-        compile_command = f"cd {Config.getSrcDirByCase(caseIdx)} && git checkout -- scripts/Makefile.kcov && make clean && make mrproper && yes | make CC={Config.EmitScriptPath} O={caseBCDir} oldconfig && make CC=\'{Config.EmitScriptPath}\' O={caseBCDir} -j{Config.CPUNum}"
+
+
+        compile_command = f"cd {Config.getSrcDirByCase(caseIdx)} && git checkout -- scripts/Makefile.kcov && make clean && make mrproper && make CC={Config.EmitScriptPath} O={caseBCDir} olddefconfig && make CC=\'{Config.EmitScriptPath}\' O={caseBCDir} -j{Config.CPUNum}"
         # print(Config.ExecuteCMD(compile_command))
         os.system(compile_command)
         if IsCompilationSuccessfulByCase(caseBCDir):
